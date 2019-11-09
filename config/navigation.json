@@ -1,25 +1,29 @@
 [
   {
-    "label": "Get started",
+    "label": "Context",
     "url": "get-started"
   },
   {
-    "label": "Styles",
+    "label": "Directives",
     "url": "styles",
     "includeInSearch": true
   },
   {
-    "label": "Components",
+    "label": "SBBs",
     "url": "components",
     "includeInSearch": true
   },
   {
-    "label": "Patterns",
+    "label": "ABBs",
     "url": "patterns",
     "includeInSearch": true
   },
   {
-    "label": "Community",
+    "label": "Governance",
     "url": "community"
+  },
+  {
+    "label": "Skills and Training",
+    "url": "skills"
   }
 ]
