@@ -1,8 +1,8 @@
 ---
-title: Business Architecture (solution)
-description: Business Architecture Building Blocks
-section: Architecture Building Blocks
-aliases: business architecture, architecture building blocks
+title: Stakeholders
+description: Stakeholders
+section: Context
+aliases: stakeholders
 layout: layout-pane.njk
 order: 1
 ---

@@ -9,13 +9,13 @@
     "includeInSearch": true
   },
   {
-    "label": "SBBs",
-    "url": "sbbs",
+    "label": "ABBs",
+    "url": "abbs",
     "includeInSearch": true
   },
   {
-    "label": "ABBs",
-    "url": "abbs",
+    "label": "SBBs",
+    "url": "sbbs",
     "includeInSearch": true
   },
   {
