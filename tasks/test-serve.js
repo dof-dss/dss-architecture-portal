@@ -18,7 +18,7 @@ if (process.env.CI === 'true') {
   console.log('Running in CI, using existing build...')
   runServer()
 } else {
-  console.log('Building Design System...')
+  console.log('Building DSS Architecture Portal...')
   // build to destination directory
   metalsmith.build(function (err, files) {
     if (err) {

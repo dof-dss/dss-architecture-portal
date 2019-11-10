@@ -1,21 +1,22 @@
 {
-  "name": "govuk_design_system",
+  "name": "dss-architecture-portal",
   "private": true,
-  "description": "GOV.UK Design System",
+  "description": "DSS Architecure Portal",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alphagov/govuk-design-system.git"
+    "url": "git+https://github.com/dof-dss/dss-architecture-portal"
   },
-  "author": "Government Digital Service developers",
+  "author": "DSS EA Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alphagov/govuk-design-system/issues"
+    "url": "https://github.com/dof-dss/dss-architecture-portal/issues"
   },
-  "homepage": "https://github.com/alphagov/govuk-design-system#readme",
+  "homepage": "https://github.com/dof-dss/dss-architecture-portal#readme",
   "scripts": {
     "preinstall": "node bin/check-nvmrc.js",
     "prestart": "node bin/check-nvmrc.js",
     "build": "node tasks/build.js",
+    "debug": "DEBUG=metalsmith* node tasks/build.js",
     "start": "node tasks/serve.js",
     "test": "npm run lint && jest",
     "lint": "npm run lint:js && npm run lint:scss",

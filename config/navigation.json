@@ -1,26 +1,26 @@
 [
   {
     "label": "Context",
-    "url": "get-started"
+    "url": "context"
   },
   {
     "label": "Directives",
-    "url": "styles",
+    "url": "directives",
     "includeInSearch": true
   },
   {
     "label": "SBBs",
-    "url": "components",
+    "url": "sbbs",
     "includeInSearch": true
   },
   {
     "label": "ABBs",
-    "url": "patterns",
+    "url": "abbs",
     "includeInSearch": true
   },
   {
     "label": "Governance",
-    "url": "community"
+    "url": "governance"
   },
   {
     "label": "Skills and Training",

@@ -1,4 +1,4 @@
-# GOV.UK Design System
+# DSS Architecture Portal
 
 **One place for service teams to find styles, components and patterns for
 designing government services.**
@@ -57,7 +57,7 @@ npm run lint
 
 ## GOV.UK Frontend packages
 
-Design System consumes the [GOV.UK Frontend](https://github.com/alphagov/govuk-frontend) package via [NPM](https://www.npmjs.com/).
+DSS Architecture Portal consumes the [GOV.UK Frontend](https://github.com/alphagov/govuk-frontend) package via [NPM](https://www.npmjs.com/).
 This is defined in the [package.json](package.json) file.
 
 --------------------
@@ -77,5 +77,5 @@ interface.
 
 ## Deployment
 
-- [How the Design System is deployed to production](docs/deployment/production.md)
+- [How the DSS Architecture Portal is deployed to production](docs/deployment/production.md)
 - [How branch and PR previews are deployed](docs/deployment/previews.md)
