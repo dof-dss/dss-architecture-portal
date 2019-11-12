@@ -1,29 +1,31 @@
-[
-  {
-    "label": "Context",
-    "url": "context"
-  },
-  {
-    "label": "Directives",
-    "url": "directives",
-    "includeInSearch": true
-  },
-  {
-    "label": "ABBs",
-    "url": "abbs",
-    "includeInSearch": true
-  },
-  {
-    "label": "SBBs",
-    "url": "sbbs",
-    "includeInSearch": true
-  },
-  {
-    "label": "Governance",
-    "url": "governance"
-  },
-  {
-    "label": "Skills and Training",
-    "url": "skills"
-  }
+[{
+        "label": "Context",
+        "url": "context",
+        "includeInSearch": true
+    },
+    {
+        "label": "Directives",
+        "url": "directives",
+        "includeInSearch": true
+    },
+    {
+        "label": "Architecture Building Blocks",
+        "url": "abbs",
+        "includeInSearch": true
+    },
+    {
+        "label": "Solution Building Blocks",
+        "url": "sbbs",
+        "includeInSearch": true
+    },
+    {
+        "label": "Governance",
+        "url": "governance",
+        "includeInSearch": true
+    },
+    {
+        "label": "Skills and Training",
+        "url": "skills",
+        "includeInSearch": true
+    }
 ]
