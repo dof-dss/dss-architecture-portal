@@ -4,4 +4,118 @@ title: Solution Building Blocks
 show_subnav: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Solution Building Blocks (SBBs) represent components that will be used to implement our required capability/competencies. For example, a network is a building block that can be described and then put to use to realise solutions for the enterprise.
+
+Building blocks represent (potentially re-usable) components  that we combine with other building blocks to deliver architectures and solutions. Our building blocks can be defined at various levels of detail, depending on the stage of architecture development has been reached.
+
+For instance, at an early stage, a building block can simply consist of a name or an outline description. Later on, a building block may be decomposed into multiple supporting building blocks and may be accompanied by a full specification. Building blocks can relate to "architectures" (things that guide and shape what we have and do) or "solutions" (things we have to execute what we do).  
+
+Below is our current list of used/reusable solution building blocks. Each link opens a catalogue. When you are looking for connections between entries in different catalogues first open the catalogues for each entry and if a link exists to entries in other catalogues it will be shown against that entry.
+
+All new or changed solutions should normally use existing solution building blocks. If there are solutions that need to use new or changed building blocks they should  be reviewed as part of the solution conformance process and given either architecture approval or a dispensation in order to progress to the build phases of development.
+
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Type</th>
+      <th scope="col" class="govuk-table__header">Name</th>
+      <th scope="col" class="govuk-table__header govuk-!-width-two-thirds">Details</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+		<tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Business</td>
+			<td class="govuk-table__cell"><a href="/sbbs/01-business-services">Services</a></td>
+  		<td class="govuk-table__cell">The physical implementation of the managed business activities/processes we carry out aligned to our contracts for the operation of these services.
+			  <br>
+    		<em>See ABB business services for more details about the logical structure of services.</em>
+      </td>
+		</tr>
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Business</td>
+			<td class="govuk-table__cell"><a href="/sbbs/02-business-products">Products</a></td>
+  		<td class="govuk-table__cell">The physical combination of SBBs that make up the products offered to our customers.
+			  <br>
+    		<em>Products are also visible in the architecture continuum where they represent the logical combination of ABBs that make up our offerings to our customers.</em>
+      </td>
+		</tr>
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Business</td>
+			<td class="govuk-table__cell"><a href="/sbbs/03-business-workflows">Workflows/procedures/work instructions</a></td>
+  		<td class="govuk-table__cell">The instructions for how actors (systems or people performing roles) should carry out their business activities (processes) in line with the organisation's wishes.
+      </td>
+		</tr>
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Business</td>
+			<td class="govuk-table__cell"><a href="/sbbs/04-business-people">Trained People</a></td>
+  		<td class="govuk-table__cell">People with the skills to perform their roles in line with the workflows, procedures and work instructions.
+      </td>
+		</tr>
+
+     <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Data</td>
+			<td class="govuk-table__cell"><a href="/sbbs/05-data-physical-entities">Physical Data Entities</a></td>
+  		<td class="govuk-table__cell">TThe design of the physical data entities, building on the logical data entities and taking account of the implementation technology and performance and security requirements in the real world.      </td>
+		</tr>
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Data</td>
+			<td class="govuk-table__cell"><a href="/sbbs/06-data-physical-components">Physical Data Components</a></td>
+  		<td class="govuk-table__cell">The physical products, environments and structures we use that enable us to capture, manipulate, store, access and secure our data.     </td>
+		</tr>
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Data</td>
+			<td class="govuk-table__cell"><a href="/sbbs/07-data-databases">Databases, File Sytstems, files</a></td>
+  		<td class="govuk-table__cell">The storage context for data that we wish to store, view and use. This may be in a database management system (such as Oracle, SQL Server, MySQL) a file system that supports data and indexes (such as ISAM, VSAM) or a text style file that holds data and sometimes metadata (such as Acsii files, HTML, XML).
+      </td>
+		</tr>
+
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Application</td>
+			<td class="govuk-table__cell"><a href="/sbbs/08-application-physical-components">Physical application components</a></td>
+  		<td class="govuk-table__cell">A grouping of software modules that deliver a defined set of business functionality and can be deployed and managed as a unit. These may be purchased "off the shelf", customised or written from scratch. They are normally combined into identifiable "systems" for ease of management and control.</td>
+		</tr>
+
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Application</td>
+			<td class="govuk-table__cell"><a href="/sbbs/09-application-software-products">Software products</a></td>
+  		<td class="govuk-table__cell">It is usually basic software (such as an operating system, programming language or database management system) that is used to create/support application components.</td>
+		</tr>
+
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Application</td>
+			<td class="govuk-table__cell"><a href="/sbbs/10-application-software-code">Software code</a></td>
+  		<td class="govuk-table__cell">The code written in a specific language (such as C#, Java, Visual Basic, Perl, HTML) often using a software product development environment such as Visual Studio or Eclipse to support one of more physical application components.</td>
+		</tr>
+
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Technology</td>
+			<td class="govuk-table__cell"><a href="/sbbs/11-technology-buildings">Physical technology components (Buildings and other facilities)</a></td>
+  		<td class="govuk-table__cell">Buildings, environments, machines and other materials that are used by people and systems to carry out their business activities.</td>
+		</tr>
+
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Technology</td>
+			<td class="govuk-table__cell"><a href="/sbbs/12-technology-data-centres">Physical technology components (Data centres)</a></td>
+  		<td class="govuk-table__cell">The environment where we run managed servers and/or store data. This may be our own centres, a supplier or partners' centre or a generic cloud based environment.</td>
+		</tr>
+
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Technology</td>
+			<td class="govuk-table__cell"><a href="/sbbs/13-technology-server-devices">Physical technology components (Server devices)</a></td>
+  		<td class="govuk-table__cell">The computing platforms that run in the back end layer supporting the processing, storage and/or transport of data for many users and/or client devices.</td>
+		</tr>
+
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Technology</td>
+			<td class="govuk-table__cell"><a href="/sbbs/14-technology-client-devices">Physical technology components (Client devices)</a></td>
+  		<td class="govuk-table__cell">The computing platforms that we use to access and manipulate data. These may be internal or external to the organisation and include PC workstations, PC laptops, Tablets, Phones and other specialised devices.</td>
+		</tr>
+
+    <tr class="govuk-table__row">
+  		<td class="govuk-table__cell">Technology</td>
+			<td class="govuk-table__cell"><a href="/sbbs/15-technology-networks">Physical technology components (Data Networks)</a></td>
+  		<td class="govuk-table__cell">A set of managed nodes and connectors that link  computing devices and sensors. These can be very large of various sizes and coverage  (LAN, WAN, MAN & PAN). They may be private to our organisation, public (the Internet) or functionally a hybrid (e.g. using VPNs over the internet)</td>
+		</tr>
+
+  </tbody>
+</table>
