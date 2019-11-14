@@ -1,8 +1,6 @@
 ---
 applications:
 - name: dss-architecture-portal
-  routes:
-    - route: dss-architecture-portal.cloudapps.digital
   # NGINX requires 20 MB of RAM to serve static assets. Reduce RAM allocation
   # from the default 1 GB allocated to containers by default to 64M.
   memory: 64M
@@ -15,4 +13,4 @@ applications:
   # Run two instances to ensure availability
   #
   # https://docs.cloud.service.gov.uk/managing_apps.html#scaling
-  instances: 2
+  instances: 1
