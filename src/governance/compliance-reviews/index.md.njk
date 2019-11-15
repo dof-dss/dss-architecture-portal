@@ -7,4 +7,77 @@ layout: layout-pane.njk
 order: 4
 ---
 
+## Purpose
+
+The purpose of compliance reviews is to:
+
+- catch errors in the architecture early and thereby reduce the cost and risk of changes required later in the lifecycle
+- ensure the application of best practices to architecture work
+- provide an overview of compliance to a mandated enterprise architecture style
+- identify where the standards themselves may require attention
+- identify services that are currently application specific that could be provided as part of the enterprise infrastructure
+- take advantage of technology advances
+- communicate to senior management the technical readiness of a project
+- identify key criteria for procurement activities
+- identify and communicate significant architectural gaps to product and service providers
+
+## Compliance review process
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Compliance review checklist
+
+It is the Lead Architect's responsibility to produce a suitable list of checklist questions.
+
+TOGAF provides a comprehensive set of <a class="govuk-link" href="https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap24.html">Architecture Compliance Review Checklists</a>. It comprises a <a class="govuk-link" href="#general-questions">general checklist</a> and then specific checklists for:
+
+- hardware and operating systems
+- software services and middleware
+- enterprise productivity applications
+- business applications
+- application integration
+- data definitions, values, storage, sharing and security
+- security
+- system management
+- COTS
+- methods and tools
+
+The list of potential questions provided in TOGAF is substantial and the Lead Architect should tailor the checklists:
+
+- focus on high risk areas
+- understand the question itself, the principle behind it and what to look for in responses
+- a domain experts for their reviews
+- bear in mind the need for feedback to the architecture board
+
+<h3 id="general-questions">General checklist</h3>
+
+1. What other applications and/or systems require integration with yours?
+2. escribe the integration level and strategy with each.
+3. How geographically distributed is the user base?
+4. What is the strategic importance of this system to other user communities inside or outside the enterprise?
+5. What computing resources are needed to provide system service to users inside the enterprise? Outside the enterprise and using enterprise computing assets? Outside the enterprise and using their own assets?
+6. How can users outside the native delivery environment access your applications and data?
+7. What is the life expectancy of this application?
+8. Describe the design that accommodates changes in the user base, stored data, and delivery system technology.
+9. What is the size of the user base and their expected performance level?
+10. What performance and stress test techniques do you use?
+11. What is the overall organization of the software and data components?
+12. What is the overall service and system configuration?
+13. How are software and data configured and mapped to the service and system configuration?
+14. What proprietary technology (hardware and software) is needed for this system?
+15. Describe how each and every version of the software can be reproduced and re-deployed over time.
+16. Describe the current user base and how that base is expected to change over the next three to five years.
+17. Describe the current geographic distribution of the user base and how that base is expected to change over the next three to five years.
+18. Describe the how many current or future users need to use the application in a mobile capacity or who need to work off-line.
+19.Describe what the application generally does, the major components of the application, and the major data flows.
+20. Describe the instrumentation included in the application that allows for the health and performance of the application to be monitored.
+21. Describe the business justification for the system.
+22. Describe the rationale for picking the system development language over other options in terms of initial development cost versus long-term maintenance cost.
+23.Describe the systems analysis process that was used to come up with the system architecture and product selection phase of the system architecture.
+24. Who besides the original customer might have a use for or benefit from using this system?
+25. What percentage of the users use the system in browse mode versus update mode?
+26. What is the typical length of requests that are transactional?
+27. Do you need guaranteed data delivery or update, or does the system tolerate failure?
+28. What are the up-time requirements of the system?
+29. Describe where the system architecture adheres or does not adhere to standards.
+30. Describe the project planning and analysis approach used on the project.
