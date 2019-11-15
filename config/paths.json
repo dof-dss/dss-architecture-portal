@@ -13,6 +13,7 @@
     "abbs": "src/abbs/",
     "sbbs": "src/sbbs/",
     "governance": "src/governance/",
+    "reports": "src/reports",
     "components": "src/components/",
     "images": "src/images/",
     "javascripts": "src/javascripts/",

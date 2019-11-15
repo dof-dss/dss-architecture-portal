@@ -1,4 +1,5 @@
-[{
+[
+  {
         "label": "Context",
         "url": "context",
         "includeInSearch": true
@@ -9,18 +10,23 @@
         "includeInSearch": true
     },
     {
-        "label": "Architecture Building Blocks",
+        "label": "ABBs",
         "url": "abbs",
         "includeInSearch": true
     },
     {
-        "label": "Solution Building Blocks",
+        "label": "SBBs",
         "url": "sbbs",
         "includeInSearch": true
     },
     {
         "label": "Governance",
         "url": "governance",
+        "includeInSearch": true
+    },
+    {
+        "label": "Reports",
+        "url": "reports",
         "includeInSearch": true
     },
     {
