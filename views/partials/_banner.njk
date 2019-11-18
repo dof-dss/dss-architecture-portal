@@ -8,7 +8,7 @@
     {% else %}
       the <a class="govuk-link" href="https://github.com/alphagov/govuk-design-system/tree/{{ BRANCH }}">{{ BRANCH }}</a> branch for the
     {% endif %}
-    <a class="govuk-link" href="https://design-system.service.gov.uk">Design System</a>.
+    <a class="govuk-link" href="https://design-system.service.gov.uk">Architecture Portal</a>.
   {% endset %}
 
   {{ govukPhaseBanner({
@@ -22,10 +22,10 @@
 {% else %}
     {{ govukPhaseBanner({
       "tag": {
-        "text": "beta"
+        "text": "alpha"
       },
       "classes": "app-phase-banner govuk-width-container",
-      "html": "This is a new service – your <a class=\"govuk-link\" href=\"/get-in-touch\">feedback</a> will help us to improve it."
+      "html": "This is a prototype service – your <a class=\"govuk-link\" href=\"/get-in-touch\">feedback</a> will help us to improve it."
     }) }}
   {% endif %}
 </div>
