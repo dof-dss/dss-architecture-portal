@@ -3,37 +3,129 @@ title: Logical technology components
 description: Logical technology components
 section: ABBs
 theme: Technology Architecture
-aliases: technology components, web hosting, relational database management system
+aliases: technology components, GOV.UK, PaaS, IT Assist, private, cloud
 layout: layout-pane.njk
 order: 23
 ---
 
-In this document:
+<strong class="govuk-tag">
+  DRAFT for review
+</strong>
 
-- <a class="govuk-link" href="#web-hosting-platform">Web hosting platform</a>
-- <a class="govuk-link" href="#rdbms">Relational Database Management System</a>
+The components presented below have been split into 2 categories as per the <a class="govuk-link" href="http://www.opengroup.org/public/arch/p3/trm/trm_dtail.htm">TOGAF Technical Reference Model</a>.
 
-<h2 id="web-hosting-platform">Web hosting platform<h2>
+## Business applications
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Business applications implement business processes for a particular enterprise or industry. Such applications typically model elements of a an enterprise's domain of activity or business processes.
 
-### Services
+### NICS business applications
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+- business event tracking
+- chatbot
+- consulations
+- document exchange
+- document management
+- geographic information system
+- identity management
+- information asset management
+- notifications
+- service catalogue
+
+<hr class="govuk-section-break govuk-section-break--visible">
+
+## Infrastructure applications
+
+Infrastructure applications provide general-purpose business functionality. Infrastructure applications are normally widely available as off-the-shelf software meaing that it is uneconomic to consider customer implementation.
+
+### NICS infrastructure applications
+
+- auditing
+- application hosting
+- calendar and scheduling services
+- case management system
+- collaboration
+- document and configuration management
+- document editing and presentation
+- electronic mail
+- <a class="govuk-link" href="#hosting-platform">hosting platform</a>
+- instant messaging
+- logging
+- mobile device management
+- open data portal
+- payments service
+- presentation software
+- software engineering tools
+- spreadsheets
+- system and network management
+- workflow services
+- web content management
+
+<hr class="govuk-section-break govuk-section-break--visible">
+
+<h2 id="hosting-platform">Hosting platform<h2>
+
+### High-level requirements
+
+- UK hosting
+- High level of resilience (at least two geographically remote locations)
+- Accredited to handle personal and confidential information classified as Official
+- TLS standards enforced for all traffic
+- Application isolation
+- Internal private network for application communication
+- SSH access to application containers
+- Multi-language support (.NET Core is mandatory)
+- Containerisation support (e.g. Docker)
+- Self-service provisioning
+- Scaling (up, down, automatically)
+- Deployment using CI services
+- Custom domains
+- Remote logging
+- Service metrics
+
+### Required attributes
+
+#### Availability
+
+- Manageability
+- Serviceability
+- Performance
+- Reliability
+- Recoverability
+- Locatability
+
+#### Assurance
+
+- Security
+- Integrity
+- Credibility
+
+#### Usability
+
+- International operation
+
+#### Adaptability
+
+- Interoperability
+- Scalability
+- Portability
+- Extensibility
+
+### Interfaces
+
+- UI for administration
+- CLI for developers
+
+### Dependent building blocks
 
 ### Related solution building blocks (SBBs)
 
+- IT Assist Private Cloud
 - <a class="govuk-link" href="/sbbs/16-technology-platforms">GOV.UK PaaS</a>
+
 
 <hr class="govuk-section-break govuk-section-break--visible">
 
 <h2 id="rdbms">Relational Database Management System<h2>
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Services
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### Related solution building blocks (SBBs)
 
