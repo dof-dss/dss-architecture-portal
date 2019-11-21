@@ -28,8 +28,88 @@ Business applications implement business processes for a particular enterprise o
 - geographic information system
 - identity management
 - information asset management
-- notifications
+- <a class="govuk-link" href="#notifications">notifications</a>
 - <a class="govuk-link" href="#service-catalogue">service catalogue</a>
+
+<h2 id="service-catalogue">Notifications</a>
+
+### High-level requirements
+
+Send a message to a service consumer or subscriber using any of the following channels via a user interface or API:
+
+- mail (physical printed letter)
+- electronic mail
+- SMS (text)
+- mobile notification
+- broadcast notifications
+- Slack, Facebook Messenger or similar platforms
+
+### Required attributes (non-functional requirements)
+
+
+#### Performance
+
+TBD
+
+#### Availability
+
+The notifications is a key component in providing citzen facing services and therefore should be highly available, that is should have an availability target of 99.9%.
+
+#### Recoverability
+
+Following a failure the system should be restored to full operation within 1 hour.
+
+#### Reliability
+
+The infrastructure services on which the notifications application resides should be resilient and fault tolerant so as to minimise failures.
+
+#### Integrity
+
+The entries in the service catalogue represent the definitive list of services offered. The list should accurately reflect the service being offered.
+
+#### Scalability
+
+The service catalogue should be scalable to meet increasing or descreasing demand. Scaling may be manual or automtic.
+
+#### Security
+
+The notifications application should prevent any unauthorised access to its associated data. More specifically the maintainance of the catalgue entries should be restricted to authorised users only.
+
+#### Serviceability
+
+The notifications application must be supportable by the NICS and/or its delivery partners. The support of the notifications application should be easily transferable.
+
+#### Usability
+
+The notifications application should be easily used by its consumers. Any user interface elements should meet current NICS UX standards and comply with accessiblity legislation.
+
+#### Portability
+
+It should be possible to move the notification application to another hosting platform.
+
+#### Interoperability
+
+The notifications building block must provide clearly defined APIs to facilitate the integration with other related building blocks.
+
+### Interfaces
+
+- APIs to send message on the specified channels
+- UI to layer on top of the API to provide the service directly to a service consumer
+
+### Dependent building blocks
+
+TBD
+
+
+### Related solution building blocks (SBBs)
+
+- Identity
+- IT Assist SMTP
+- GOV.UK Notify
+- Mobile App
+
+<hr class="govuk-section-break govuk-section-break--visible">
+
 
 <h2 id="service-catalogue">Service catalogue</a>
 
@@ -39,33 +119,51 @@ Business applications implement business processes for a particular enterprise o
 - Search catalogue
 - Create, amend, remove entries from the catalogue
 
-### Required attributes
+### Required attributes (non-functional requirements)
+
+#### Performance
+
+The service catalogue should have a maximum response time of 1 second measured at the network perimeter before entering the Internet.
 
 #### Availability
 
-- Manageability
-- Serviceability
-- Performance
-- Reliability
-- Recoverability
-- Locatability
+The service catalogue is a key component in providing citzen facing services and therefore should be highly available, that is should have an availability target of 99.9%.
 
-#### Assurance
+#### Recoverability
 
-- Security
-- Integrity
-- Credibility
+Following a failure the system should be restored to full operation within 1 hour.
+
+#### Reliability
+
+The infrastructure services on which the service catalogue application resides should be resilient and fault tolerant so as to minimise failures.
+
+#### Integrity
+
+The entries in the service catalogue represent the definitive list of services offered. The list should accurately reflect the service being offered.
+
+#### Scalability
+
+The service catalogue should be scalable to meet increasing or descreasing demand. Scaling may be manual or automtic.
+
+#### Security
+
+The service catalogue application should prevent any unauthorised access to its associated data. More specifically the maintainance of the catalgue entries should be restricted to authorised users only.
+
+#### Serviceability
+
+The service catalogue must be supportable by the NICS and/or its delivery partners. The support of the catalogue should be easily transferable.
 
 #### Usability
 
-- International operation
+The service catalogue should be easily used by its consumers. Any user interface elements should meet current NICS UX standards and comply with accessiblity legislation.
 
-#### Adaptability
+#### Portability
 
-- Interoperability
-- Scalability
-- Portability
-- Extensibility
+It should be possible to move the service catalogue to another platform or at least transfer the catalogue content to another platform.
+
+#### Interoperability
+
+The service catalogue must provide clearly defined APIs to facilitate the integration with other related building blocks.
 
 ### Interfaces
 
@@ -81,6 +179,8 @@ Business applications implement business processes for a particular enterprise o
 - Identity
 
 ### Related solution building blocks (SBBs)
+
+- Drupal Service Catalogue
 
 
 <hr class="govuk-section-break govuk-section-break--visible">
@@ -134,33 +234,19 @@ Infrastructure applications provide general-purpose business functionality. Infr
 - Remote logging
 - Service metrics
 
-### Required attributes
+### Required attributes (non-functional requirements)
 
+#### Performance
 #### Availability
-
-- Manageability
-- Serviceability
-- Performance
-- Reliability
-- Recoverability
-- Locatability
-
-#### Assurance
-
-- Security
-- Integrity
-- Credibility
-
+#### Recoverability
+#### Reliability
+#### Integrity
+#### Scalability
+#### Security
+#### Serviceability
 #### Usability
-
-- International operation
-
-#### Adaptability
-
-- Interoperability
-- Scalability
-- Portability
-- Extensibility
+#### Portability
+#### Interoperability
 
 ### Interfaces
 
