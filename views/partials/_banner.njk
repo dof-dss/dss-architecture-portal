@@ -4,11 +4,11 @@
   {% set phaseBannerText %}
     This is a preview of
     {% if REVIEW_ID %}
-      a <a class="govuk-link" href="https://github.com/alphagov/govuk-design-system/pull/{{ REVIEW_ID  }}">proposed change</a> to the
+      a <a class="govuk-link" href="https://github.com/dof-dss/dss-architecture-portal/pull/{{ REVIEW_ID  }}">proposed change</a> to the
     {% else %}
-      the <a class="govuk-link" href="https://github.com/alphagov/govuk-design-system/tree/{{ BRANCH }}">{{ BRANCH }}</a> branch for the
+      the <a class="govuk-link" href="https://github.com/dof-dss/dss-architecture-portal/tree/{{ BRANCH }}">{{ BRANCH }}</a> branch for the
     {% endif %}
-    <a class="govuk-link" href="https://design-system.service.gov.uk">Architecture Portal</a>.
+    <a class="govuk-link" href="https://dss-architecture-portal.london.cloudapps.digital">Architecture Portal</a>.
   {% endset %}
 
   {{ govukPhaseBanner({
