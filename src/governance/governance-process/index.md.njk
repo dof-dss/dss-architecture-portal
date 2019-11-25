@@ -2,110 +2,38 @@
 title: Governance process
 description: Governance process
 section: Governance
-aliases: governance process, scope, compliance, criteria, report, repository
+aliases: governance process, scope, compliance, criteria, report, gate
 layout: layout-pane.njk
 order: 1
 ---
 
-The governance process is designed to be as supportive and light touch as possible so that teams are helped to deliver solutions that comply with the Enterprise Architecture and operate in an agile manner within the guidelines laid down.
+The governance process is designed to be as supportive and light touch as possible so that teams are helped to deliver solutions that comply with the Enterprise Architecture (EA) and operate in an agile manner within the guidelines laid down.
 
-![Image of architecture governance process depicting roles and steps in the process](./architecture-governance-process.png "Architecture Governance Process")
+The diagram below provides an overview of how the enterprise architecture conformance cycle fits with other governance processes in the organisation. There are 4 quality gates in this process. A [more detailed view](/governance/governance-process/process-detail) is also available.
 
-The process consists of up to 11 steps as follows:
 
-<table class="govuk-table">
-  <thead class="govuk-table__head">
-    <tr class="govuk-table__row">
-      <th scope="col" class="govuk-table__header">Step</th>
-      <th scope="col" class="govuk-table__header">Action</th>
-      <th scope="col" class="govuk-table__header">Notes</th>
-      <th scope="col" class="govuk-table__header">Roles(s)</th>
-    </tr>
-  </thead>
-  <tbody class="govuk-table__body">
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">1</td>
-      <td class="govuk-table__cell">Request an Enterprise Architect</td>
-      <td class="govuk-table__cell">When commencing some work</td>
-      <td class="govuk-table__cell">Delivery Manager</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">2</td>
-      <td class="govuk-table__cell">Assign Enterprise Architect</td>
-      <td class="govuk-table__cell">Assign Enterprise Architect and identify other architects (e.g. security, solution or technical architects) to collaborate with</td>
-      <td class="govuk-table__cell">Lead Enterprise Architect, Architecture Review Co-ordinator</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">3</td>
-      <td class="govuk-table__cell">Determine scope</td>
-      <td class="govuk-table__cell">
-        Identify which other departments are involved.   Understand the aims and intended outcomes of the work being reviewed.  Understand where the system(s) fit into the existing architecture.
-      </td>
-      <td class="govuk-table__cell">Enterprise Architect</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">4</td>
-      <td class="govuk-table__cell">Tailor criteria</td>
-      <td class="govuk-table__cell">
-        To address the business requirements and reflect the current progress of the work effort.
-      </td>
-      <td class="govuk-table__cell">Enterprise Architect</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">5</td>
-      <td class="govuk-table__cell">Schedule an Architecture Review</td>
-      <td class="govuk-table__cell">
-        Maximise collaboration between Enterprise Architecture and delivery team.
-      </td>
-      <td class="govuk-table__cell">Delivery Manager, Architecture Review Co-ordinator</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">6</td>
-      <td class="govuk-table__cell">Seek support as needed</td>
-      <td class="govuk-table__cell">
-        Ongoing collaboration between Enterprise Architecture and delivery team
-      </td>
-      <td class="govuk-table__cell">Enterprise Architect, Lead Developer, Delivery Manager</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">7</td>
-      <td class="govuk-table__cell">Prepare Architecture Report</td>
-      <td class="govuk-table__cell">
-        Review completed checklists against tailored criteria.  Identify and resolve issues.
-      </td>
-      <td class="govuk-table__cell">Delivery Manager, Enterprise Architect, Lead Developer</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">8</td>
-      <td class="govuk-table__cell">Present Architecture Report</td>
-      <td class="govuk-table__cell">
-        To Architecture Board
-      </td>
-      <td class="govuk-table__cell">Delivery Manager, Enterprise Architect, Lead Developer</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">9</td>
-      <td class="govuk-table__cell">Determine outcome</td>
-      <td class="govuk-table__cell">
-        Either Fully Conformant (work proceeds), Partially Conformant (work proceeds addressing conditions) or Non Conformant (work stops while escalated to ITDA for resolution)
-      </td>
-      <td class="govuk-table__cell">Lead Enterprise Architect</td>
-    </tr>
-    <tr class="govuk-table__row">
-      <td class="govuk-table__cell">10</td>
-      <td class="govuk-table__cell">Store report and outcome</td>
-      <td class="govuk-table__cell">
-        In Enterprise Architecture Repository
-      </td>
-      <td class="govuk-table__cell">Architecture Review Co-ordinator</td>
-    </tr>
-        <tr class="govuk-table__row">
-      <td class="govuk-table__cell">11</td>
-      <td class="govuk-table__cell">Provide resolution</td>
-      <td class="govuk-table__cell">
-        ITDA resolves non conformance.  Either issue a dispensation, or request the Archteture Board to review and update Architeture Principles and/or Reference Architecture
-      </td>
-      <td class="govuk-table__cell">Architecture Review Co-ordinator</td>
-    </tr>
-  </tbody>
-</table>
+<a href="/governance/governance-process/process-detail">
+  <img src="/images/ea-governance-sm.svg"
+    alt="mage of architecture governance process depicting roles and steps in the process"
+    style="border: none">
+</a>
+
+## EA Gate 1
+
+When an idea or opportunity has been identified by a business area (which may be driven by a technology requirement) a [Solution Architect](/governance/governance-roles/#solution-architect) will be asked to develop an initial architectural view. An [Enterprise Architect](/governance/governance-roles/#enterprise-architect) will assess this initial view to determine if it requires formal architecture governance.
+
+## EA Gate 2
+
+The Solution Architect will develop a high level solution architecture (which will include options and a recommenation). This will inform the creation of an outline business case and help create a list of requirements for inclusion in a tender specification (should procurement be the recommended option).
+
+The Enterprise Architect will check that the proposed solution aligns with the NICS architecture by undertaking a compliance review. The Enterprise Architect will work with the project team to resolve any minor issues before the proposed solution will be considered by the [Architecture Board](/governance/governance-roles/#architecture-board). If the Architecture Board is content the project will proceed to the delivery stage. If the Architecture Board rejects the proposal it will escalate to ITDA for consideration.
+
+ITDA may endorse the Architecture Board's decision or may issue a dispensation allowing the project to proceed. ITDA may also consider that NICS architecture needs to be modified, which could result in the addition or modification of building blocks or even the modification of architecture principles.
+
+## EA Gate 3
+
+An Enterprise Architect will check that the build and implementation continues to align with the NICS architecture. A futher review by the Architecture Board will be undertaken before the proposed solution proceeds to operational status. Once again the Architecture Board will refer any major deviations from the NICS architecture to [ITDA](/governance/governance-roles/#itda) if required.
+
+## EA Gate 4
+
+The effectiveness of architecutural decisions will be reviewed and learning points captured. If necessary changes to the architecture may be recommended and further projects inititated.
