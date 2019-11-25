@@ -110,6 +110,14 @@ $nics-highligh-color: #085d9f;
     }
 }
 
+@media(max-width: 1024px) {
+    .govuk-header {
+        &__logotype-crown {
+            margin-left: -20px !important;
+        }
+    }
+}
+
 
 /*Customise the product page jumbotron*/
 
@@ -181,7 +189,36 @@ $nics-highligh-color: #085d9f;
 }
 
 @media (min-width: 48.0625em) {
-    .govuk-header__navigation-item a {
-        margin: 2px;
+    .govuk-header {
+        &__navigation-item a {
+            margin: 2px;
+        }
+    }
+}
+
+@media (min-width: 48.0625em) {
+    .app-site-search {
+        margin-top: 21px;
+    }
+}
+
+@media (max-width: 823px) {
+    .govuk-header {
+        &__logotype-text,
+        &__product-name {
+            left: 60px;
+        }
+        &__logotype-crown {
+            top: -15px;
+        }
+        &__logo {
+            margin-bottom: 0px;
+            padding-right: 0px;
+        }
+    }
+    .app-navigation {
+        &__list-item {
+            padding: 0 10px;
+        }
     }
 }
