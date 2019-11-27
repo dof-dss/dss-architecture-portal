@@ -8,4 +8,64 @@ layout: layout-pane.njk
 order: 15
 ---
 
-List of user stories
+<p>The approach we use to capture a high level understanding of our customers needs and wishes. 
+A user story is the result of a conversation with system users and captures a very high-level 
+definition of a requirement, containing just enough information so that the developers can produce 
+a reasonable estimate of the effort to implement it.</p>
+<h2>How to write user stories</h2>
+<p>User Stories are typically written using the following simple template:</p>
+<p><i>As a <b>type of user</b>, I want <b>some goal</b> so that <b>some reason</b>.</i></p>
+<p>One of the benefits of user stories is that they can be written at varying levels of detail. 
+We can write a user story to cover large amounts of functionality. These large user stories are generally 
+known as epics. Here is an example large user story (epic) for a citizen facing service: </p>
+<ul>
+<li><i>As a <b>Citizen</b>, I want <b>to be able to manage my benefits application online</b> so that <b>I can ensure my application is processed quickly</b>.</i></li>
+</ul>
+<p>These stories are typically too large for a development team to implement in a single 
+iteration so it is split into multiple smaller user stories before it is worked on.</p>
+<p>The epic above could be split into dozens (or possibly hundreds) of smaller stories, including these: </p>
+<ul>
+<li><i>As a <b>Citizen</b>, I want to <b>create my application online</b> so that <b>I can submit my application quickly and accurately</b>.</i></li>
+<li><i>As a <b>Citizen</b>, I want to <b>view the status of my application online</b> so that <b>I do not have to make expensive phone calls to find out about my application.</b>.</i></li>
+<li><i>As an <b>Administration Officer</b>, I want <b>to be able view new applications</b> so that <b>I can begin assessing them quickly</b>.</i></li>
+<li><i>As an <b>Administration Officer</b>, I want <b>to be able send notifications to the applicant automatically when I make a change</b> so that <b>the applicant is kept up to date with the progress of their application</b>.</i></li>
+</ul>
+<h3>Adding acceptance criteria</h3>
+<p>Acceptance criteria is used to set the conditions that need to be met to consider the story <i>complete</i>. Acceptance criteria seeks to do the following:</p>
+<ul>
+<li>Define the boundaries for a user story.</li>
+<li>Help the product owner answer what they need in order for the user story to provide value.</li>
+<li>Help the team gain a shared understanding of the user story.</li>
+<li>Help developers and testers to derive tests.</li>
+<li>Help developers know when to stop adding more functionality to a story than is necessary.</li>
+</ul>
+<h4>What are good acceptance criteria?</h4>
+<ul>
+<li>State an intent, not a solution (e.g. "The user can choose an account" rather than "The user can select the account from a drop-down")</li>
+<li>Where possible, are independent of implementation.</li>
+<li>Are relatively high level</li>
+</ul>
+<h2>Who should write User Stories</h2>
+<p>Anyone can write user stories. It's the business and technical product owner's responsibility to make 
+sure a backlog of user stories exists, but that doesn’t mean that the product owner is the one who writes them. 
+Over the course of a good agile project, you should expect to have user story examples written by each team member.</p>
+
+<p>Also, note that who writes a user story is far less important than who is involved in the discussions of it.</p>
+<h2>When to write User Stories</h2>
+<p>User stories are written throughout an agile project. For small or relatively simple projects there will usually a story-writing workshop 
+held near the start of the agile project (Discovery). Everyone on the team participates with the goal of creating a product backlog 
+that fully describes the functionality to be added over the course of the project or a three- to six-month release cycle within it.</p>
+<p>For more complex architecture led projects the process of discovery starts prior to the development team being involved, this is 
+typically during Phases A, B, C and D of the TOGAF ADM. User stories that are created at this stage of the project are generally epics. These stories will align to the business goals, drivers and objectives and will define the requirements within the boundaries of the architecture being implemented. 
+It is not the role of the Solution Architect to discover everything that the development team will need during implementation iterations, simply to understand enough to guide the 
+development team and keep the effort aligned to delivering the business value and objectives which triggered the need for change. These requirements will be included
+in the Architecture Definition Document requirements repository which is the output from phase E of the TOGAF ADM. Obviously it will not be possible or desirable to seek to understand everything that 
+may be required during the implementation of the solution, so the contents of the architecture definition will be constantly emerging during the delivery of the 
+solution. 
+</p>
+<p>During the implementation phase the Solution Architect will act as the Technical Product owner to ensure that the development team is deliverying the solution 
+in line with the technical specifications. The solution architect will help to refine the solution backlog when required, to ensure that the backlog will deliver 
+the business value in line with the technical specification.</p>
+
+<p></p>
+

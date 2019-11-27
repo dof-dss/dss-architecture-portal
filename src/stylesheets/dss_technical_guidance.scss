@@ -1,0 +1,224 @@
+/*colours specific to NICS*/
+
+$nics-brand-colour: #004070;
+$nics-grey: #e6e6e6;
+$nics-service-name-color: #0869b3;
+$nics-highligh-color: #085d9f;
+
+/*Customisation of the layout page*/
+
+.header__brand {
+    polygon {
+        fill: White;
+        opacity: 0.7;
+        margin-left: 50px !important;
+    }
+}
+
+
+/*Style header as per uxm*/
+
+.govuk-header {
+    background: $nics-brand-colour;
+    color: #fff;
+    &__container {
+        border-bottom-color: $nics-grey;
+    }
+    &__link {
+        &:visited,
+        &:link {
+            padding: 10px;
+        }
+    }
+}
+
+
+/*Customise the header nav links*/
+
+.govuk-header {
+    &__navigation-item {
+        &--active {
+            a {
+                &:link,
+                &:hover,
+                &:visited {
+                    color: White;
+                    background: $nics-highligh-color;
+                }
+            }
+        }
+    }
+    &__logotype-crown {
+        margin-left: -70px;
+    }
+    &__link {
+        box-shadow: none !important;
+        &:focus {
+            background-color: $nics-highligh-color;
+            color: white;
+            border: none;
+        }
+    }
+    &__product-name {
+        width: 100%;
+    }
+    &__menu-button {
+        padding: 10px 5px;
+        top: 15px;
+        box-shadow: none !important;
+        &:link,
+        &:hover,
+        &:visited {
+            color: White;
+            background: $nics-highligh-color;
+        }
+    }
+}
+
+@media (max-width: 823px) {
+    .govuk-header {
+        &__container {
+            min-height: 100px;
+        }
+        &__logotype-crown {
+            margin-left: -20px !important;
+        }
+        &__logotype-text {
+            margin-left: -10px !important;
+            position: absolute;
+            left: 40px;
+            top: 30px;
+            width: 80%;
+            font-size: 0.7em;
+        }
+        &__logotype-text {
+            margin-left: -10px !important;
+            position: absolute;
+            left: 40px;
+            top: 24px;
+            width: 80%;
+            font-size: 0.7em;
+        }
+        &__product-name {
+            margin-left: -10px !important;
+            position: absolute;
+            left: 40px;
+            top: 45px;
+            width: 80%;
+            font-size: 0.5em;
+        }
+    }
+}
+
+@media(max-width: 1024px) {
+    .govuk-header {
+        &__logotype-crown {
+            margin-left: -20px !important;
+        }
+    }
+}
+
+
+/*Customise the product page jumbotron*/
+
+.masthead {
+    background-color: $nics-grey;
+    color: black !important;
+}
+
+.hero__title {
+    color: $nics-service-name-color;
+}
+
+.hero__description {
+    color: rgb(32, 32, 32);
+}
+
+.hero__paragraph {
+    color: rgb(32, 32, 32);
+}
+
+.hero-alternative-action {
+    color: rgb(32, 32, 32);
+    a {
+        color: $nics-service-name-color !important;
+        font-weight: normal !important;
+    }
+}
+
+.govuk-link {
+    font-size: 18px;
+}
+
+.govuk-link,
+.govuk-breadcrumbs__link {
+    box-shadow: none !important;
+    &:focus {
+        background-color: $nics-highligh-color;
+        color: white !important;
+        border: none;
+    }
+}
+
+.related-items {
+    border-top-color: $nics-brand-colour !important;
+}
+
+.govuk-button {
+    background-color: $nics-brand-colour !important;
+    color: white !important;
+    box-shadow: none !important;
+    &:focus {
+        border-color: $nics-highligh-color !important;
+        background-color: $nics-highligh-color !important;
+    }
+}
+
+@media (min-width: 48.0625em) {
+    .govuk-header {
+        &__navigation-item {
+            display: inline-block;
+            margin-right: 5px;
+            padding: 5px 0;
+            border: 0;
+            a {
+                margin: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width: 48.0625em) {
+    .govuk-header {
+        &__navigation-item a {
+            margin: 2px;
+        }
+    }
+}
+
+@media (min-width: 48.0625em) {
+    .app-site-search {
+        margin-top: 21px;
+    }
+}
+
+@media (max-width: 823px) {
+    .govuk-header {
+        &__logotype-text,
+        &__product-name {
+            left: 60px;
+        }
+        &__logotype-crown {
+            top: -15px;
+        }
+        &__logo {
+            margin-bottom: 0px;
+            padding-right: 0px;
+        }
+    }
+    .app-navigation {
+        &__list-item {
+            padding: 0 10px;
+        }
+    }
+}
