@@ -7,332 +7,793 @@ aliases: capabilities
 layout: layout-pane.njk
 order: 1
 ---
+<p>
+Business capabilities encapsulate what a business is doing right now and what it needs be doing in order to meet current and future challenges. They define “what” a business does, rather than “how” it does it (which is described by processes). For example, most modern companies might have goals around having a competitive workforce. To “recruit talented employees” is one business capability necessary to achieve this goal. “Recruit talented employees” tells us what we need to do, but leaves it open how to do it. There could be a Human Resources process from attracting employees via a recruiting website to interviewing candidates to the administration of hiring. Or everything could be outsourced to a third party. 
+Capabilities represent unique, non-redundant views of the business that are defined once for the entire business.  They represent a foundational, ubiquitous business perspective across programs and departments.
 
-List of capabilities
 
-Audit/Governance
-Engagement
-Mobile working
-Training
-Payments (Inbound)
-Grants and Subsidies (Outbound)
-Eligibility
-Appeals/Claims
-Case Management
-Workflow Management
-Permits/Licenses
-Inspections
-Enforcement
-Service Support
-Asset Management
-Identity Management (Authentication)
-Role Management (Authorisation)
-Data Storage
-Data Analysis
-Data Sharing (Open data)
-Spatial Data
-Records Management/Registers
+Business Capabilities vary in their impact and are often arranged into one of three categories (stratification)
 
-<h1>Strategic Capabilities</h1>
-<h2>Strategic Planning</h2>
-<h3>Strategy Management</h3>
-<h3>Strategic Plan Definition</h3>
-<h3>Strategic Plan Dissemination</h3>
-<h3>Business Performance Management</h3>
+<dl class="govuk-summary-list">
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      strategic capabilities
+    </dt>
+    <dd class="govuk-summary-list__value">
+      these focus on the organisation direction
+    </dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      core/customer facing capabilities
+    </dt>
+    <dd class="govuk-summary-list__value">
+      these are the capabilities seen and experienced by users
+    </dd>
+  </div>
+  <div class="govuk-summary-list__row">
+    <dt class="govuk-summary-list__key">
+      supporting capabilities
+    </dt>
+    <dd class="govuk-summary-list__value">
+      these are capabilities that are required in order to provide the core capabilities
+    </dd>
+  </div>
+</dl>
 
-<h1>Core/Public Facing Capabilities</h1>
-<h2>Citizen Management</h2>
+<p>
+  Business capabilities are ususally described at a very high level that can be broken down into more specific business capabilities at a lower level.  The following describes the business capabilities of NICS and breaks them down where appropriate.
+</p>
 
-<h1>Top Level Capabilities</h1>
+<h2>Strategic Capabilities</h2>
 
 <table class="govuk-table">
-  <caption class="govuk-table__caption">Top Level Capabilities</caption>
+  <caption class="govuk-table__caption">Strategic Capabilities</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Level 1</th>
+      <th scope="col" class="govuk-table__header">Level 2</th>
+      <th scope="col" class="govuk-table__header">Level 3</th>
+      <th scope="col" class="govuk-table__header">Level 4</th>
+    </tr>
+  </thead>
   <tbody class="govuk-table__body">
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Strategic Capabilities</th>
-      <td class="govuk-table__cell">Strategic Planning</td>
-      <td class="govuk-table__cell">Policy Management</td>
+      <td class="govuk-table__cell"><a href="#strategic-planning">Strategic Planning</a></td>
+      <td class="govuk-table__cell"><a href="#strategic-plan-defintion">Strategic Plan Definition</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Core / Public Facing Capabilities</th>
-      <td class="govuk-table__cell">Citizen Management</td>
-      <td class="govuk-table__cell">Business Organisation Management</td>
-      <td class="govuk-table__cell">Authorisations Management</td>
-      <td class="govuk-table__cell">Public Awareness</td>
-      <td class="govuk-table__cell">Asset Management</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#strategic-plan-dissemination">Strategic Plan Dissemination</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Supporting Capabilities</th>
-      <td class="govuk-table__cell">Operations Management</td>
-      <td class="govuk-table__cell">Procurement Management</td>
-      <td class="govuk-table__cell">IT Management</td>
-      <td class="govuk-table__cell">Facilities Management</td>
-      <td class="govuk-table__cell">HR Management</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#business-performance-management">Business Performance Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell"><a href="#policy-management">Policy Management</a></td>
+      <td class="govuk-table__cell"><a href="#policy-creation">Policy Creation</a></td>
+      <td class="govuk-table__cell"><a href="#policy-definition">Policy Definition</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#policy-interpretation">Policy Interpretation</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#policy-consultation">Policy Consultation</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#policy-inspections">Policy Inspections</a></td>
+      <td class="govuk-table__cell"><a href="#assurance-data-gathering">Assurance Data Gathering</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#assurance-determination">Assurance Determination</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#policy-enforcement">Policy Enforcement</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h2>Core Capabilities</h2>
+
+<table class="govuk-table">
+  <caption class="govuk-table__caption">Core Capabilities</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Level 1</th>
+      <th scope="col" class="govuk-table__header">Level 2</th>
+      <th scope="col" class="govuk-table__header">Level 3</th>
+      <th scope="col" class="govuk-table__header">Level 4</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell"><a href="#citizen-management">Citizen Management</a></td>
+      <td class="govuk-table__cell"><a href="#citizen-identity-management">Citizen Identity Management</a></td>
+      <td class="govuk-table__cell"><a href="#proof-of-identity">Proof Of Identity</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#citizen-information-management">Citizen Information Management</a></td>
+      <td class="govuk-table__cell"><a href="#citizen-demographic-information-management">Citizen Demographic Information Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#citizen-hierarchy-information-management">Citizen Hierarchy Information Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#citizen-agreement-management">Citizen Agreement Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#citizen-interaction-data-management">Citizen Interaction Data Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell"><a href="#business-organisation-management">Business Organisation Management</a></td>
+      <td class="govuk-table__cell"><a href="#business-organisation-identity-management">Business Organisation Identity Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#business-organisation-information-management">Business Organisation Information Management</a></td>
+      <td class="govuk-table__cell"><a href="#business-organisation-demographic-information-management">Business Organisation Demographic Information Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#business-organisation-hierarchy-information-management">Business Organisation Hierarchy Information Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#business-organisation-agreement-management">Business Organisation Agreement Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#business-organisation-interaction-data-management">Business Organisation Interaction Data Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell"><a href="#authorisations-management">Authorisations Management</a></td>
+      <td class="govuk-table__cell"><a href="#authorisation-definition">Authorisation Definition</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#authorisation-submissions-management">Authorisation Submissions Management</a></td>
+      <td class="govuk-table__cell"><a href="#find-authorisation">Find Authorisation</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#attach-evidence">Attach Evidence</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#payment-inbound">Payment (Inbound)</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="submit-authorisation-request">Submit Authorisation Request</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#grant-authorisation">Grant Authorisation</a></td>
+      <td class="govuk-table__cell"><a href="#accept-authorisation-request">Accept Authorisation Request</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#evaluate-authorisation-request">Evaluate Authorisation Request</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#determination-ruling">Determination Ruling</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#record-authorisation">Record Authorisation</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#make-payment">Make Payment</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#issue-authorisation">Issue Authorisation</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#appeals">Appeals</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell"><a href="#public-awareness">Public Awareness</a></td>
+      <td class="govuk-table__cell"><a href="#engagement">Engagement</a></td>
+      <td class="govuk-table__cell"><a href="#campaign-management">Campaign Management</a></td>
+      <td class="govuk-table__cell"><a href="#create-campaign">Create Campaign</a></td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#launch-campaign">Launch Campaign</a></td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#disseminate-information">Dissemination Information</a></td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#roadshows">Roadshows</a></td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#responses">Responses</a></td>
+      <td class="govuk-table__cell"><a href="#citizen-query-responses">Citizen Query Responses</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#foi-responses">FOI Responses</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#consultation-responses">Consultation Responses</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#reporting">Reporting</a></td>
+      <td class="govuk-table__cell"><a href="#open-data">Open Data</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#data-analysis">Data Analysis</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#data-sharing">Data Sharing</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#asset-management">Asset Management</a></td>
+      <td class="govuk-table__cell"><a href="#asset-definition">Asset Definition</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#asset-information-management">Asset Information Management</a></td>
+      <td class="govuk-table__cell"><a href="#asset-valuation">Asset Valuation</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#asset-lifecycle-management">Asset Lifecycle Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#asset-validation-and-verification">Asset Validation And Verification</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#asset-access-management">Asset Access Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#asset-risk-management">Asset Risk Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#asset-matching">Asset Matching</a></td>
+      <td class="govuk-table__cell"><a href="#asset-to-asset">Asset To Asset</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#asset-to-location">Asset To Location</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#asset-to-party">Asset To Party</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#asset-to-work">Asset To work</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Supporting Capabilities</h2>
+
+<table class="govuk-table">
+  <caption class="govuk-table__caption">Supporting Capabilities</caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Level 1</th>
+      <th scope="col" class="govuk-table__header">Level 2</th>
+      <th scope="col" class="govuk-table__header">Level 3</th>
+      <th scope="col" class="govuk-table__header">Level 4</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell"><a href="#operations-management">Operations Management</a></td>
+      <td class="govuk-table__cell"><a href="#workforce-management">Workforce Management</a></td>
+      <td class="govuk-table__cell"><a href="#staff-rotas">Staff Rotas</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#fleet-management">Fleet Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#mobile-working">Mobile Working</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#workflow-management">Workflow Management</a></td>
+      <td class="govuk-table__cell"><a href="#work-scheduling">Work Scheduling</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#work-assignment">Work Assignment</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#work-status-tracking">Work Status Tracking</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#sla-management">SLA Management</a></td>
+      <td class="govuk-table__cell"><a href="#sla-definitions">SLA Definitions</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#sla-tracking">SLA Tracking</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#sla-reporting">SLA Reporting</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell"><a href="#procurement-management">Procurement Management</a></td>
+      <td class="govuk-table__cell"><a href="#opportunity-management">Opportunity Management</a></td>
+      <td class="govuk-table__cell"><a href="#business-case-definition">Business Case Definition</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#business-case-approval">Business Case Approval</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#tender-process-management">Tender Process Management</a></td>
+      <td class="govuk-table__cell"><a href="#tender-process-rfp">Tender Process RFP</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#rfp-response-evaluation">RFP Responses Evaluation</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#contract-negotiation">Contract Negotiation</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#contract-management">Contract Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell"><a href="#ict-management">ICT Management</a></td>
+      <td class="govuk-table__cell"><a href="#it-infrastructure-management">IT Infrastructure Management</a></td>
+      <td class="govuk-table__cell"><a href="#it-network-management">IT Network Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#hosting-services">Hosting Services</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#storage-services">Storage Services</a></td>
+      <td class="govuk-table__cell"><a href="#structured-data">Structured Data</a></td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#unstructured-data">Unstructured Data</a></td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#spatial-data">Spatial Data</a></td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#device-management">Device Management</a></td>
+      <td class="govuk-table__cell"><a href="#device-provisioning">Device Provisioning</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#device-assignment">Device Assignment</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr> 
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#cyber-security">Cyber Security</a></td>
+      <td class="govuk-table__cell"><a href="#identity-management">Identity Management</a></td>
+      <td class="govuk-table__cell"><a href="#user-management">User Management</a></td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#role-maintenance">Role Management</a></td>  
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#profile-maintenance">Profile Management</a></td>  
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#authentication">Authentication</a></td>  
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#threat-prevention">Threat Prevention</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>  
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#intrusion-detection">Intrusion Detection</a></td>
+      <td class="govuk-table__cell"><a href="#siem">SIEM</a></td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#data-management">Data Management</a></td>
+      <td class="govuk-table__cell"><a href="#records-management">Records Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#registers">Registers</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#it-operations-services">IT Operations Services</a></td>
+      <td class="govuk-table__cell"><a href="#service-identification">Service Identification</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#service-provision">Service Provision</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#service-onboarding">Service Onboarding</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#service-monitoring">Service Monitoring</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#service-support">Service Support</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#it-systems-and-support-services">IT Systems And Supporting Services</a></td>
+      <td class="govuk-table__cell"><a href="#application-development">Application Development</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#website-content-services">Website Content Services</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#testing-services">Testing Services</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#information-management">Information Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#architecture">Architecture</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#programme-management">Programme Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#consultation-services">Consultation Services</a></td>
+      <td class="govuk-table__cell"><a href="#ux-services">UX Services</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#design-services">Design Services</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#digital-transformation-services">Digital Transformation Services</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#facilities-management">Facilities Management</a></td>
+      <td class="govuk-table__cell"><a href="#site-management">Site Management</a></td>
+      <td class="govuk-table__cell"><a href="#site-procurement">Site Procurement</a></td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#site-maintenance">Site Maintenance</a></td>  
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#site-services">Site Services</a></td>  
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#site-support">Site Support</a></td>  
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#consultation-services">Consultation Services</a></td>
+      <td class="govuk-table__cell"><a href="#ux-services">UX Services</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#supplies-management">Supplies Management</a></td>
+      <td class="govuk-table__cell"><a href="#print-services">Print Services</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#office-supplies">Office Supplies</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#internal-mailroom">Internal Mailroom</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell"><a href="#financial-management">Financial Management</a></td>
+      <td class="govuk-table__cell"><a href="#budget-management">Budget Management</a></td>
+      <td class="govuk-table__cell"><a href="#budget-allocation">Budget Allocation</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#financial-tracking">Financial Tracking</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#financial-reporting">Financial Reporting</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#audit">Audit</a></td>  
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
     </tr>
 
-<p class="govuk-body">Top level Strategic capabilities with sub level capabilities:</p>
-<ul class="govuk-list govuk-list--bullet">
-  <li>Strategic Planning
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Strategic Management</li>
-      <li>Strategic Plan Definition</li>
-      <li>Strategic Plan Dissemination</li>
-      <li>Business Performance Management</li>
-    </ul>
-  </li>
-  <li>Policy Management
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Policy Creation
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Policy Definition</li>
-          <li>Policy Interpretation</li>
-          <li>Policy Consultation</li>
-        </ul>
-      </li>
-      <li>Policy Assurance
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Assurance Data Gathering</li>
-          <li>Assurance Determination</li>
-          <li>Policy Enforcement</li>
-        </ul>
-      </li>  
-    </ul>
-  </li>
-</ul>
-
-<p class="govuk-body">Top level Core/Citizen Facing capabilities with sub level capabilities:</p>
-<ul class="govuk-list govuk-list--bullet">
-  <li>Citizen Management
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Citizen Identity Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Proof of Identity</li>
-          <li>Citizen Digital Identity Management</li>
-        </ul>
-      </li>
-      <li>Citizen Information Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Citizen Demographic Information Management</li>
-          <li>Citizen Hierarchy Information Management</li>
-          <li>Citizen Agreement Management</li>
-          <li>Citizen Interaction Data Management</li>
-        </ul>
-      </li>  
-    </ul>
-  </li>
-  <li>Business Organisation Management
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Business Organisation Identity Management</li>
-      <li>Business Organisation  Digital Identity Management</li>
-      <li>Business Organisation Information Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Business Organisation Demographic Information Management</li>
-          <li>Business Organisation Hierarchy Information Management</li>
-          <li>Business Organisation Agreement Management</li>
-          <li>Business Organisation Interaction Data Management</li>
-        </ul>
-      </li>   
-    </ul>
-  </li>
-  <li>Authorisations Management
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Authorisation Definition</li>
-      <li>Authorisation Submissions Management</li>
-      <li>Grant Authorisation</li>
-      <li>Authorisation Compliance Management</li>
-      <li>Authorisation Case Management</li>      
-    </ul>
-  </li>
-  <li>Public Awareness
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Campaign Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Create Campaign</li>
-          <li>Launch Campaign</li>
-          <li>Disseminate Information</li>
-          <li>Roadshows</li>
-        </ul>
-      </li>
-      <li>Responses
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Citizen Query Responses</li>
-          <li>FOI Responses</li>
-          <li>Consultation Responses</li>
-        </ul>
-      </li>  
-    </ul>
-  </li>
-  <li>Asset Management
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Asset Definition</li>
-      <li>Asset Information Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Asset Valuation</li>
-          <li>Asset Lifecycle Management</li>
-          <li>Asset Validation and Verification</li>
-          <li>Asset Access Management</li>
-          <li>Asset Risk Management</li>
-        </ul>
-      </li>
-      <li>Asset Matching
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Asset to Asset</li>
-          <li>Asset to Location</li>
-          <li>Asset to Party</li>
-          <li>Asset to Work</li>
-        </ul>
-      </li>  
-    </ul>
-  </li>
-</ul>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell"><a href="#hr-management">HR Management</a></td>
+      <td class="govuk-table__cell"><a href="#vacancy-management">Vacancy Management</a></td>
+      <td class="govuk-table__cell"><a href="#position-management">Position Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#candidate-sourcing">Candidate Sourcing</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#interviewing">Interviewing</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#refernce-checking">Reference Checking</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#hr-compensation-management">HR Compensation Management</a></td>
+      <td class="govuk-table__cell"><a href="#hr-consultations">HR Consultations</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#benefits-management">Benefits Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#salary-management">Salary Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#hr-competency-management">HR Competency Management</a></td>
+      <td class="govuk-table__cell"><a href="#performance-management">Performance Management</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell">&nbsp;</td>
+      <td class="govuk-table__cell"><a href="#training">Training</a></td>
+      <td class="govuk-table__cell">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
 
 
-<p class="govuk-body">Top level Supporting capabilities with sub level capabilities:</p>
-<ul class="govuk-list govuk-list--bullet">
-  <li>Operations Management
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Workforce Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Staff Rotas</li>
-          <li>Fleet Management</li>
-          <li>Work Scheduling</li>
-          <li>Workflow Management</li>
-          <li>Work Status Tracking</li>
-        </ul>
-      </li>
-      <li>SLA Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>SLA Definitions</li>
-          <li>SLA Tracking</li>
-          <li>SLA Reporting</li>
-        </ul>
-      </li>  
-    </ul>
-  </li>
-  <li>Procurement Management
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Opportunity Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Business Case Definition</li>
-          <li>Business Case Approval</li>
-        </ul>
-      </li>   
-    </ul>
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Tender Process Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Tender RFP</li>
-          <li>RFP Response Evaluation</li>
-          <li>Contract Negotiation</li>
-          <li>Contract Management</li>
-        </ul>
-      </li>   
-    </ul>
-    
-  </li>
-  <li>ICT Management
-    <ul class="govuk-list govuk-list--bullet">
-      <li>IT Infrastructure Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>IT Network Management</li>
-          <li>IT Security Management</li>
-          <li>Hosting Services</li>
-          <li>Storage Services</li>
-        </ul>
-      </li>
-      <li>Device Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Provisioning</li>
-          <li>Assignment</li>
-          <li>Maintenance</li>
-          <li>Billing</li>
-        </ul>
-      </li>
-      <li>IT Operations Services
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Service Identification</li>
-          <li>Service Provision</li>
-          <li>Service Onboarding</li>
-          <li>Service Monitoring</li>
-          <li>Service Support</li>
-        </ul>
-      </li>
-      <li>IT Systems & Support Services
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Application Development</li>
-          <li>Website Content Services</li>
-          <li>Testing Services</li>
-          <li>Information Management</li>
-          <li>Architecture</li>
-        </ul>
-      </li>
-      <li>Consultation Services
-        <ul class="govuk-list govuk-list--bullet">
-          <li>UX Services</li>
-          <li>Design Services</li>
-          <li>Digital Transformation Services</li>
-        </ul>
-      </li>  
-    </ul>
-  </li>
-  <li>Facilities Management
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Site Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Site Procurement</li>
-          <li>Site Maintenance</li>
-          <li>Site Services</li>
-          <li>Site Support</li>
-        </ul>
-      </li>
-      <li>Supplies Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Print Services</li>
-          <li>Office Supplies</li>
-          <li>Internal Mail</li>
-        </ul>
-      </li>  
-    </ul>
-  </li>
-  <li>Financial Management
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Budget Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Budget Allocation</li>
-          <li>Financial Tracking</li>
-          <li>Financial Reporting</li>
-        </ul>
-      </li>
-      <li>Audit</li>
-    </ul>
-  </li>  
-  <li>HR Management
-    <ul class="govuk-list govuk-list--bullet">
-      <li>Vacation Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Position Management</li>
-          <li>Candidate Sourcing</li>
-          <li>Interviewing</li>
-          <li>Reference Checking</li>
-        </ul>
-      </li>
-      <li>HR Compensation Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Consultations</li>
-          <li>Benefits Management</li>
-          <li>Salary Management</li>
-        </ul>
-      </li>
-      <li>HR Competency Management
-        <ul class="govuk-list govuk-list--bullet">
-          <li>Role Management</li>
-          <li>Performance Management</li>
-          <li>Training</li>
-        </ul>
-      </li>  
-    </ul>
-  </li>
-</ul>
+
+<h2> Capability Definitions</h2>
 
 
 <table class="govuk-table">
@@ -345,56 +806,660 @@ Records Management/Registers
   </thead>
   <tbody class="govuk-table__body">
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Strategic Planning</th>
+      <td id="strategic-planning" scope="row" class="govuk-table__cell">Strategic Planning</th>
       <td class="govuk-table__cell">The ablility to develop and maintain the strategic plan and overall direction of NICS</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Policy Management</th>
+      <td id="strategic-plan-definition" scope="row" class="govuk-table__cell">Strategic Plan Definition</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="strategic-plan-dissemination" scope="row" class="govuk-table__cell">Strategic Plan Dissemination</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="business-performance-management" scope="row" class="govuk-table__cell">Business Performance Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="policy-management" scope="row" class="govuk-table__cell">Policy Management</th>
       <td class="govuk-table__cell">The ablility to define, interpret and enforce government legislation and policy</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Citizen Management</th>
+      <td id="policy-creation" scope="row" class="govuk-table__cell">Policy Creation</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="policy-definition" scope="row" class="govuk-table__cell">Policy Definition</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="policy-interpretation" scope="row" class="govuk-table__cell">Policy Interpretation</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="policy-consultation" scope="row" class="govuk-table__cell">Policy Consultation</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="policy-inspections" scope="row" class="govuk-table__cell">Policy Inspections</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="assurance-data-gathering" scope="row" class="govuk-table__cell">Assurance Data Gathering</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="assurance-determination" scope="row" class="govuk-table__cell">Assurance Determination</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="policy-enforcement" scope="row" class="govuk-table__cell">Policy Enforcement</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="citizen-management" scope="row" class="govuk-table__cell">Citizen Management</th>
       <td class="govuk-table__cell">The ablility to identify a citizen, maintain information on them and the status of their interactions and agreements</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Businss Organisation Management</th>
+      <td id="citizen-identity-management" scope="row" class="govuk-table__cell">Citizen Identity Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="proof-of-identity" scope="row" class="govuk-table__cell">Proof Of Identity</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="citizen-information-management" scope="row" class="govuk-table__cell">Citizen Information Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="citizen-demographic-information-management" scope="row" class="govuk-table__cell">Citizen Demographic Information Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="citizen-hierarchy-information-management" scope="row" class="govuk-table__cell">Citizen Hierarchy Information Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="citizen-agreement-management" scope="row" class="govuk-table__cell">Citizen Agreement Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="citizen-interaction-data-management" scope="row" class="govuk-table__cell">Citizen Interaction Data Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="business-organisation-management" scope="row" class="govuk-table__cell">Business Organisation Management</th>
       <td class="govuk-table__cell">The ablility to identify a business organisation (school, business, etc), maintain information on them and the status of their interactions and agreements</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Authorisations Management</th>
+      <td id="business-organisation-identity-management" scope="row" class="govuk-table__cell">Business Organisation Identity Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="business-organisation-information-management" scope="row" class="govuk-table__cell">Business Organisation Information Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="business-organisation-demographic-information-management" scope="row" class="govuk-table__cell">Business Organisation Demographic Information Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="business-organisation-hierarchy-information-management" scope="row" class="govuk-table__cell">Business Organisation Hierarchy Information Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="business-organisation-agreement-management" scope="row" class="govuk-table__cell">Business Organisation Agreement Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="business-organisation-interaction-data-management" scope="row" class="govuk-table__cell">Business Organisation Interaction Data Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="authorisations-management" scope="row" class="govuk-table__cell">Authorisations Management</th>
       <td class="govuk-table__cell">The ablility to define and manage process that enables the provision of rights/entitlements (financial or otherwise) to people and/or assets</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Public Awareness</th>
+      <td id="authorisation-definition" scope="row" class="govuk-table__cell">Authorisation Definition</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="Authorisation Submission Management" scope="row" class="govuk-table__cell">Authorisation Submission Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="find-authorisation" scope="row" class="govuk-table__cell">Find Authorisation</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="attach-evidence" scope="row" class="govuk-table__cell">Attach Evidence</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="payment-inbound" scope="row" class="govuk-table__cell">Payment (Inbound)</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="submit-authorisation-request" scope="row" class="govuk-table__cell">Submit Authorisation Request</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="grant-authorisation" scope="row" class="govuk-table__cell">Grant Authorisation</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="accept-authorisation-request" scope="row" class="govuk-table__cell">Accept Authorisation Request</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="evaluate-authorisation-request" scope="row" class="govuk-table__cell">Evaluate Authorisation Request</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="determination-ruling" scope="row" class="govuk-table__cell">Determination Ruling</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="record-authorisation" scope="row" class="govuk-table__cell">Record Authorisation</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="make-payment" scope="row" class="govuk-table__cell">Make Payment</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="issue-authorisation" scope="row" class="govuk-table__cell">Issue Authorisation</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="appeals" scope="row" class="govuk-table__cell">Appeals</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="public-awareness" scope="row" class="govuk-table__cell">Public Awareness</th>
       <td class="govuk-table__cell">The ability to disseminate information that is useful, important or beneficial to the public and to respond to queries</td>
-    </tr>  
+    </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Asset Management</th>
+      <td id="engagement" scope="row" class="govuk-table__cell">Engagement</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="campaign-management" scope="row" class="govuk-table__cell">Campaign Management</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="create-campaign" scope="row" class="govuk-table__cell">Create Campaign</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="launch-campaign" scope="row" class="govuk-table__cell">Launch Campaign</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="disseminate-information" scope="row" class="govuk-table__cell">Dissemination Information</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="roadshows" scope="row" class="govuk-table__cell">Roadshows</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="responses" scope="row" class="govuk-table__cell">Responses</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="citizen-query-responses" scope="row" class="govuk-table__cell">Citizen Query Responses</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="foi-responses" scope="row" class="govuk-table__cell">FOI Responses</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="consultation-responses" scope="row" class="govuk-table__cell">Consultation Responses</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="reporting" scope="row" class="govuk-table__cell">Reporting</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="open-data" scope="row" class="govuk-table__cell">Open Data</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="data-analysis" scope="row" class="govuk-table__cell">Data Analysis</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="data-sharing" scope="row" class="govuk-table__cell">Data Sharing"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-management" scope="row" class="govuk-table__cell">Asset Management</th>
       <td class="govuk-table__cell">The ability to acquire, create, track, report on, maintain and dispose of, tangible or intangible assets, with intrinsic value</td>
-    </tr>      
+    </tr>   
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Operations Management   </th>
+      <td id="asset-definition" scope="row" class="govuk-table__cell">Asset Definition"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-information-management" scope="row" class="govuk-table__cell">Asset Information Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-valuation" scope="row" class="govuk-table__cell">Asset Valuation"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-lifecycle-management" scope="row" class="govuk-table__cell">Asset Lifecycle Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-monitoring" scope="row" class="govuk-table__cell">Asset Monitoring"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-validation-and-verification" scope="row" class="govuk-table__cell">Asset Validation and Verification"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-access-management" scope="row" class="govuk-table__cell">Asset Access Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-risk-management" scope="row" class="govuk-table__cell">Asset Risk Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-matching" scope="row" class="govuk-table__cell">Asset Matching"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-to-asset" scope="row" class="govuk-table__cell">Asset To Asset"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-to-location" scope="row" class="govuk-table__cell">Asset To Location"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-to-party" scope="row" class="govuk-table__cell">Asset To Party"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="asset-to-work" scope="row" class="govuk-table__cell">Asset To Work"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="operations-management" scope="row" class="govuk-table__cell">Operations Management   </th>
       <td class="govuk-table__cell">The ablility to manage a workforce, processes and information in order to support the provision of NICS services</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Procurement Management</th>
+      <td id="workforce-management" scope="row" class="govuk-table__cell">Workforce Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="staff-rotas" scope="row" class="govuk-table__cell">Staff Rotas"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="fleet-management" scope="row" class="govuk-table__cell">Fleet Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="mobile-working" scope="row" class="govuk-table__cell">Mobile Working"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="workflow-management" scope="row" class="govuk-table__cell">Workflow Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="work-scheduling" scope="row" class="govuk-table__cell">Work Scheduling"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="work-assignment" scope="row" class="govuk-table__cell">Work Assignment"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="work-status-tracking" scope="row" class="govuk-table__cell">Work Status Tracking"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="sla-management" scope="row" class="govuk-table__cell">SLA Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="sla-definitions" scope="row" class="govuk-table__cell">SLA Definitions"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="sla-tracking" scope="row" class="govuk-table__cell">SLA Tracking"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="sla-reporting" scope="row" class="govuk-table__cell">SLA Reporting"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="procurement-management" scope="row" class="govuk-table__cell">Procurement Management</th>
       <td class="govuk-table__cell">The ablility to develop and maintain the procurement of assets, products and services on behalf of NICS</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">ICT Management</th>
+      <td id="opportunity-management" scope="row" class="govuk-table__cell">Opportunity Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="business-case-definition" scope="row" class="govuk-table__cell">Business Case Definition"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="business-case-approval" scope="row" class="govuk-table__cell">Business Case Approval"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="tender-process-management" scope="row" class="govuk-table__cell">Tender Process Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="tender-rfp" scope="row" class="govuk-table__cell">Tender Request For Proposal"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="rfp-response-evaluation" scope="row" class="govuk-table__cell">RFP Response Evaluation"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="contract-negotiation" scope="row" class="govuk-table__cell">Contract Negotiation"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="contract-management" scope="row" class="govuk-table__cell">Contract Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="ict-management" scope="row" class="govuk-table__cell">ICT Management</th>
       <td class="govuk-table__cell">The ablility to provide and manage ICT services both to staff and citizens</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Facilities Management</th>
+      <td id="it-management" scope="row" class="govuk-table__cell">IT Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="it-network-management" scope="row" class="govuk-table__cell">IT Network Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="it-security-management" scope="row" class="govuk-table__cell">IT Security Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="hosting-services" scope="row" class="govuk-table__cell">Hosting Services"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="Storage Services" scope="row" class="govuk-table__cell">Storage Services"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="structured-data" scope="row" class="govuk-table__cell">Structured Data"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="unstructured-data" scope="row" class="govuk-table__cell">Unstructured Data"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="spatial-data" scope="row" class="govuk-table__cell">Spatial Data"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="device-management" scope="row" class="govuk-table__cell">Device Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="device-provisioning" scope="row" class="govuk-table__cell">Device Provisioning"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="device-assignment" scope="row" class="govuk-table__cell">Device Assignment"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="device-maintenance" scope="row" class="govuk-table__cell">Device Maintenance"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="cyber-security" scope="row" class="govuk-table__cell">Cyber Security"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="identity-management" scope="row" class="govuk-table__cell">Identity Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="user-management" scope="row" class="govuk-table__cell">User Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="role-management" scope="row" class="govuk-table__cell">Role Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="profile-management" scope="row" class="govuk-table__cell">Profile Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="authentication" scope="row" class="govuk-table__cell">Authentication"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="threat-prevention" scope="row" class="govuk-table__cell">Threat Prevention"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="intrusion-detection" scope="row" class="govuk-table__cell">Intrusion Detection"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="siem" scope="row" class="govuk-table__cell">SIEM"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="data-management" scope="row" class="govuk-table__cell">Data Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="records-management" scope="row" class="govuk-table__cell">Records Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="registers" scope="row" class="govuk-table__cell">Registers"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="it-operations-services" scope="row" class="govuk-table__cell">IT Operations Services"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="service-identification" scope="row" class="govuk-table__cell">Service Identification"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="service-provision" scope="row" class="govuk-table__cell">Service Provision"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="service-onboarding" scope="row" class="govuk-table__cell">Service Onboarding"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="service-support" scope="row" class="govuk-table__cell">Service Support"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="it-systems-and-support-services" scope="row" class="govuk-table__cell">IT Systems and Support Services"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="application-development" scope="row" class="govuk-table__cell">Application Development"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="website-content-services" scope="row" class="govuk-table__cell">Website Content Services"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="testing-services" scope="row" class="govuk-table__cell">Testing Services"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="information-management" scope="row" class="govuk-table__cell">Information Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="architecture" scope="row" class="govuk-table__cell">Architecture"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="programme-management" scope="row" class="govuk-table__cell">Programme Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="consultation-services" scope="row" class="govuk-table__cell">Consultation Services"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="ux-services" scope="row" class="govuk-table__cell">UX Services"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="design-services" scope="row" class="govuk-table__cell">Design Services"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="digital-transformation-services" scope="row" class="govuk-table__cell">Digital Transformation Services"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="facitilities-management" scope="row" class="govuk-table__cell">Facilities Management</th>
       <td class="govuk-table__cell">The ablility to procure and maintain facilities required by staff in accordance with Health & Safety laws</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">Financial Management</th>
+      <td id="site-management" scope="row" class="govuk-table__cell">Site Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="site-procurement" scope="row" class="govuk-table__cell">Site Procurement"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="site-maintenance" scope="row" class="govuk-table__cell">Site Maintenance"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="site-services" scope="row" class="govuk-table__cell">Site Services"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="site-support" scope="row" class="govuk-table__cell">Site Support"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="supplies-management" scope="row" class="govuk-table__cell">Supplies"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="print-services" scope="row" class="govuk-table__cell">Print Services"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="office-supplies" scope="row" class="govuk-table__cell">Office Supplies"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="internal-mail" scope="row" class="govuk-table__cell">Internal Mail"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="financial-management" scope="row" class="govuk-table__cell">Financial Management</th>
       <td class="govuk-table__cell">The ablility to manage and operate NICS within budget</td>
     </tr>
     <tr class="govuk-table__row">
-      <th scope="row" class="govuk-table__header">HR Management</th>
+      <td id="budget-management" scope="row" class="govuk-table__cell">Budget Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="budget allocation" scope="row" class="govuk-table__cell">Budget Allocation"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="Financial Tracking" scope="row" class="govuk-table__cell">Financial Tracking"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="Financial Reporting" scope="row" class="govuk-table__cell">Financial Reporting"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="audit" scope="row" class="govuk-table__cell">Audit"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="hr-management" scope="row" class="govuk-table__cell">HR Management</th>
       <td class="govuk-table__cell">The ablility to recruit, manage and train staff to be effective in the delivery of NICS services to the public</td>
     </tr> 
+    <tr class="govuk-table__row">
+      <td id="vacancy-management" scope="row" class="govuk-table__cell">Vacancy Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="position-management" scope="row" class="govuk-table__cell">Position Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="candidate sourcing" scope="row" class="govuk-table__cell">Candidate Sourcing"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="interviewing" scope="row" class="govuk-table__cell">Interviewing"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="reference-checking" scope="row" class="govuk-table__cell">Reference Checking"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="hr-compensation-management" scope="row" class="govuk-table__cell">HR Compensation Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="hr-consultations" scope="row" class="govuk-table__cell">HR Consultations"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="benefits-management" scope="row" class="govuk-table__cell">Benefits Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="salary-management" scope="row" class="govuk-table__cell">Salary Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="HR Competency Management" scope="row" class="govuk-table__cell">HR Competency Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="performance-management" scope="row" class="govuk-table__cell">Performance Management"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td id="training" scope="row" class="govuk-table__cell">Training"</th>
+      <td class="govuk-table__cell">The ablility to </td>
+    </tr>
   </tbody>
 </table>
