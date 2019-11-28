@@ -1,9 +1,9 @@
-<header class="govuk-header app-header" role="banner" data-module="govuk-header">
+{# <header class="govuk-header app-header" role="banner" data-module="govuk-header">
   <div class="govuk-header__container govuk-width-container app-header__container">
     <div class="govuk-header__logo app-header__logo">
      <div class="govuk-header__logo app-header__logo">
       <a href="/" class="govuk-header__link govuk-header__link--homepage">
-        <svg role="presentation" focusable="false" class="govuk-header__logotype-crown" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 180 180">
+       <svg role="presentation" focusable="false" class="govuk-header__logotype-crown" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="10 25 150 170">
             <g>
               <polygon points="85.1,134.4 70.9,126.2 70.9,109.6 85.1,101.3 99.3,109.6 99.3,126.2 	"></polygon>
               <polygon points="85.1,167.5 70.9,159.3 70.9,142.7 85.1,134.4 99.3,142.7 99.3,159.3 	"></polygon>
@@ -25,7 +25,7 @@
            </svg><span class="govuk-header__logotype">
           
           <span class="govuk-header__logotype-text">
-            Digital Shared Services
+          NICS
           </span><span class="govuk-header__product-name">
           Architecture Portal
         </span>
@@ -36,6 +36,83 @@
     </div>
     <div class="app-site-search" data-module="app-search" data-search-index="/{{ fingerprint['search-index.json'] }}">
       <label class="govuk-visually-hidden" for="app-site-search__input">Search Architecture Portal</label>
+      <a class="app-site-search__link govuk-link" href="/sitemap">Sitemap</a>
+    </div>
+    <div class="app-header-mobile-nav-toggler-wrapper">
+      <button id="app-mobile-nav-toggler" class="govuk-button app-header-mobile-nav-toggler js-app-mobile-nav-toggler" aria-controls="app-mobile-nav">
+        Menu
+      </button>
+    </div>
+  </div>
+</header> #}
+
+<header class="govuk-header app-header" role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container app-header__container">
+    <div class="govuk-header__logo app-header__logo">
+      <a href="/" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          {#- We use an inline SVG for the crown so that we can cascade the
+          currentColor into the crown whilst continuing to support older browsers
+          which do not support external SVGs without a Javascript polyfill. This
+          adds approximately 1kb to every page load.
+
+          We use currentColour so that we can easily invert it when printing and
+          when the focus state is applied. This also benefits users who override
+          colours in their browser as they will still see the crown.
+
+          The SVG needs `focusable="false"` so that Internet Explorer does not
+          treat it as an interactive element - without this it will be
+          'focusable' when using the keyboard to navigate. #}
+          <svg
+            role="presentation"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewbox="10 5 170 180"
+            height="30"
+            width="36"
+          >
+             <g>
+              <polygon points="85.1,134.4 70.9,126.2 70.9,109.6 85.1,101.3 99.3,109.6 99.3,126.2 	"></polygon>
+              <polygon points="85.1,167.5 70.9,159.3 70.9,142.7 85.1,134.4 99.3,142.7 99.3,159.3 	"></polygon>
+              <polygon points="56.8,84.8 42.6,76.5 42.6,59.9 56.8,51.7 70.9,59.9 70.9,76.5 	"></polygon>
+              <polygon points="56.8,117.9 42.6,109.6 42.6,93.1 56.8,84.8 70.9,93.1 70.9,109.6 	"></polygon>
+              <polygon points="56.8,151 42.6,142.7 42.6,126.2 56.8,117.9 70.9,126.2 70.9,142.7 	"></polygon>
+              <polygon points="28.4,101.3 28.4,68.2 42.6,76.5 42.6,93.1 	"></polygon>
+              <polygon points="28.4,134.4 28.4,101.3 42.6,109.6 42.6,126.2 	"></polygon>
+            </g>
+            <g>
+              <polygon points="85.1,68.2 70.9,59.9 70.9,43.4 85.1,35.1 99.3,43.4 99.3,59.9 "></polygon>
+              <polygon points="85.1,101.3 70.9,93.1 70.9,76.5 85.1,68.2 99.3,76.5 99.3,93.1 "></polygon>
+              <polygon points="113.5,84.8 99.3,76.5 99.3,59.9 113.5,51.7 127.7,59.9 127.7,76.5 "></polygon>
+              <polygon points="113.5,117.9 99.3,109.6 99.3,93.1 113.5,84.8 127.7,93.1 127.7,109.6 "></polygon>
+              <polygon points="113.5,151 99.3,142.7 99.3,126.2 113.5,117.9 127.7,126.2 127.7,142.7 "></polygon>
+              <polygon points="141.9,101.3 127.7,93.1 127.7,76.5 141.9,68.2 "></polygon>
+              <polygon points="141.9,134.4 127.7,126.2 127.7,109.6 141.9,101.3 "></polygon>
+            </g>
+            {#- Fallback PNG image for older browsers.
+
+            The <image> element is a valid SVG element. In SVG, you would specify
+            the URL of the image file with the xlink:href – as we don't reference an
+            image it has no effect. It's important to include the empty xlink:href
+            attribute as this prevents versions of IE which support SVG from
+            downloading the fallback image when they don't need to.
+
+            In other browsers <image> is synonymous for the <img> tag and will be
+            interpreted as such, displaying the fallback image. #}
+            <image src="/assets/images/govuk-logotype-crown.png" xlink:href="" class="govuk-header__logotype-crown-fallback-image" width="36" height="32"></image>
+          </svg>
+          <span class="govuk-header__logotype-text">
+            NICS
+          </span>
+        </span>
+        <span class="govuk-header__product-name">
+          Architecture Portal
+        </span>
+      </a>
+    </div>
+    <div class="app-site-search" data-module="app-search" data-search-index="/{{ fingerprint['search-index.json'] }}">
+      <label class="govuk-visually-hidden" for="app-site-search__input">Search Design system</label>
       <a class="app-site-search__link govuk-link" href="/sitemap">Sitemap</a>
     </div>
     <div class="app-header-mobile-nav-toggler-wrapper">
