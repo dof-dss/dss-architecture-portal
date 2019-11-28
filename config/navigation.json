@@ -20,6 +20,11 @@
         "includeInSearch": true
     },
     {
+        "label": "Catalogues",
+        "url": "catalogues",
+        "includeInSearch": true
+    },
+    {
         "label": "Governance",
         "url": "governance",
         "includeInSearch": true
