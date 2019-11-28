@@ -1,0 +1,83 @@
+---
+title: Notifications
+description: Notifications
+section: Catalogues
+theme: Business applications
+aliases: email, sms, push notification, slack
+layout: layout-pane.njk
+order: 1
+---
+
+## High-level requirements
+
+Send a message to a service consumer or subscriber using any of the following channels via a user interface or API:
+
+- mail (physical printed letter)
+- electronic mail
+- SMS (text)
+- mobile notification
+- broadcast notifications
+- Slack, Facebook Messenger or similar platforms
+
+## Required attributes (non-functional requirements)
+
+### Performance
+
+TBD
+
+### Availability
+
+The notifications is a key component in providing citzen facing services and therefore should be highly available, that is should have an availability target of 99.9%.
+
+### Recoverability
+
+Following a failure the system should be restored to full operation within 1 hour.
+
+### Reliability
+
+The infrastructure services on which the notifications application resides should be resilient and fault tolerant so as to minimise failures.
+
+### Integrity
+
+The entries in the service catalogue represent the definitive list of services offered. The list should accurately reflect the service being offered.
+
+### Scalability
+
+The service catalogue should be scalable to meet increasing or descreasing demand. Scaling may be manual or automtic.
+
+### Security
+
+The notifications application should prevent any unauthorised access to its associated data. More specifically the maintainance of the catalgue entries should be restricted to authorised users only.
+
+### Serviceability
+
+The notifications application must be supportable by the NICS and/or its delivery partners. The support of the notifications application should be easily transferable.
+
+### Usability
+
+The notifications application should be easily used by its consumers. Any user interface elements should meet current NICS UX standards and comply with accessiblity legislation.
+
+### Portability
+
+It should be possible to move the notification application to another hosting platform.
+
+### Interoperability
+
+The notifications building block must provide clearly defined APIs to facilitate the integration with other related building blocks.
+
+###Interfaces
+
+- APIs to send message on the specified channels
+- UI to layer on top of the API to provide the service directly to a service consumer
+
+## Dependent building blocks
+
+TBD
+
+
+## Related solution building blocks (SBBs)
+
+- Identity
+- IT Assist SMTP
+- GOV.UK Notify
+- Mobile App
