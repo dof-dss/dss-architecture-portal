@@ -354,9 +354,8 @@ p code {
     }
 }
 
-.app-phase-banner {
-    border-bottom: 1px solid rgb(221, 221, 221);
-    margin-bottom: -1px;
-    padding: 20px 10px;
-    margin-top: 5px;
+.govuk-footer {
+    &__copyright-logo {
+        display: none;
+    }
 }
