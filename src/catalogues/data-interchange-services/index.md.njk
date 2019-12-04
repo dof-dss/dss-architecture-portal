@@ -1,0 +1,78 @@
+---
+title: Data Interchange Services
+description: Data Interchange Services
+section: catalogues
+theme: Application platform
+aliases:
+layout: layout-pane.njk
+order: 6
+catalogue_page: true
+catalogue_name: technology_applications_catalogue
+catalogue_sub_category: Data Interchange Services
+---
+
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Name</th>
+      <th scope="col" class="govuk-table__header">Description</th>
+      <th scope="col" class="govuk-table__header">Category</th>
+      <th scope="col" class="govuk-table__header">Sub-category</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    {% for entry in entries %}
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">{{ entry.name }}</td>
+      <td class="govuk-table__cell">{{ entry.description }}</td>
+      <td class="govuk-table__cell">{{ entry.category }}</td>
+      <td class="govuk-table__cell">{{ entry.sub_category }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+## High-level requirements
+
+- UK hosting
+- High level of resilience (at least two geographically remote locations)
+- Accredited to handle personal and confidential information classified as Official
+- TLS standards enforced for all traffic
+- Application isolation
+- Internal private network for application communication
+- SSH access to application containers
+- Multi-language support (.NET Core is mandatory)
+- Containerisation support (e.g. Docker)
+- Self-service provisioning
+- Scaling (up, down, automatically)
+- Deployment using CI services
+- Custom domains
+- Remote logging
+- Service metrics
+
+## Required attributes (non-functional requirements)
+
+### Performance
+### Availability
+### Recoverability
+### Reliability
+### Integrity
+### Scalability
+### Security
+### Serviceability
+### Usability
+### Portability
+### Interoperability
+
+## Interfaces
+
+- UI for administration
+- CLI for developers
+
+## Dependent building blocks
+
+## Related solution building blocks (SBBs)
+
+- IT Assist Private Cloud
+- [GOV.UK PaaS](/sbbs/16-technology-platforms)

@@ -1,0 +1,67 @@
+{
+  "technology_applications_catalogue": {
+    "name": "Technology Applications Catalogue",
+    "entries": [
+      {
+        "name": "Microsoft Outlook",
+        "description": "Mail client",
+        "category": "Business Application",
+        "sub_category": "Information Consumer Applications"
+      },
+      {
+        "name": "Microsoft Visio",
+        "description": "Design Modeling Tool",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Microsoft SQL Server",
+        "description": "RDBMS",
+        "category": "Infrastructure Applications",
+        "sub_category": "Management Utilities"
+      },
+      {
+        "name": "MySQL",
+        "description": "RDBMS",
+        "category": "Infrastructure Applications",
+        "sub_category": "Management Utilities"
+      },
+      {
+        "name": "Cisco Jabber",
+        "description": "Instant Messaging",
+        "category": "Application Platform",
+        "sub_category": "Data Interchange Services"
+      },
+      {
+        "name": "Google Chrome",
+        "description": "Web Browser",
+        "category": "Application Platform",
+        "sub_category": "Human Interaction Services"
+      },
+      {
+        "name": "Safari",
+        "description": "Web Browser",
+        "category": "Application Platform",
+        "sub_category": "Human Interaction Services"
+      },
+      {
+        "name": "C#",
+        "description": "Programming Language",
+        "category": "Application Platform",
+        "sub_category": "Software Engineering Services"
+      },
+      {
+        "name": "Javascript",
+        "description": "Programming Language",
+        "category": "Application Platform",
+        "sub_category": "Software Engineering Services"
+      },
+      {
+        "name": "PHP",
+        "description": "Programming Language",
+        "category": "Application Platform",
+        "sub_category": "Software Engineering Services"
+      }
+    ]
+  }
+}

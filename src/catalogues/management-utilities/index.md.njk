@@ -1,12 +1,37 @@
 ---
-title: Hosting platform
-description: Hosting platform
-section: ABBs
+title: Management utilities
+description: Management utilities
+section: catalogues
 theme: Infrastructure applications
-aliases: hosting
+aliases:
 layout: layout-pane.njk
-order: 3
+order: 4
+catalogue_page: true
+catalogue_name: technology_applications_catalogue
+catalogue_sub_category: Management Utilities
 ---
+
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Name</th>
+      <th scope="col" class="govuk-table__header">Description</th>
+      <th scope="col" class="govuk-table__header">Category</th>
+      <th scope="col" class="govuk-table__header">Sub-category</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    {% for entry in entries %}
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">{{ entry.name }}</td>
+      <td class="govuk-table__cell">{{ entry.description }}</td>
+      <td class="govuk-table__cell">{{ entry.category }}</td>
+      <td class="govuk-table__cell">{{ entry.sub_category }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
 
 ## High-level requirements
 
