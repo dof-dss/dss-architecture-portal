@@ -1,9 +1,11 @@
 <nav class="app-navigation govuk-clearfix">
   <ul class="app-navigation__list govuk-width-container">
     {% for item in navigation %}
+    {% if item.display != false %}
     <li class="app-navigation__list-item{% if path == item.url or item.url and path.startsWith(item.url) %} app-navigation__list-item--current{% endif %}">
       <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="/{{ item.url }}/" data-topnav="{{ item.label }}">{{ item.label }}</a>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 </nav>
