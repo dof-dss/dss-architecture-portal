@@ -1,9 +1,25 @@
 {% extends "_generic.njk" %}
 
-{% block body %}
+{% block body %}      
 <div class="app-pane__content">
-  <main id="main-content" class="govuk-main-wrapper govuk-main-wrapper--l" role="main">
+  <main id="main-content" class="govuk-main-wrapper govuk-main-wrapper--l" role="main">   
     <div class="govuk-width-container app-site-width-container">
+     <h1 class="govuk-heading-xl">
+          {% if includeThemeInPageHeading %}
+          <span class="govuk-caption-xl">
+            {{ theme | replace("…", "") }}
+          </span>
+          {% endif %}
+          {{ title }}
+          {% if status %}
+          <div>
+            <strong class="govuk-tag govuk-!-margin-top-4 govuk-!-margin-bottom-2">
+              {{ status }}
+            </strong>
+            <p class="govuk-body">{{ statusMessage | safe }}</p>
+          </div>
+          {% endif %}
+        </h1>
       {{ contents | safe }}
     </div>
   </main>
