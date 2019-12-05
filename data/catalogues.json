@@ -61,6 +61,96 @@
         "description": "Programming Language",
         "category": "Application Platform",
         "sub_category": "Software Engineering Services"
+      },
+      {
+        "name": "T-SQL",
+        "description": "Programming Language",
+        "category": "Application Platform",
+        "sub_category": "Software Engineering Services"
+      },
+      {
+        "name": "HTML",
+        "description": "Programming Language",
+        "category": "Application Platform",
+        "sub_category": "Software Engineering Services"
+      },
+      {
+        "name": "CSS",
+        "description": "Programming Language",
+        "category": "Application Platform",
+        "sub_category": "Software Engineering Services"
+      },
+      {
+        "name": "SCSS",
+        "description": "Programming Language",
+        "category": "Application Platform",
+        "sub_category": "Software Engineering Services"
+      },
+      {
+        "name": "Visual Basic",
+        "description": "Programming Language",
+        "category": "Application Platform",
+        "sub_category": "Software Engineering Services"
+      },
+      {
+        "name": "Integrated Windows Authentication",
+        "description": "Identity and Access Management",
+        "category": "Application Platform",
+        "sub_category": "Security Services"
+      },
+      {
+        "name": "Active Diretory Federation Services",
+        "description": "Identity and Access Management",
+        "category": "Application Platform",
+        "sub_category": "Security Services"
+      },
+      {
+        "name": ".Net Core Identity",
+        "description": "Identity and Access Management",
+        "category": "Application Platform",
+        "sub_category": "Security Services"
+      },
+      {
+        "name": "Identity Server",
+        "description": "Identity and Access Management",
+        "category": "Application Platform",
+        "sub_category": "Security Services"
+      },
+      {
+        "name": "NIDA",
+        "description": "Identity and Access Management",
+        "category": "Application Platform",
+        "sub_category": "Security Services"
+      },
+      {
+        "name": "GOV.UK Verify",
+        "description": "Identity and Access Management",
+        "category": "Application Platform",
+        "sub_category": "Security Services"
+      },
+      {
+        "name": "Visual Studio",
+        "description": "Integrated Development Environment",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Visual Code",
+        "description": "Integrated Development Environment",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Visual Studio",
+        "description": "Integrated Development Environment",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Atom",
+        "description": "Integrated Development Environment",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
       }
     ]
   }
