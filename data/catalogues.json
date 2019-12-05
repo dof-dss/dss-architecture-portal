@@ -10,7 +10,7 @@
       },
       {
         "name": "Microsoft Visio",
-        "description": "Design Modeling Tool",
+        "description": "Design modeling tool",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
@@ -28,103 +28,103 @@
       },
       {
         "name": "Cisco Jabber",
-        "description": "Instant Messaging",
+        "description": "Instant messaging",
         "category": "Application Platform",
         "sub_category": "Data Interchange Services"
       },
       {
         "name": "Google Chrome",
-        "description": "Web Browser",
+        "description": "Web browser",
         "category": "Application Platform",
         "sub_category": "Human Interaction Services"
       },
       {
         "name": "Safari",
-        "description": "Web Browser",
+        "description": "Web browser",
         "category": "Application Platform",
         "sub_category": "Human Interaction Services"
       },
       {
         "name": "C#",
-        "description": "Programming Language",
+        "description": "Programming language",
         "category": "Application Platform",
         "sub_category": "Software Engineering Services"
       },
       {
         "name": "Javascript",
-        "description": "Programming Language",
+        "description": "Programming language",
         "category": "Application Platform",
         "sub_category": "Software Engineering Services"
       },
       {
         "name": "PHP",
-        "description": "Programming Language",
+        "description": "Programming language",
         "category": "Application Platform",
         "sub_category": "Software Engineering Services"
       },
       {
         "name": "T-SQL",
-        "description": "Programming Language",
+        "description": "Programming language",
         "category": "Application Platform",
         "sub_category": "Software Engineering Services"
       },
       {
         "name": "HTML",
-        "description": "Programming Language",
+        "description": "Programming language",
         "category": "Application Platform",
         "sub_category": "Software Engineering Services"
       },
       {
         "name": "CSS",
-        "description": "Programming Language",
+        "description": "Programming language",
         "category": "Application Platform",
         "sub_category": "Software Engineering Services"
       },
       {
         "name": "SCSS",
-        "description": "Programming Language",
+        "description": "Programming language",
         "category": "Application Platform",
         "sub_category": "Software Engineering Services"
       },
       {
         "name": "Visual Basic",
-        "description": "Programming Language",
+        "description": "Programming language",
         "category": "Application Platform",
         "sub_category": "Software Engineering Services"
       },
       {
         "name": "Integrated Windows Authentication",
-        "description": "Identity and Access Management",
+        "description": "Identity and access management",
         "category": "Application Platform",
         "sub_category": "Security Services"
       },
       {
-        "name": "Active Diretory Federation Services",
-        "description": "Identity and Access Management",
+        "name": "Active Directory Federation Services",
+        "description": "Identity and access management",
         "category": "Application Platform",
         "sub_category": "Security Services"
       },
       {
         "name": ".Net Core Identity",
-        "description": "Identity and Access Management",
+        "description": "Identity and access management",
         "category": "Application Platform",
         "sub_category": "Security Services"
       },
       {
         "name": "Identity Server",
-        "description": "Identity and Access Management",
+        "description": "Identity and access management",
         "category": "Application Platform",
         "sub_category": "Security Services"
       },
       {
         "name": "NIDA",
-        "description": "Identity and Access Management",
+        "description": "Identity and access management",
         "category": "Application Platform",
         "sub_category": "Security Services"
       },
       {
         "name": "GOV.UK Verify",
-        "description": "Identity and Access Management",
+        "description": "Identity and access management",
         "category": "Application Platform",
         "sub_category": "Security Services"
       },
@@ -151,6 +151,78 @@
         "description": "Integrated Development Environment",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
+      },
+      {
+        "name": "Jenkins",
+        "description": "Continuous Integration / Continuous Delivery",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Azure DevOps",
+        "description": "Continuous Integration / Continuous Delivery",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Jira",
+        "description": "Agile project management",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Confluence",
+        "description": "Team collaboration",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "GitHub",
+        "description": "Code repository",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "GitLab",
+        "description": "Code repository",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Team Foundation Server",
+        "description": "Code repository",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Active Directory",
+        "description": "Directory service",
+        "category": "Application Platform",
+        "sub_category": "Location and Directory Services"
+      },
+      {
+        "name": "Azure Service Bus",
+        "description": "Application messaging",
+        "category": "Application Platform",
+        "sub_category": "Data Interchange Services"
+      },
+      {
+        "name": "Power BI",
+        "description": "Information and data access",
+        "category": "Application Platform",
+        "sub_category": "Data Management Services"
+      },
+      {
+        "name": "SQL Server Reporting Services",
+        "description": "Information and data access",
+        "category": "Application Platform",
+        "sub_category": "Data Management Services"
+      },
+      {
+        "name": "Google Data Studio",
+        "description": "Information and data access",
+        "category": "Application Platform",
+        "sub_category": "Data Management Services"
       }
     ]
   }
