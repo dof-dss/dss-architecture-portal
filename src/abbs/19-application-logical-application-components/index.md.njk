@@ -32,7 +32,7 @@ In this document:
 - Notifications
 - Open Data Publishing
 - Payment Processing
-- Service Catalogue
+- [Service Catalogue](#service-catalogue)
 - Video Conferencing
 - Web Content Management
 - Workflow Management
@@ -84,3 +84,76 @@ tbd
 <hr class="govuk-section-break govuk-section-break--visible">
 
 <h2 id="human-resource-management-system">Human Resource Management System</h2>
+
+<hr class="govuk-section-break govuk-section-break--visible">
+
+<h2 id="service-catalogue">Service Catalogue</h2>
+
+## High-level requirements
+
+- Browse catalogue entries
+- Search catalogue
+- Create, amend, remove entries from the catalogue
+
+## Required attributes (non-functional requirements)
+
+### Performance
+
+The service catalogue should have a maximum response time of 1 second measured at the network perimeter before entering the Internet.
+
+### Availability
+
+The service catalogue is a key component in providing citzen facing services and therefore should be highly available, that is should have an availability target of 99.9%.
+
+### Recoverability
+
+Following a failure the system should be restored to full operation within 1 hour.
+
+### Reliability
+
+The infrastructure services on which the service catalogue application resides should be resilient and fault tolerant so as to minimise failures.
+
+### Integrity
+
+The entries in the service catalogue represent the definitive list of services offered. The list should accurately reflect the service being offered.
+
+### Scalability
+
+The service catalogue should be scalable to meet increasing or descreasing demand. Scaling may be manual or automtic.
+
+### Security
+
+The service catalogue application should prevent any unauthorised access to its associated data. More specifically the maintainance of the catalgue entries should be restricted to authorised users only.
+
+### Serviceability
+
+The service catalogue must be supportable by the NICS and/or its delivery partners. The support of the catalogue should be easily transferable.
+
+### Usability
+
+The service catalogue should be easily used by its consumers. Any user interface elements should meet current NICS UX standards and comply with accessiblity legislation.
+
+### Portability
+
+It should be possible to move the service catalogue to another platform or at least transfer the catalogue content to another platform.
+
+### Interoperability
+
+The service catalogue must provide clearly defined APIs to facilitate the integration with other related building blocks.
+
+## Interfaces
+
+- search API
+- CRUD UI
+- catalogue storage
+
+## Dependent building blocks
+
+- Citizen portal
+- Mobile app
+- Chatbot
+- Identity
+
+## Related solution building blocks (SBBs)
+
+- Drupal Service Catalogue
