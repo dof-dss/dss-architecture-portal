@@ -1,0 +1,66 @@
+[
+  {
+    "term": "Agreement",
+    "definition": "An agreement between two parties. For example a contract or a memorandum of understanding"
+  },
+  {
+    "term": "Appeal",
+    "definition": "A submission by a party in response to a decision or action taken by NICS"
+  },
+  {
+    "term": "Application",
+    "definition": "A submission by a party requesting a service from NICS"
+  },
+  {
+    "term": "Asset",
+    "definition": "An object with inherent value that is or will be regsisted with NICS"
+  },
+  {
+    "term": "Award",
+    "definition": "See Grant"
+  },
+  {
+    "term": "Consultation",
+    "definition": "A request for the views of NICS"
+  },
+  {
+    "term": "Designation",
+    "definition": "The process of identifying an asset and registering it with NICS. E.g. Listing a building or scheduling a monument."
+  },
+  {
+    "term": "Enquiry",
+    "definition": "A request for information held by NICS"
+  },
+  {
+    "term": "Enforcement",
+    "definition": "Corrective steps taken to ensure compliance with an an agreement or account"
+  },
+  {
+    "term": "Grant",
+    "definition": "A monetary award that citizens or groups may apply for under the relevant scheme/service.  A grant may also be known as a payment or an award."
+  },
+  {
+    "term": "Inspection",
+    "definition": "A process of gathering data to make an informed decision"
+  },
+  {
+    "term": "Location",
+    "definition": "Where something is"
+  },
+  {
+    "term": "Spatial",
+    "definition": "A geographic description of a physcial area.  It often also includes a description of how the area is being used."
+  },
+  {
+    "term": "Party",
+    "definition": "An individual citizen or an organisation"
+  },
+  {
+    "term": "Payment",
+    "definition": "See Grant"
+  },
+  {
+    "term": "Policy",
+    "definition": "A description of a law or statuatory requirement"
+  }
+]

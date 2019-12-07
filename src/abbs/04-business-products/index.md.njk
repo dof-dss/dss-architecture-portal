@@ -5,7 +5,22 @@ section: ABBs
 theme: Business Architecture
 aliases: products
 layout: layout-pane.njk
-order: 4
+business_products_page: true
 ---
 
-List of products
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Product</th>
+      <th scope="col" class="govuk-table__header govuk-!-width-three-quarters">Description</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    {% for entry in entries %}
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">{{ entry.product }}</td>
+      <td class="govuk-table__cell">{{ entry.definition }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

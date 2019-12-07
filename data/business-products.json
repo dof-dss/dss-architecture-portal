@@ -1,0 +1,14 @@
+[
+  {
+    "product": "Grant",
+    "definition": "A monetary award that citizens or groups may apply for under the relevant scheme/service.  A grant may also be known as a payment or an award."
+  },
+  {
+    "product": "Agreement",
+    "definition": "An agreement between two parties. For example a contract or a memorandum of understanding."
+  },
+  {
+    "product": "Account",
+    "definition": "An 'account' typically contains 'data' for a 'function' and a 'role', for example: A patient record, A driver's license, A fishing permit, An inspection certificate, or an ongoing claim for benefit"
+  }
+]
