@@ -223,6 +223,64 @@
         "description": "Information and data access",
         "category": "Application Platform",
         "sub_category": "Data Management Services"
+      },
+      {
+        "name": "Drupal Service Catalogue",
+        "href": "/catalogues/information-provider-applications/drupal-service-catalogue",
+        "description": "Service Catalogue",
+        "category": "Business Applications",
+        "sub_category": "Information Provider Applications"
+      },
+      {
+        "name": "GOV.UK PaaS",
+        "href": "/catalogues/technology-platforms/govuk-paas",
+        "description": "Application hosting platform",
+        "category": "Technology Platforms",
+        "sub_category": "Hosting Services"
+      },
+      {
+        "name": "IT Assist Private Cloud",
+        "description": "Application hosting platform",
+        "category": "Technology Platforms",
+        "sub_category": "Hosting Services"
+      },
+      {
+        "name": "IT Assist Drupal Platform",
+        "description": "Drupal hosting platform",
+        "category": "Technology Platforms",
+        "sub_category": "Hosting Services"
+      },
+      {
+        "name": "AccountNI",
+        "description": "Financial Management",
+        "category": "Business Applications",
+        "sub_category": "Shared Services Applications"
+      },
+      {
+        "name": "HRConnect",
+        "description": "Human Resource Management",
+        "category": "Business Applications",
+        "sub_category": "Shared Services Applications"
+      },
+      {
+        "name": "GOV.UK Notify",
+        "href": "/catalogues/human-interaction-services/govuk-notify",
+        "description": "Notifications service",
+        "category": "Application platform",
+        "sub_category": "Human Interaction Services"
+      },
+      {
+        "name": "GOV.UK Pay",
+        "href": "/catalogues/technology-platforms/govuk-pay",
+        "description": "Payments service",
+        "category": "Technology Platforms",
+        "sub_category": "Software as a Service"
+      },
+      {
+        "name": "nidirect Portal",
+        "description": "Citizen Web Portal",
+        "category": "Application Platform",
+        "sub_category": "Human Interaction Services"
       }
     ]
   }

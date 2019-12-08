@@ -7,9 +7,15 @@
     </tr>
   </thead>
   <tbody class="govuk-table__body">
-    {% for entry in entries %}
+    {% for entry in entries|sort(false, false, 'name') %}
     <tr class="govuk-table__row">
-      <td class="govuk-table__cell">{{ entry.name }}</td>
+      <td class="govuk-table__cell">
+        {% if entry.href %}
+          <a class="govuk-link" href="{{ entry.href }}">{{ entry.name }}</a>
+        {% else %}
+          {{ entry.name }}
+        {% endif %}
+      </td>
       <td class="govuk-table__cell">{{ entry.description }}</td>
     </tr>
     {% endfor %}
