@@ -233,7 +233,7 @@
       },
       {
         "name": "GOV.UK PaaS",
-        "href": "/catalogues/technology-platforms/govuk-paas",
+        "href": "/catalogues/platform-as-a-service/govuk-paas",
         "description": "Application hosting platform",
         "category": "Technology Platforms",
         "sub_category": "Platform as a Service"
@@ -278,7 +278,7 @@
       },
       {
         "name": "GOV.UK Pay",
-        "href": "/catalogues/technology-platforms/govuk-pay",
+        "href": "/catalogues/software-as-a-service/govuk-pay",
         "description": "Payments service",
         "category": "Technology Platforms",
         "sub_category": "Software as a Service"
