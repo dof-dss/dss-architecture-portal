@@ -8,7 +8,7 @@ layout: layout-pane.njk
 order: 19
 ---
 
-An encapsulation of application functionality aligned to implementation structure, which is modular and replaceable. It encapsulates its behavior and data, provides services, and makes them available through interfaces.
+An encapsulation of application functionality aligned to implementation structure, which is modular and replaceable. It encapsulates its behavior and data, provides services, and makes them available through interfaces. Logical application components can be thought of as **a class of application**.
 
 In this document:
 
@@ -32,10 +32,12 @@ In this document:
 - Notifications
 - Open Data Publishing
 - Payment Processing
-- [Service Catalogue](#service-catalogue)
+- [Service catalogue](#service-catalogue)
 - Video Conferencing
 - Web Content Management
 - Workflow Management
+
+<hr class="govuk-section-break govuk-section-break--visible">
 
 <h2 id="api-management">API Management</h2>
 
@@ -87,73 +89,73 @@ tbd
 
 <hr class="govuk-section-break govuk-section-break--visible">
 
-<h2 id="service-catalogue">Service Catalogue</h2>
+<h2 id="service-catalogue">Service catalogue</h2>
 
-## High-level requirements
+### High-level requirements
 
 - Browse catalogue entries
 - Search catalogue
 - Create, amend, remove entries from the catalogue
 
-## Required attributes (non-functional requirements)
+### Required attributes (non-functional requirements)
 
-### Performance
+#### Performance
 
 The service catalogue should have a maximum response time of 1 second measured at the network perimeter before entering the Internet.
 
-### Availability
+#### Availability
 
 The service catalogue is a key component in providing citzen facing services and therefore should be highly available, that is should have an availability target of 99.9%.
 
-### Recoverability
+#### Recoverability
 
 Following a failure the system should be restored to full operation within 1 hour.
 
-### Reliability
+#### Reliability
 
 The infrastructure services on which the service catalogue application resides should be resilient and fault tolerant so as to minimise failures.
 
-### Integrity
+#### Integrity
 
 The entries in the service catalogue represent the definitive list of services offered. The list should accurately reflect the service being offered.
 
-### Scalability
+#### Scalability
 
 The service catalogue should be scalable to meet increasing or descreasing demand. Scaling may be manual or automtic.
 
-### Security
+#### Security
 
 The service catalogue application should prevent any unauthorised access to its associated data. More specifically the maintainance of the catalgue entries should be restricted to authorised users only.
 
-### Serviceability
+#### Serviceability
 
 The service catalogue must be supportable by the NICS and/or its delivery partners. The support of the catalogue should be easily transferable.
 
-### Usability
+#### Usability
 
 The service catalogue should be easily used by its consumers. Any user interface elements should meet current NICS UX standards and comply with accessiblity legislation.
 
-### Portability
+#### Portability
 
 It should be possible to move the service catalogue to another platform or at least transfer the catalogue content to another platform.
 
-### Interoperability
+#### Interoperability
 
 The service catalogue must provide clearly defined APIs to facilitate the integration with other related building blocks.
 
-## Interfaces
+### Interfaces
 
 - search API
 - CRUD UI
 - catalogue storage
 
-## Dependent building blocks
+### Dependent building blocks
 
 - Citizen portal
 - Mobile app
 - Chatbot
 - Identity
 
-## Related solution building blocks (SBBs)
+### Related solution building blocks (SBBs)
 
-- Drupal Service Catalogue
+- [Drupal Service Catalogue](/sbbs/08-application-physical-components#drupal-service-catalogue)
