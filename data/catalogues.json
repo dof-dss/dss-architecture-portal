@@ -236,7 +236,7 @@
         "href": "/catalogues/technology-platforms/govuk-paas",
         "description": "Application hosting platform",
         "category": "Technology Platforms",
-        "sub_category": "Hosting Services"
+        "sub_category": "Platform as a Service"
       },
       {
         "name": "IT Assist Private Cloud",
@@ -270,6 +270,13 @@
         "sub_category": "Human Interaction Services"
       },
       {
+        "name": "GOV.UK Notify",
+        "href": "/catalogues/human-interaction-services/govuk-notify",
+        "description": "Notifications service",
+        "category": "Technology platforms",
+        "sub_category": "Software as a Service"
+      },
+      {
         "name": "GOV.UK Pay",
         "href": "/catalogues/technology-platforms/govuk-pay",
         "description": "Payments service",
@@ -281,6 +288,18 @@
         "description": "Citizen Web Portal",
         "category": "Application Platform",
         "sub_category": "Human Interaction Services"
+      },
+      {
+        "name": "Amazon Web Services (AWS)",
+        "description": "IaaS",
+        "category": "Technology platforms",
+        "sub_category": "Infrastructure as a Service"
+      },
+      {
+        "name": "Microsoft Azure",
+        "description": "IaaS",
+        "category": "Technology platforms",
+        "sub_category": "Infrastructure as a Service"
       }
     ]
   }
