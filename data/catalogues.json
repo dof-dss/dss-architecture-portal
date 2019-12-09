@@ -18,13 +18,19 @@
         "name": "Microsoft SQL Server",
         "description": "RDBMS",
         "category": "Infrastructure Applications",
-        "sub_category": "Management Utilities"
+        "sub_category": "Storage Management Utilities"
       },
       {
         "name": "MySQL",
         "description": "RDBMS",
         "category": "Infrastructure Applications",
-        "sub_category": "Management Utilities"
+        "sub_category": "Storage Management Utilities"
+      },
+      {
+        "name": "GOV.UK Paas Simple Storage Service (S3)",
+        "description": "Cloud Storage Service",
+        "category": "Infrastructure Applications",
+        "sub_category": "Storage Management Utilities"
       },
       {
         "name": "Cisco Jabber",
@@ -147,8 +153,14 @@
         "sub_category": "Development Tools"
       },
       {
+        "name": "PHPStorm",
+        "description": "Integrated Development Environment",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
         "name": "sonarqube",
-        "description": "Editor",
+        "description": "Code quality and security",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
@@ -237,7 +249,25 @@
         "sub_category": "Data Management Services"
       },
       {
+        "name": "Google Analytics",
+        "description": "Application performance and analytics",
+        "category": "Infrastructure applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Application Insights",
+        "description": "Application performance and analytics",
+        "category": "Infrastructure applications",
+        "sub_category": "Development Tools"
+      },
+      {
         "name": "Google Data Studio",
+        "description": "Information and data access",
+        "category": "Application Platform",
+        "sub_category": "Data Management Services"
+      },
+      {
+        "name": "Tableau",
         "description": "Information and data access",
         "category": "Application Platform",
         "sub_category": "Data Management Services"
@@ -246,6 +276,18 @@
         "name": "Drupal Service Catalogue",
         "href": "/catalogues/information-provider-applications/drupal-service-catalogue",
         "description": "Service Catalogue",
+        "category": "Business Applications",
+        "sub_category": "Information Provider Applications"
+      },
+      {
+        "name": "Spatial NI",
+        "description": "GIS Map Viewer",
+        "category": "Business Applications",
+        "sub_category": "Information Provider Applications"
+      },
+      {
+        "name": "Pointer",
+        "description": "Address database for Northern Ireland",
         "category": "Business Applications",
         "sub_category": "Information Provider Applications"
       },
@@ -281,6 +323,18 @@
         "sub_category": "Shared Services Applications"
       },
       {
+        "name": "Knowledge Network",
+        "description": "Correspondence management",
+        "category": "Business Applications",
+        "sub_category": "Shared Services Applications"
+      },
+      {
+        "name": "Staff Directory",
+        "description": "Staff information portal",
+        "category": "Business Applications",
+        "sub_category": "Information Consumer Applications"
+      },
+      {
         "name": "GOV.UK Notify",
         "href": "/catalogues/human-interaction-services/govuk-notify",
         "description": "Notifications service",
@@ -306,6 +360,36 @@
         "description": "Citizen Web Portal",
         "category": "Application Platform",
         "sub_category": "Human Interaction Services"
+      },
+      {
+        "name": "Cora",
+        "description": "Programme and Project Management",
+        "category": "Technology Platforms",
+        "sub_category": "Software as a Service"
+      },
+      {
+        "name": "Citizen Space",
+        "description": "Consultations",
+        "category": "Technology Platforms",
+        "sub_category": "Software as a Service"
+      },
+      {
+        "name": "nidirect website",
+        "description": "Citizen website",
+        "category": "Business applications",
+        "sub_category": "Information Consumer Applications"
+      },
+      {
+        "name": "Department of Finance website",
+        "description": "Departmental website",
+        "category": "Business applications",
+        "sub_category": "Information Consumer Applications"
+      },
+      {
+        "name": "NICS Intranet",
+        "description": "Employee portal",
+        "category": "Business applications",
+        "sub_category": "Information Consumer Applications"
       },
       {
         "name": "Amazon Web Services (AWS)",
@@ -339,9 +423,69 @@
       },
       {
         "name": "Windows file share",
-        "description": "Document storage",
+        "description": "File storage",
         "category": "Infrastructure applications",
         "sub_category": "Storage Management Utilities"
+      },
+      {
+        "name": "Windows Server",
+        "description": "Operating System software",
+        "category": "Application platform",
+        "sub_category": "Operating System Services"
+      },
+      {
+        "name": "Linux",
+        "description": "Operating System software",
+        "category": "Application platform",
+        "sub_category": "Operating System Services"
+      },
+      {
+        "name": "Apache",
+        "description": "Web server",
+        "category": "Application platform",
+        "sub_category": "Operating System Services"
+      },
+      {
+        "name": "Nginx",
+        "description": "Web server",
+        "category": "Application platform",
+        "sub_category": "Operating System Services"
+      },
+      {
+        "name": "Internet Information Server",
+        "description": "Web server",
+        "category": "Application platform",
+        "sub_category": "Operating System Services"
+      },
+      {
+        "name": "Cisco Webex",
+        "description": "Video conferencing",
+        "category": "Application platform",
+        "sub_category": "Network Services"
+      },
+      {
+        "name": "Microsoft Exchange",
+        "description": "Electronic mail",
+        "category": "Application platform",
+        "sub_category": "Network Services"
+      },
+      {
+        "name": "Microsoft Word",
+        "description": "Word processing",
+        "category": "Infrastructure applications",
+        "sub_category": "Office Automation"
+      },
+      {
+        "name": "Microsoft Excel",
+        "description": "Spreadsheets",
+        "category": "Infrastructure applications",
+        "sub_category": "Office Automation"
+      },
+      {
+        "name": "Microsoft PowerPoint",
+        "description": "Presentation",
+        "category": "Infrastructure applications",
+        "sub_category": "Office Automation"
       }
     ]
   }
