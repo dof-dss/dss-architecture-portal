@@ -17,7 +17,7 @@ business_capabilities_page: true
     </tr>
   </thead>
   <tbody class="govuk-table__body">
-    {% for entry in entries %}
+    {% for entry in entries|sort(false, false, 'capability') %}
     <tr class="govuk-table__row">
       <td class="govuk-table__cell">{{ entry.capability }}</td>
       <td class="govuk-table__cell">{{ entry.definition }}</td>
