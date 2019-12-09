@@ -141,14 +141,20 @@
         "sub_category": "Development Tools"
       },
       {
-        "name": "Visual Studio",
+        "name": "Atom",
         "description": "Integrated Development Environment",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
       {
-        "name": "Atom",
-        "description": "Integrated Development Environment",
+        "name": "sonarqube",
+        "description": "Editor",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Notepad",
+        "description": "Editor",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
@@ -191,6 +197,18 @@
       {
         "name": "Team Foundation Server",
         "description": "Code repository",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Nuget",
+        "description": ".Net package manager",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Node Package Manager (NPM)",
+        "description": "Javascript package manager",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
@@ -300,6 +318,30 @@
         "description": "IaaS",
         "category": "Technology platforms",
         "sub_category": "Infrastructure as a Service"
+      },
+      {
+        "name": "HPRM",
+        "description": "Document Management System",
+        "category": "Infrastructure applications",
+        "sub_category": "Storage Management Utilities"
+      },
+      {
+        "name": "box",
+        "description": "Document Management System",
+        "category": "Infrastructure applications",
+        "sub_category": "Storage Management Utilities"
+      },
+      {
+        "name": "SharePoint",
+        "description": "Document Management System",
+        "category": "Infrastructure applications",
+        "sub_category": "Storage Management Utilities"
+      },
+      {
+        "name": "Windows file share",
+        "description": "Document storage",
+        "category": "Infrastructure applications",
+        "sub_category": "Storage Management Utilities"
       }
     ]
   }
