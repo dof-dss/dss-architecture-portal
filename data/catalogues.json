@@ -434,6 +434,18 @@
         "sub_category": "Operating System Services"
       },
       {
+        "name": "Windows 10",
+        "description": "Operating System software",
+        "category": "Application platform",
+        "sub_category": "Operating System Services"
+      },
+      {
+        "name": "macOS",
+        "description": "Operating System software",
+        "category": "Application platform",
+        "sub_category": "Operating System Services"
+      },
+      {
         "name": "Linux",
         "description": "Operating System software",
         "category": "Application platform",
@@ -486,6 +498,24 @@
         "description": "Presentation",
         "category": "Infrastructure applications",
         "sub_category": "Office Automation"
+      },
+      {
+        "name": ".Net Core",
+        "description": "Development platform",
+        "category": "Infrastructure applications",
+        "sub_category": "Libraries"
+      },
+      {
+        "name": ".Net Framework",
+        "description": "Development platform",
+        "category": "Infrastructure applications",
+        "sub_category": "Libraries"
+      },
+      {
+        "name": "JQuery",
+        "description": "Javascript library",
+        "category": "Infrastructure applications",
+        "sub_category": "Libraries"
       }
     ]
   }
