@@ -10,19 +10,19 @@
       },
       {
         "name": "Microsoft Visio",
-        "description": "Design modeling tool",
+        "description": "Design modelling tool",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
       {
         "name": "Microsoft SQL Server",
-        "description": "RDBMS",
+        "description": "Relational Database Management System",
         "category": "Infrastructure Applications",
         "sub_category": "Storage Management Utilities"
       },
       {
         "name": "MySQL",
-        "description": "RDBMS",
+        "description": "Relational Database Management System",
         "category": "Infrastructure Applications",
         "sub_category": "Storage Management Utilities"
       },
@@ -39,6 +39,12 @@
         "sub_category": "Data Interchange Services"
       },
       {
+        "name": "Secure FTP",
+        "description": "Secure File Transfer",
+        "category": "Application Platform",
+        "sub_category": "Data Interchange Services"
+      },
+      {
         "name": "Google Chrome",
         "description": "Web browser",
         "category": "Application Platform",
@@ -49,6 +55,30 @@
         "description": "Web browser",
         "category": "Application Platform",
         "sub_category": "Human Interaction Services"
+      },
+      {
+        "name": "Internet Explorer",
+        "description": "Web browser",
+        "category": "Application Platform",
+        "sub_category": "Human Interaction Services"
+      },
+      {
+        "name": "Edge",
+        "description": "Web browser",
+        "category": "Application Platform",
+        "sub_category": "Human Interaction Services"
+      },
+      {
+        "name": "Citrix Xenapp",
+        "description": "Virtual Desktop Interface (VDI)",
+        "category": "Application Platform",
+        "sub_category": "Human Interaction Services"
+      },
+      {
+        "name": "NI Assembly TV",
+        "description": "Video broadcast",
+        "category": "Business Applications",
+        "sub_category": "Information Consumer Applications"
       },
       {
         "name": "C#",
@@ -195,6 +225,18 @@
         "sub_category": "Development Tools"
       },
       {
+        "name": "Slack",
+        "description": "Team collaboration",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
+        "name": "Microsoft Teams",
+        "description": "Team collaboration",
+        "category": "Infrastructure Applications",
+        "sub_category": "Development Tools"
+      },
+      {
         "name": "GitHub",
         "description": "Code repository",
         "category": "Infrastructure Applications",
@@ -244,6 +286,18 @@
       },
       {
         "name": "SQL Server Reporting Services",
+        "description": "Information and data access",
+        "category": "Application Platform",
+        "sub_category": "Data Management Services"
+      },
+      {
+        "name": "SQL Server Integration Services",
+        "description": "Information and data access",
+        "category": "Application Platform",
+        "sub_category": "Data Management Services"
+      },
+      {
+        "name": "SQL Server Analysis Services",
         "description": "Information and data access",
         "category": "Application Platform",
         "sub_category": "Data Management Services"
@@ -299,14 +353,20 @@
         "sub_category": "Platform as a Service"
       },
       {
-        "name": "IT Assist Private Cloud",
-        "description": "Application hosting platform",
+        "name": "IT Assist Physical Hosting",
+        "description": "Dedicated application hosting platform",
         "category": "Technology Platforms",
         "sub_category": "Hosting Services"
       },
       {
-        "name": "IT Assist Drupal Platform",
-        "description": "Drupal hosting platform",
+        "name": "IT Assist Virtual Hosting",
+        "description": "Shared application hosting platform",
+        "category": "Technology Platforms",
+        "sub_category": "Hosting Services"
+      },
+      {
+        "name": "IT Assist Private Cloud Hosting",
+        "description": "Shared application hosting platform",
         "category": "Technology Platforms",
         "sub_category": "Hosting Services"
       },
@@ -356,8 +416,26 @@
         "sub_category": "Software as a Service"
       },
       {
+        "name": "MinutePad",
+        "description": "Meetings management",
+        "category": "Technology Platforms",
+        "sub_category": "Software as a Service"
+      },
+      {
         "name": "nidirect Portal",
         "description": "Citizen Web Portal",
+        "category": "Application Platform",
+        "sub_category": "Human Interaction Services"
+      },
+      {
+        "name": "Employee Services Portal",
+        "description": "Employee Web Portal",
+        "category": "Application Platform",
+        "sub_category": "Human Interaction Services"
+      },
+      {
+        "name": "OpenDataNI Portal",
+        "description": "Open Data Web Portal",
         "category": "Application Platform",
         "sub_category": "Human Interaction Services"
       },
@@ -482,6 +560,30 @@
         "sub_category": "Network Services"
       },
       {
+        "name": "Secure Remote Access for staff",
+        "description": "Secure Remote Access",
+        "category": "Application platform",
+        "sub_category": "Network Services"
+      },
+      {
+        "name": "Secure Remote Access for contractors",
+        "description": "Secure Remote Access",
+        "category": "Application platform",
+        "sub_category": "Network Services"
+      },
+      {
+        "name": "IP Telephony",
+        "description": "IP Telephony",
+        "category": "Application platform",
+        "sub_category": "Network Services"
+      },
+      {
+        "name": "Virtual Routing and Forwarding",
+        "description": "Network traffic separation",
+        "category": "Application platform",
+        "sub_category": "Network Services"
+      },
+      {
         "name": "Microsoft Word",
         "description": "Word processing",
         "category": "Infrastructure applications",
@@ -516,6 +618,42 @@
         "description": "Javascript library",
         "category": "Infrastructure applications",
         "sub_category": "Libraries"
+      },
+      {
+        "name": "Dell Latitude 7390",
+        "description": "Laptop",
+        "category": "Technology platforms",
+        "sub_category": "Client devices"
+      },
+      {
+        "name": "Apple iPhone XS",
+        "description": "Mobile phone",
+        "category": "Technology platforms",
+        "sub_category": "Client devices"
+      },
+      {
+        "name": "Wide Area Network (WAN)",
+        "description": "Wide Area Network (WAN)",
+        "category": "Technology platforms",
+        "sub_category": "Networks"
+      },
+      {
+        "name": "Local Area Network (LAN)",
+        "description": "Local Area Network (WAN)",
+        "category": "Technology platforms",
+        "sub_category": "Networks"
+      },
+      {
+        "name": "Public Service Network",
+        "description": "Public Service Network",
+        "category": "Technology platforms",
+        "sub_category": "Networks"
+      },
+      {
+        "name": "Wireless LAN",
+        "description": "Wireless Local Area Network",
+        "category": "Technology platforms",
+        "sub_category": "Networks"
       }
     ]
   }
