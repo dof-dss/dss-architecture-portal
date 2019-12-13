@@ -1,0 +1,51 @@
+[
+  {
+    "term": "Architecture Vision",
+    "meaning": "A succint description of the target architecture that describes its business value and the changes to the enterprise that will result from its successful deployment. It serves as a aspirational vision and boundary for detailed architecture development"
+  },
+  {
+    "term": "Architecture",
+    "meaning": "The fundamental concepts or properties of a system in its environment embodied in its elements, relationships, and in the principles of its design and evolution. The structure of components, their inter-relationships, and the principles and guidelines governing their design and evolution over time."
+  },
+  {
+    "term": "Baseline Architecture",
+    "meaning": " A specification that has been formally reviewed and agreed upon, that thereafter serves as the basis for futher development or change and that can be changed only through formal change control procedures."
+  },
+  {
+    "term": "Building Block",
+    "meaning": "A (potentially re-usable) component of enterprise capability that can be combined with other building blocks to deliver architectures and solutions."
+  },
+  {
+    "term": "Business Capability",
+    "meaning": "A particular ability that a business may possess or exchange to achieve a specific purpose."
+  },
+  {
+    "term": "Business Function",
+    "meaning": "Delivers business capabilities closely aligned to an organisation, but not necessarily explicitly governed by the organisation."
+  },
+  {
+    "term": "Business Service",
+    "meaning": "Supports business capabilities through an explicitly defined interface and is explicitly governed by an organisation."
+  },
+  {
+    "term": "Driver",
+    "meaning": "Drivers are pressures that we may need to respond to and these shape our aims and plans."
+  },
+  {
+    "term": "Enterprise",
+    "meaning": "The highest level (typically) of description of an organisation and typically covers all missions and functions. An enterprise will often span multiple organisations. The definition of Enterprise here is the Northern Ireland Civil Service (NICS)"
+  },
+  {
+    "term": "Principle",
+    "meaning": "Principles are basically high-level definitions of fundamental values that guide both business and technology decisions, serving as the basis for architecture development, policies, and standards."
+  },
+  {
+    "term": "Roadmap",
+    "meaning": "An abstracted plan for business or technology change, typically operating across multiple disciplines over multiple years."
+  },
+  {
+    "term": "Target Architecture",
+    "meaning": "The description of a future state of the architecture being developed for an orgnisation. There may be several future states developed as a roadmap to show the evolution of the architecture to a target state."
+  }
+
+]
