@@ -506,26 +506,50 @@
         "sub_category": "Storage Management Utilities"
       },
       {
-        "name": "Windows Server",
-        "description": "Operating System software",
+        "name": "Windows Server 2012",
+        "description": "Server OS",
+        "category": "Application platform",
+        "sub_category": "Operating System Services"
+      },
+      {
+        "name": "Windows Server 2012 R2",
+        "description": "Server OS",
+        "category": "Application platform",
+        "sub_category": "Operating System Services"
+      },
+      {
+        "name": "Windows Server 2016",
+        "description": "Server OS",
+        "category": "Application platform",
+        "sub_category": "Operating System Services"
+      },
+      {
+        "name": "Windows Server 2016 R2",
+        "description": "Server OS",
         "category": "Application platform",
         "sub_category": "Operating System Services"
       },
       {
         "name": "Windows 10",
-        "description": "Operating System software",
+        "description": "Desktop OS",
         "category": "Application platform",
         "sub_category": "Operating System Services"
       },
       {
-        "name": "macOS",
-        "description": "Operating System software",
+        "name": "macOS Mojave",
+        "description": "Desktop OS",
+        "category": "Application platform",
+        "sub_category": "Operating System Services"
+      },
+      {
+        "name": "macOS Catalina",
+        "description": "Desktop OS",
         "category": "Application platform",
         "sub_category": "Operating System Services"
       },
       {
         "name": "Linux",
-        "description": "Operating System software",
+        "description": "Server OS",
         "category": "Application platform",
         "sub_category": "Operating System Services"
       },
