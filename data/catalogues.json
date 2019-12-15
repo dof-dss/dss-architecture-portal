@@ -328,7 +328,7 @@
       },
       {
         "name": "Drupal Service Catalogue",
-        "href": "/catalogues/information-provider-applications/drupal-service-catalogue",
+        "href": "/catalogues/10-information-provider-applications/drupal-service-catalogue",
         "description": "Service Catalogue",
         "category": "Business Applications",
         "sub_category": "Information Provider Applications"
@@ -347,7 +347,7 @@
       },
       {
         "name": "GOV.UK PaaS",
-        "href": "/catalogues/platform-as-a-service/govuk-paas",
+        "href": "/catalogues/40-platform-as-a-service/govuk-paas",
         "description": "Application hosting platform",
         "category": "Technology Platforms",
         "sub_category": "Platform as a Service"
@@ -396,21 +396,21 @@
       },
       {
         "name": "GOV.UK Notify",
-        "href": "/catalogues/human-interaction-services/govuk-notify",
+        "href": "/catalogues/30-human-interaction-services/govuk-notify",
         "description": "Notifications service",
         "category": "Application platform",
         "sub_category": "Human Interaction Services"
       },
       {
         "name": "GOV.UK Notify",
-        "href": "/catalogues/human-interaction-services/govuk-notify",
+        "href": "/catalogues/30-human-interaction-services/govuk-notify",
         "description": "Notifications service",
         "category": "Technology platforms",
         "sub_category": "Software as a Service"
       },
       {
         "name": "GOV.UK Pay",
-        "href": "/catalogues/software-as-a-service/govuk-pay",
+        "href": "/catalogues/40-software-as-a-service/govuk-pay",
         "description": "Payments service",
         "category": "Technology Platforms",
         "sub_category": "Software as a Service"
