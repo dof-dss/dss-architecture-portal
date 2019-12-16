@@ -12,6 +12,7 @@
     "directives": "src/directives/",
     "abbs": "src/abbs/",
     "sbbs": "src/sbbs/",
+    "catalogues": "src/catalogues",
     "governance": "src/governance/",
     "reports": "src/reports/",
     "skills": "src/skills/",
