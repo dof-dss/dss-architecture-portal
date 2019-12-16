@@ -130,12 +130,14 @@
       },
       {
         "name": "Integrated Windows Authentication",
+        "href": "https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/integrated-windows-authentication",
         "description": "Identity and access management",
         "category": "Application Platform",
         "sub_category": "Security Services"
       },
       {
         "name": "Active Directory Federation Services",
+        "href": "https://docs.microsoft.com/en-us/windows-server/identity/active-directory-federation-services",
         "description": "Identity and access management",
         "category": "Application Platform",
         "sub_category": "Security Services"
@@ -143,11 +145,13 @@
       {
         "name": ".Net Core Identity",
         "description": "Identity and access management",
+        "href": "https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-3.1&tabs=visual-studio",
         "category": "Application Platform",
         "sub_category": "Security Services"
       },
       {
         "name": "Identity Server",
+        "href": "https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/identity-server",
         "description": "Identity and access management",
         "category": "Application Platform",
         "sub_category": "Security Services"
@@ -160,6 +164,7 @@
       },
       {
         "name": "GOV.UK Verify",
+        "href": "https://www.gov.uk/government/publications/introducing-govuk-verify/introducing-govuk-verify",
         "description": "Identity and access management",
         "category": "Application Platform",
         "sub_category": "Security Services"
@@ -172,7 +177,7 @@
       },
       {
         "name": "Visual Code",
-        "description": "Integrated Development Environment",
+        "description": "Editor",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
@@ -627,18 +632,21 @@
       },
       {
         "name": ".Net Core",
+        "href": "https://dotnet.microsoft.com/download/dotnet-core",
         "description": "Development platform",
         "category": "Infrastructure applications",
         "sub_category": "Libraries"
       },
       {
         "name": ".Net Framework",
+        "href": "https://dotnet.microsoft.com/download/dotnet-framework",
         "description": "Development platform",
         "category": "Infrastructure applications",
         "sub_category": "Libraries"
       },
       {
         "name": "JQuery",
+        "href": "https://jquery.com/",
         "description": "Javascript library",
         "category": "Infrastructure applications",
         "sub_category": "Libraries"
