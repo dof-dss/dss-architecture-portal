@@ -10,6 +10,7 @@
       },
       {
         "name": "Microsoft Visio",
+        "href": "https://products.office.com/en-gb/visio/flowchart-software",
         "description": "Design modelling tool",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
@@ -171,24 +172,28 @@
       },
       {
         "name": "Visual Studio",
+        "href": "https://visualstudio.microsoft.com",
         "description": "Integrated Development Environment",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
       {
         "name": "Visual Code",
+        "href": "https://code.visualstudio.com",
         "description": "Editor",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
       {
         "name": "Atom",
-        "description": "Integrated Development Environment",
+        "href": "https://atom.io",
+        "description": "Editor",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
       {
         "name": "PHPStorm",
+        "href": "https://www.jetbrains.com/phpstorm",
         "description": "Integrated Development Environment",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
@@ -200,13 +205,15 @@
         "sub_category": "Development Tools"
       },
       {
-        "name": "Notepad",
+        "name": "Notepad++",
+        "href": "https://notepad-plus-plus.org",
         "description": "Editor",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
       {
         "name": "Jenkins",
+        "href": "https://jenkins.io",
         "description": "Continuous Integration / Continuous Delivery",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
@@ -219,18 +226,21 @@
       },
       {
         "name": "Jira",
+        "href": "https://www.atlassian.com/software/jira",
         "description": "Agile project management",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
       {
         "name": "Confluence",
+        "href": "https://www.atlassian.com/software/confluence",
         "description": "Team collaboration",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
       {
         "name": "Slack",
+        "href": "https://slack.com/intl/en-gb",
         "description": "Team collaboration",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
@@ -243,12 +253,15 @@
       },
       {
         "name": "GitHub",
+        "href": "https://github.com",
         "description": "Code repository",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
       {
         "name": "GitLab",
+        "href": "https://about.gitlab.com",
+        "href": ""
         "description": "Code repository",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
@@ -261,12 +274,14 @@
       },
       {
         "name": "Nuget",
+        "href": "https://www.nuget.org",
         "description": ".Net package manager",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
       },
       {
         "name": "Node Package Manager (NPM)",
+        "href": "https://www.npmjs.com",
         "description": "Javascript package manager",
         "category": "Infrastructure Applications",
         "sub_category": "Development Tools"
