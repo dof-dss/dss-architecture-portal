@@ -1,707 +1,705 @@
 {
-  "technology_applications_catalogue": {
-    "name": "Technology Applications Catalogue",
-    "entries": [
-      {
-        "name": "Microsoft Outlook",
-        "description": "Mail client",
-        "category": "Business Application",
-        "sub_category": "Information Consumer Applications"
-      },
-      {
-        "name": "Microsoft Visio",
-        "href": "https://products.office.com/en-gb/visio/flowchart-software",
-        "description": "Design modelling tool",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Microsoft SQL Server",
-        "description": "Relational Database Management System",
-        "category": "Infrastructure Applications",
-        "sub_category": "Storage Management Utilities"
-      },
-      {
-        "name": "MySQL",
-        "description": "Relational Database Management System",
-        "category": "Infrastructure Applications",
-        "sub_category": "Storage Management Utilities"
-      },
-      {
-        "name": "GOV.UK Paas Simple Storage Service (S3)",
-        "description": "Cloud Storage Service",
-        "category": "Infrastructure Applications",
-        "sub_category": "Storage Management Utilities"
-      },
-      {
-        "name": "Cisco Jabber",
-        "description": "Instant messaging",
-        "category": "Application Platform",
-        "sub_category": "Data Interchange Services"
-      },
-      {
-        "name": "Secure FTP",
-        "description": "Secure File Transfer",
-        "category": "Application Platform",
-        "sub_category": "Data Interchange Services"
-      },
-      {
-        "name": "Google Chrome",
-        "description": "Web browser",
-        "category": "Application Platform",
-        "sub_category": "Human Interaction Services"
-      },
-      {
-        "name": "Safari",
-        "description": "Web browser",
-        "category": "Application Platform",
-        "sub_category": "Human Interaction Services"
-      },
-      {
-        "name": "Internet Explorer",
-        "description": "Web browser",
-        "category": "Application Platform",
-        "sub_category": "Human Interaction Services"
-      },
-      {
-        "name": "Edge",
-        "description": "Web browser",
-        "category": "Application Platform",
-        "sub_category": "Human Interaction Services"
-      },
-      {
-        "name": "Citrix Xenapp",
-        "description": "Virtual Desktop Interface (VDI)",
-        "category": "Application Platform",
-        "sub_category": "Human Interaction Services"
-      },
-      {
-        "name": "NI Assembly TV",
-        "description": "Video broadcast",
-        "category": "Business Applications",
-        "sub_category": "Information Consumer Applications"
-      },
-      {
-        "name": "C#",
-        "description": "Programming language",
-        "category": "Application Platform",
-        "sub_category": "Software Engineering Services"
-      },
-      {
-        "name": "Javascript",
-        "description": "Programming language",
-        "category": "Application Platform",
-        "sub_category": "Software Engineering Services"
-      },
-      {
-        "name": "PHP",
-        "description": "Programming language",
-        "category": "Application Platform",
-        "sub_category": "Software Engineering Services"
-      },
-      {
-        "name": "T-SQL",
-        "description": "Programming language",
-        "category": "Application Platform",
-        "sub_category": "Software Engineering Services"
-      },
-      {
-        "name": "HTML",
-        "description": "Programming language",
-        "category": "Application Platform",
-        "sub_category": "Software Engineering Services"
-      },
-      {
-        "name": "CSS",
-        "description": "Programming language",
-        "category": "Application Platform",
-        "sub_category": "Software Engineering Services"
-      },
-      {
-        "name": "SCSS",
-        "description": "Programming language",
-        "category": "Application Platform",
-        "sub_category": "Software Engineering Services"
-      },
-      {
-        "name": "Visual Basic",
-        "description": "Programming language",
-        "category": "Application Platform",
-        "sub_category": "Software Engineering Services"
-      },
-      {
-        "name": "Integrated Windows Authentication",
-        "href": "https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/integrated-windows-authentication",
-        "description": "Identity and access management",
-        "category": "Application Platform",
-        "sub_category": "Security Services"
-      },
-      {
-        "name": "Active Directory Federation Services",
-        "href": "https://docs.microsoft.com/en-us/windows-server/identity/active-directory-federation-services",
-        "description": "Identity and access management",
-        "category": "Application Platform",
-        "sub_category": "Security Services"
-      },
-      {
-        "name": ".Net Core Identity",
-        "description": "Identity and access management",
-        "href": "https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-3.1&tabs=visual-studio",
-        "category": "Application Platform",
-        "sub_category": "Security Services"
-      },
-      {
-        "name": "Identity Server",
-        "href": "https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/identity-server",
-        "description": "Identity and access management",
-        "category": "Application Platform",
-        "sub_category": "Security Services"
-      },
-      {
-        "name": "NIDA",
-        "description": "Identity and access management",
-        "category": "Application Platform",
-        "sub_category": "Security Services"
-      },
-      {
-        "name": "GOV.UK Verify",
-        "href": "https://www.gov.uk/government/publications/introducing-govuk-verify/introducing-govuk-verify",
-        "description": "Identity and access management",
-        "category": "Application Platform",
-        "sub_category": "Security Services"
-      },
-      {
-        "name": "Visual Studio",
-        "href": "https://visualstudio.microsoft.com",
-        "description": "Integrated Development Environment",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Visual Code",
-        "href": "https://code.visualstudio.com",
-        "description": "Editor",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Atom",
-        "href": "https://atom.io",
-        "description": "Editor",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "PHPStorm",
-        "href": "https://www.jetbrains.com/phpstorm",
-        "description": "Integrated Development Environment",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "sonarqube",
-        "description": "Code quality and security",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Notepad++",
-        "href": "https://notepad-plus-plus.org",
-        "description": "Editor",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Jenkins",
-        "href": "https://jenkins.io",
-        "description": "Continuous Integration / Continuous Delivery",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Azure DevOps",
-        "description": "Continuous Integration / Continuous Delivery",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Jira",
-        "href": "https://www.atlassian.com/software/jira",
-        "description": "Agile project management",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Confluence",
-        "href": "https://www.atlassian.com/software/confluence",
-        "description": "Team collaboration",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Slack",
-        "href": "https://slack.com/intl/en-gb",
-        "description": "Team collaboration",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Microsoft Teams",
-        "description": "Team collaboration",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "GitHub",
-        "href": "https://github.com",
-        "description": "Code repository",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "GitLab",
-        "href": "https://about.gitlab.com",
-        "href": ""
-        "description": "Code repository",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Team Foundation Server",
-        "description": "Code repository",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Nuget",
-        "href": "https://www.nuget.org",
-        "description": ".Net package manager",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Node Package Manager (NPM)",
-        "href": "https://www.npmjs.com",
-        "description": "Javascript package manager",
-        "category": "Infrastructure Applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Active Directory",
-        "description": "Directory service",
-        "category": "Application Platform",
-        "sub_category": "Location and Directory Services"
-      },
-      {
-        "name": "Azure Service Bus",
-        "description": "Application messaging",
-        "category": "Application Platform",
-        "sub_category": "Data Interchange Services"
-      },
-      {
-        "name": "Power BI",
-        "description": "Information and data access",
-        "category": "Application Platform",
-        "sub_category": "Data Management Services"
-      },
-      {
-        "name": "SQL Server Reporting Services",
-        "description": "Information and data access",
-        "category": "Application Platform",
-        "sub_category": "Data Management Services"
-      },
-      {
-        "name": "SQL Server Integration Services",
-        "description": "Information and data access",
-        "category": "Application Platform",
-        "sub_category": "Data Management Services"
-      },
-      {
-        "name": "SQL Server Analysis Services",
-        "description": "Information and data access",
-        "category": "Application Platform",
-        "sub_category": "Data Management Services"
-      },
-      {
-        "name": "Google Analytics",
-        "description": "Application performance and analytics",
-        "category": "Infrastructure applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Application Insights",
-        "description": "Application performance and analytics",
-        "category": "Infrastructure applications",
-        "sub_category": "Development Tools"
-      },
-      {
-        "name": "Google Data Studio",
-        "description": "Information and data access",
-        "category": "Application Platform",
-        "sub_category": "Data Management Services"
-      },
-      {
-        "name": "Tableau",
-        "description": "Information and data access",
-        "category": "Application Platform",
-        "sub_category": "Data Management Services"
-      },
-      {
-        "name": "Drupal Service Catalogue",
-        "href": "/catalogues/10-information-provider-applications/drupal-service-catalogue",
-        "description": "Service Catalogue",
-        "category": "Business Applications",
-        "sub_category": "Information Provider Applications"
-      },
-      {
-        "name": "Spatial NI",
-        "description": "GIS Map Viewer",
-        "category": "Business Applications",
-        "sub_category": "Information Provider Applications"
-      },
-      {
-        "name": "Pointer",
-        "description": "Address database for Northern Ireland",
-        "category": "Business Applications",
-        "sub_category": "Information Provider Applications"
-      },
-      {
-        "name": "GOV.UK PaaS",
-        "href": "/catalogues/40-platform-as-a-service/govuk-paas",
-        "description": "Application hosting platform",
-        "category": "Technology Platforms",
-        "sub_category": "Platform as a Service"
-      },
-      {
-        "name": "IT Assist Physical Hosting",
-        "description": "Dedicated application hosting platform",
-        "category": "Technology Platforms",
-        "sub_category": "Hosting Services"
-      },
-      {
-        "name": "IT Assist Virtual Hosting",
-        "description": "Shared application hosting platform",
-        "category": "Technology Platforms",
-        "sub_category": "Hosting Services"
-      },
-      {
-        "name": "IT Assist Private Cloud Hosting",
-        "description": "Shared application hosting platform",
-        "category": "Technology Platforms",
-        "sub_category": "Hosting Services"
-      },
-      {
-        "name": "AccountNI",
-        "description": "Financial Management",
-        "category": "Business Applications",
-        "sub_category": "Shared Services Applications"
-      },
-      {
-        "name": "HRConnect",
-        "description": "Human Resource Management",
-        "category": "Business Applications",
-        "sub_category": "Shared Services Applications"
-      },
-      {
-        "name": "Knowledge Network",
-        "description": "Correspondence management",
-        "category": "Business Applications",
-        "sub_category": "Shared Services Applications"
-      },
-      {
-        "name": "Staff Directory",
-        "description": "Staff information portal",
-        "category": "Business Applications",
-        "sub_category": "Information Consumer Applications"
-      },
-      {
-        "name": "GOV.UK Notify",
-        "href": "/catalogues/30-human-interaction-services/govuk-notify",
-        "description": "Notifications service",
-        "category": "Application platform",
-        "sub_category": "Human Interaction Services"
-      },
-      {
-        "name": "GOV.UK Notify",
-        "href": "/catalogues/30-human-interaction-services/govuk-notify",
-        "description": "Notifications service",
-        "category": "Technology platforms",
-        "sub_category": "Software as a Service"
-      },
-      {
-        "name": "GOV.UK Pay",
-        "href": "/catalogues/40-software-as-a-service/govuk-pay",
-        "description": "Payments service",
-        "category": "Technology Platforms",
-        "sub_category": "Software as a Service"
-      },
-      {
-        "name": "MinutePad",
-        "description": "Meetings management",
-        "category": "Technology Platforms",
-        "sub_category": "Software as a Service"
-      },
-      {
-        "name": "nidirect Portal",
-        "description": "Citizen Web Portal",
-        "category": "Application Platform",
-        "sub_category": "Human Interaction Services"
-      },
-      {
-        "name": "Employee Services Portal",
-        "description": "Employee Web Portal",
-        "category": "Application Platform",
-        "sub_category": "Human Interaction Services"
-      },
-      {
-        "name": "OpenDataNI Portal",
-        "description": "Open Data Web Portal",
-        "category": "Application Platform",
-        "sub_category": "Human Interaction Services"
-      },
-      {
-        "name": "Cora",
-        "description": "Programme and Project Management",
-        "category": "Technology Platforms",
-        "sub_category": "Software as a Service"
-      },
-      {
-        "name": "Citizen Space",
-        "description": "Consultations",
-        "category": "Technology Platforms",
-        "sub_category": "Software as a Service"
-      },
-      {
-        "name": "nidirect website",
-        "description": "Citizen website",
-        "category": "Business applications",
-        "sub_category": "Information Consumer Applications"
-      },
-      {
-        "name": "Department of Finance website",
-        "description": "Departmental website",
-        "category": "Business applications",
-        "sub_category": "Information Consumer Applications"
-      },
-      {
-        "name": "NICS Intranet",
-        "description": "Employee portal",
-        "category": "Business applications",
-        "sub_category": "Information Consumer Applications"
-      },
-      {
-        "name": "Amazon Web Services (AWS)",
-        "description": "IaaS",
-        "category": "Technology platforms",
-        "sub_category": "Infrastructure as a Service"
-      },
-      {
-        "name": "Microsoft Azure",
-        "description": "IaaS",
-        "category": "Technology platforms",
-        "sub_category": "Infrastructure as a Service"
-      },
-      {
-        "name": "HPRM",
-        "description": "Document Management System",
-        "category": "Infrastructure applications",
-        "sub_category": "Storage Management Utilities"
-      },
-      {
-        "name": "box",
-        "description": "Document Management System",
-        "category": "Infrastructure applications",
-        "sub_category": "Storage Management Utilities"
-      },
-      {
-        "name": "SharePoint",
-        "description": "Document Management System",
-        "category": "Infrastructure applications",
-        "sub_category": "Storage Management Utilities"
-      },
-      {
-        "name": "Windows file share",
-        "description": "File storage",
-        "category": "Infrastructure applications",
-        "sub_category": "Storage Management Utilities"
-      },
-      {
-        "name": "Windows Server 2012",
-        "description": "Server OS",
-        "category": "Application platform",
-        "sub_category": "Operating System Services"
-      },
-      {
-        "name": "Windows Server 2012 R2",
-        "description": "Server OS",
-        "category": "Application platform",
-        "sub_category": "Operating System Services"
-      },
-      {
-        "name": "Windows Server 2016",
-        "description": "Server OS",
-        "category": "Application platform",
-        "sub_category": "Operating System Services"
-      },
-      {
-        "name": "Windows Server 2016 R2",
-        "description": "Server OS",
-        "category": "Application platform",
-        "sub_category": "Operating System Services"
-      },
-      {
-        "name": "Windows 10",
-        "description": "Desktop OS",
-        "category": "Application platform",
-        "sub_category": "Operating System Services"
-      },
-      {
-        "name": "macOS Mojave",
-        "description": "Desktop OS",
-        "category": "Application platform",
-        "sub_category": "Operating System Services"
-      },
-      {
-        "name": "macOS Catalina",
-        "description": "Desktop OS",
-        "category": "Application platform",
-        "sub_category": "Operating System Services"
-      },
-      {
-        "name": "Linux",
-        "description": "Server OS",
-        "category": "Application platform",
-        "sub_category": "Operating System Services"
-      },
-      {
-        "name": "Apache",
-        "description": "Web server",
-        "category": "Application platform",
-        "sub_category": "Operating System Services"
-      },
-      {
-        "name": "Nginx",
-        "description": "Web server",
-        "category": "Application platform",
-        "sub_category": "Operating System Services"
-      },
-      {
-        "name": "Internet Information Server",
-        "description": "Web server",
-        "category": "Application platform",
-        "sub_category": "Operating System Services"
-      },
-      {
-        "name": "Cisco Webex",
-        "description": "Video conferencing",
-        "category": "Application platform",
-        "sub_category": "Network Services"
-      },
-      {
-        "name": "Microsoft Exchange",
-        "description": "Electronic mail",
-        "category": "Application platform",
-        "sub_category": "Network Services"
-      },
-      {
-        "name": "Secure Remote Access for staff",
-        "description": "Secure Remote Access",
-        "category": "Application platform",
-        "sub_category": "Network Services"
-      },
-      {
-        "name": "Secure Remote Access for contractors",
-        "description": "Secure Remote Access",
-        "category": "Application platform",
-        "sub_category": "Network Services"
-      },
-      {
-        "name": "IP Telephony",
-        "description": "IP Telephony",
-        "category": "Application platform",
-        "sub_category": "Network Services"
-      },
-      {
-        "name": "Virtual Routing and Forwarding",
-        "description": "Network traffic separation",
-        "category": "Application platform",
-        "sub_category": "Network Services"
-      },
-      {
-        "name": "Microsoft Word",
-        "description": "Word processing",
-        "category": "Infrastructure applications",
-        "sub_category": "Office Automation"
-      },
-      {
-        "name": "Microsoft Excel",
-        "description": "Spreadsheets",
-        "category": "Infrastructure applications",
-        "sub_category": "Office Automation"
-      },
-      {
-        "name": "Microsoft PowerPoint",
-        "description": "Presentation",
-        "category": "Infrastructure applications",
-        "sub_category": "Office Automation"
-      },
-      {
-        "name": ".Net Core",
-        "href": "https://dotnet.microsoft.com/download/dotnet-core",
-        "description": "Development platform",
-        "category": "Infrastructure applications",
-        "sub_category": "Libraries"
-      },
-      {
-        "name": ".Net Framework",
-        "href": "https://dotnet.microsoft.com/download/dotnet-framework",
-        "description": "Development platform",
-        "category": "Infrastructure applications",
-        "sub_category": "Libraries"
-      },
-      {
-        "name": "JQuery",
-        "href": "https://jquery.com/",
-        "description": "Javascript library",
-        "category": "Infrastructure applications",
-        "sub_category": "Libraries"
-      },
-      {
-        "name": "Dell Latitude 7390",
-        "description": "Laptop",
-        "category": "Technology platforms",
-        "sub_category": "Client devices"
-      },
-      {
-        "name": "Apple iPhone XS",
-        "description": "Mobile phone",
-        "category": "Technology platforms",
-        "sub_category": "Client devices"
-      },
-      {
-        "name": "Wide Area Network (WAN)",
-        "description": "Wide Area Network (WAN)",
-        "category": "Technology platforms",
-        "sub_category": "Networks"
-      },
-      {
-        "name": "Local Area Network (LAN)",
-        "description": "Local Area Network (WAN)",
-        "category": "Technology platforms",
-        "sub_category": "Networks"
-      },
-      {
-        "name": "Public Service Network",
-        "description": "Public Service Network",
-        "category": "Technology platforms",
-        "sub_category": "Networks"
-      },
-      {
-        "name": "Wireless LAN",
-        "description": "Wireless Local Area Network",
-        "category": "Technology platforms",
-        "sub_category": "Networks"
-      }
-    ]
-  }
+    "technology_applications_catalogue": {
+        "name": "Technology Applications Catalogue",
+        "entries": [{
+                "name": "Microsoft Outlook",
+                "description": "Mail client",
+                "category": "Business Application",
+                "sub_category": "Information Consumer Applications"
+            },
+            {
+                "name": "Microsoft Visio",
+                "href": "https://products.office.com/en-gb/visio/flowchart-software",
+                "description": "Design modelling tool",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Microsoft SQL Server",
+                "description": "Relational Database Management System",
+                "category": "Infrastructure Applications",
+                "sub_category": "Storage Management Utilities"
+            },
+            {
+                "name": "MySQL",
+                "description": "Relational Database Management System",
+                "category": "Infrastructure Applications",
+                "sub_category": "Storage Management Utilities"
+            },
+            {
+                "name": "GOV.UK Paas Simple Storage Service (S3)",
+                "description": "Cloud Storage Service",
+                "category": "Infrastructure Applications",
+                "sub_category": "Storage Management Utilities"
+            },
+            {
+                "name": "Cisco Jabber",
+                "description": "Instant messaging",
+                "category": "Application Platform",
+                "sub_category": "Data Interchange Services"
+            },
+            {
+                "name": "Secure FTP",
+                "description": "Secure File Transfer",
+                "category": "Application Platform",
+                "sub_category": "Data Interchange Services"
+            },
+            {
+                "name": "Google Chrome",
+                "description": "Web browser",
+                "category": "Application Platform",
+                "sub_category": "Human Interaction Services"
+            },
+            {
+                "name": "Safari",
+                "description": "Web browser",
+                "category": "Application Platform",
+                "sub_category": "Human Interaction Services"
+            },
+            {
+                "name": "Internet Explorer",
+                "description": "Web browser",
+                "category": "Application Platform",
+                "sub_category": "Human Interaction Services"
+            },
+            {
+                "name": "Edge",
+                "description": "Web browser",
+                "category": "Application Platform",
+                "sub_category": "Human Interaction Services"
+            },
+            {
+                "name": "Citrix Xenapp",
+                "description": "Virtual Desktop Interface (VDI)",
+                "category": "Application Platform",
+                "sub_category": "Human Interaction Services"
+            },
+            {
+                "name": "NI Assembly TV",
+                "description": "Video broadcast",
+                "category": "Business Applications",
+                "sub_category": "Information Consumer Applications"
+            },
+            {
+                "name": "C#",
+                "description": "Programming language",
+                "category": "Application Platform",
+                "sub_category": "Software Engineering Services"
+            },
+            {
+                "name": "Javascript",
+                "description": "Programming language",
+                "category": "Application Platform",
+                "sub_category": "Software Engineering Services"
+            },
+            {
+                "name": "PHP",
+                "description": "Programming language",
+                "category": "Application Platform",
+                "sub_category": "Software Engineering Services"
+            },
+            {
+                "name": "T-SQL",
+                "description": "Programming language",
+                "category": "Application Platform",
+                "sub_category": "Software Engineering Services"
+            },
+            {
+                "name": "HTML",
+                "description": "Programming language",
+                "category": "Application Platform",
+                "sub_category": "Software Engineering Services"
+            },
+            {
+                "name": "CSS",
+                "description": "Programming language",
+                "category": "Application Platform",
+                "sub_category": "Software Engineering Services"
+            },
+            {
+                "name": "SCSS",
+                "description": "Programming language",
+                "category": "Application Platform",
+                "sub_category": "Software Engineering Services"
+            },
+            {
+                "name": "Visual Basic",
+                "description": "Programming language",
+                "category": "Application Platform",
+                "sub_category": "Software Engineering Services"
+            },
+            {
+                "name": "Integrated Windows Authentication",
+                "href": "https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/integrated-windows-authentication",
+                "description": "Identity and access management",
+                "category": "Application Platform",
+                "sub_category": "Security Services"
+            },
+            {
+                "name": "Active Directory Federation Services",
+                "href": "https://docs.microsoft.com/en-us/windows-server/identity/active-directory-federation-services",
+                "description": "Identity and access management",
+                "category": "Application Platform",
+                "sub_category": "Security Services"
+            },
+            {
+                "name": ".Net Core Identity",
+                "description": "Identity and access management",
+                "href": "https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-3.1&tabs=visual-studio",
+                "category": "Application Platform",
+                "sub_category": "Security Services"
+            },
+            {
+                "name": "Identity Server",
+                "href": "https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/identity-server",
+                "description": "Identity and access management",
+                "category": "Application Platform",
+                "sub_category": "Security Services"
+            },
+            {
+                "name": "NIDA",
+                "description": "Identity and access management",
+                "category": "Application Platform",
+                "sub_category": "Security Services"
+            },
+            {
+                "name": "GOV.UK Verify",
+                "href": "https://www.gov.uk/government/publications/introducing-govuk-verify/introducing-govuk-verify",
+                "description": "Identity and access management",
+                "category": "Application Platform",
+                "sub_category": "Security Services"
+            },
+            {
+                "name": "Visual Studio",
+                "href": "https://visualstudio.microsoft.com",
+                "description": "Integrated Development Environment",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Visual Code",
+                "href": "https://code.visualstudio.com",
+                "description": "Editor",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Atom",
+                "href": "https://atom.io",
+                "description": "Editor",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "PHPStorm",
+                "href": "https://www.jetbrains.com/phpstorm",
+                "description": "Integrated Development Environment",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "sonarqube",
+                "description": "Code quality and security",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Notepad++",
+                "href": "https://notepad-plus-plus.org",
+                "description": "Editor",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Jenkins",
+                "href": "https://jenkins.io",
+                "description": "Continuous Integration / Continuous Delivery",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Azure DevOps",
+                "description": "Continuous Integration / Continuous Delivery",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Jira",
+                "href": "https://www.atlassian.com/software/jira",
+                "description": "Agile project management",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Confluence",
+                "href": "https://www.atlassian.com/software/confluence",
+                "description": "Team collaboration",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Slack",
+                "href": "https://slack.com/intl/en-gb",
+                "description": "Team collaboration",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Microsoft Teams",
+                "description": "Team collaboration",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "GitHub",
+                "href": "https://github.com",
+                "description": "Code repository",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "GitLab",
+                "href": "https://about.gitlab.com",
+                "description": "Code repository",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Team Foundation Server",
+                "description": "Code repository",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Nuget",
+                "href": "https://www.nuget.org",
+                "description": ".Net package manager",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Node Package Manager (NPM)",
+                "href": "https://www.npmjs.com",
+                "description": "Javascript package manager",
+                "category": "Infrastructure Applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Active Directory",
+                "description": "Directory service",
+                "category": "Application Platform",
+                "sub_category": "Location and Directory Services"
+            },
+            {
+                "name": "Azure Service Bus",
+                "description": "Application messaging",
+                "category": "Application Platform",
+                "sub_category": "Data Interchange Services"
+            },
+            {
+                "name": "Power BI",
+                "description": "Information and data access",
+                "category": "Application Platform",
+                "sub_category": "Data Management Services"
+            },
+            {
+                "name": "SQL Server Reporting Services",
+                "description": "Information and data access",
+                "category": "Application Platform",
+                "sub_category": "Data Management Services"
+            },
+            {
+                "name": "SQL Server Integration Services",
+                "description": "Information and data access",
+                "category": "Application Platform",
+                "sub_category": "Data Management Services"
+            },
+            {
+                "name": "SQL Server Analysis Services",
+                "description": "Information and data access",
+                "category": "Application Platform",
+                "sub_category": "Data Management Services"
+            },
+            {
+                "name": "Google Analytics",
+                "description": "Application performance and analytics",
+                "category": "Infrastructure applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Application Insights",
+                "description": "Application performance and analytics",
+                "category": "Infrastructure applications",
+                "sub_category": "Development Tools"
+            },
+            {
+                "name": "Google Data Studio",
+                "description": "Information and data access",
+                "category": "Application Platform",
+                "sub_category": "Data Management Services"
+            },
+            {
+                "name": "Tableau",
+                "description": "Information and data access",
+                "category": "Application Platform",
+                "sub_category": "Data Management Services"
+            },
+            {
+                "name": "Drupal Service Catalogue",
+                "href": "/catalogues/10-information-provider-applications/drupal-service-catalogue",
+                "description": "Service Catalogue",
+                "category": "Business Applications",
+                "sub_category": "Information Provider Applications"
+            },
+            {
+                "name": "Spatial NI",
+                "description": "GIS Map Viewer",
+                "category": "Business Applications",
+                "sub_category": "Information Provider Applications"
+            },
+            {
+                "name": "Pointer",
+                "description": "Address database for Northern Ireland",
+                "category": "Business Applications",
+                "sub_category": "Information Provider Applications"
+            },
+            {
+                "name": "GOV.UK PaaS",
+                "href": "/catalogues/40-platform-as-a-service/govuk-paas",
+                "description": "Application hosting platform",
+                "category": "Technology Platforms",
+                "sub_category": "Platform as a Service"
+            },
+            {
+                "name": "IT Assist Physical Hosting",
+                "description": "Dedicated application hosting platform",
+                "category": "Technology Platforms",
+                "sub_category": "Hosting Services"
+            },
+            {
+                "name": "IT Assist Virtual Hosting",
+                "description": "Shared application hosting platform",
+                "category": "Technology Platforms",
+                "sub_category": "Hosting Services"
+            },
+            {
+                "name": "IT Assist Private Cloud Hosting",
+                "description": "Shared application hosting platform",
+                "category": "Technology Platforms",
+                "sub_category": "Hosting Services"
+            },
+            {
+                "name": "AccountNI",
+                "description": "Financial Management",
+                "category": "Business Applications",
+                "sub_category": "Shared Services Applications"
+            },
+            {
+                "name": "HRConnect",
+                "description": "Human Resource Management",
+                "category": "Business Applications",
+                "sub_category": "Shared Services Applications"
+            },
+            {
+                "name": "Knowledge Network",
+                "description": "Correspondence management",
+                "category": "Business Applications",
+                "sub_category": "Shared Services Applications"
+            },
+            {
+                "name": "Staff Directory",
+                "description": "Staff information portal",
+                "category": "Business Applications",
+                "sub_category": "Information Consumer Applications"
+            },
+            {
+                "name": "GOV.UK Notify",
+                "href": "/catalogues/30-human-interaction-services/govuk-notify",
+                "description": "Notifications service",
+                "category": "Application platform",
+                "sub_category": "Human Interaction Services"
+            },
+            {
+                "name": "GOV.UK Notify",
+                "href": "/catalogues/30-human-interaction-services/govuk-notify",
+                "description": "Notifications service",
+                "category": "Technology platforms",
+                "sub_category": "Software as a Service"
+            },
+            {
+                "name": "GOV.UK Pay",
+                "href": "/catalogues/40-software-as-a-service/govuk-pay",
+                "description": "Payments service",
+                "category": "Technology Platforms",
+                "sub_category": "Software as a Service"
+            },
+            {
+                "name": "MinutePad",
+                "description": "Meetings management",
+                "category": "Technology Platforms",
+                "sub_category": "Software as a Service"
+            },
+            {
+                "name": "nidirect Portal",
+                "description": "Citizen Web Portal",
+                "category": "Application Platform",
+                "sub_category": "Human Interaction Services"
+            },
+            {
+                "name": "Employee Services Portal",
+                "description": "Employee Web Portal",
+                "category": "Application Platform",
+                "sub_category": "Human Interaction Services"
+            },
+            {
+                "name": "OpenDataNI Portal",
+                "description": "Open Data Web Portal",
+                "category": "Application Platform",
+                "sub_category": "Human Interaction Services"
+            },
+            {
+                "name": "Cora",
+                "description": "Programme and Project Management",
+                "category": "Technology Platforms",
+                "sub_category": "Software as a Service"
+            },
+            {
+                "name": "Citizen Space",
+                "description": "Consultations",
+                "category": "Technology Platforms",
+                "sub_category": "Software as a Service"
+            },
+            {
+                "name": "nidirect website",
+                "description": "Citizen website",
+                "category": "Business applications",
+                "sub_category": "Information Consumer Applications"
+            },
+            {
+                "name": "Department of Finance website",
+                "description": "Departmental website",
+                "category": "Business applications",
+                "sub_category": "Information Consumer Applications"
+            },
+            {
+                "name": "NICS Intranet",
+                "description": "Employee portal",
+                "category": "Business applications",
+                "sub_category": "Information Consumer Applications"
+            },
+            {
+                "name": "Amazon Web Services (AWS)",
+                "description": "IaaS",
+                "category": "Technology platforms",
+                "sub_category": "Infrastructure as a Service"
+            },
+            {
+                "name": "Microsoft Azure",
+                "description": "IaaS",
+                "category": "Technology platforms",
+                "sub_category": "Infrastructure as a Service"
+            },
+            {
+                "name": "HPRM",
+                "description": "Document Management System",
+                "category": "Infrastructure applications",
+                "sub_category": "Storage Management Utilities"
+            },
+            {
+                "name": "box",
+                "description": "Document Management System",
+                "category": "Infrastructure applications",
+                "sub_category": "Storage Management Utilities"
+            },
+            {
+                "name": "SharePoint",
+                "description": "Document Management System",
+                "category": "Infrastructure applications",
+                "sub_category": "Storage Management Utilities"
+            },
+            {
+                "name": "Windows file share",
+                "description": "File storage",
+                "category": "Infrastructure applications",
+                "sub_category": "Storage Management Utilities"
+            },
+            {
+                "name": "Windows Server 2012",
+                "description": "Server OS",
+                "category": "Application platform",
+                "sub_category": "Operating System Services"
+            },
+            {
+                "name": "Windows Server 2012 R2",
+                "description": "Server OS",
+                "category": "Application platform",
+                "sub_category": "Operating System Services"
+            },
+            {
+                "name": "Windows Server 2016",
+                "description": "Server OS",
+                "category": "Application platform",
+                "sub_category": "Operating System Services"
+            },
+            {
+                "name": "Windows Server 2016 R2",
+                "description": "Server OS",
+                "category": "Application platform",
+                "sub_category": "Operating System Services"
+            },
+            {
+                "name": "Windows 10",
+                "description": "Desktop OS",
+                "category": "Application platform",
+                "sub_category": "Operating System Services"
+            },
+            {
+                "name": "macOS Mojave",
+                "description": "Desktop OS",
+                "category": "Application platform",
+                "sub_category": "Operating System Services"
+            },
+            {
+                "name": "macOS Catalina",
+                "description": "Desktop OS",
+                "category": "Application platform",
+                "sub_category": "Operating System Services"
+            },
+            {
+                "name": "Linux",
+                "description": "Server OS",
+                "category": "Application platform",
+                "sub_category": "Operating System Services"
+            },
+            {
+                "name": "Apache",
+                "description": "Web server",
+                "category": "Application platform",
+                "sub_category": "Operating System Services"
+            },
+            {
+                "name": "Nginx",
+                "description": "Web server",
+                "category": "Application platform",
+                "sub_category": "Operating System Services"
+            },
+            {
+                "name": "Internet Information Server",
+                "description": "Web server",
+                "category": "Application platform",
+                "sub_category": "Operating System Services"
+            },
+            {
+                "name": "Cisco Webex",
+                "description": "Video conferencing",
+                "category": "Application platform",
+                "sub_category": "Network Services"
+            },
+            {
+                "name": "Microsoft Exchange",
+                "description": "Electronic mail",
+                "category": "Application platform",
+                "sub_category": "Network Services"
+            },
+            {
+                "name": "Secure Remote Access for staff",
+                "description": "Secure Remote Access",
+                "category": "Application platform",
+                "sub_category": "Network Services"
+            },
+            {
+                "name": "Secure Remote Access for contractors",
+                "description": "Secure Remote Access",
+                "category": "Application platform",
+                "sub_category": "Network Services"
+            },
+            {
+                "name": "IP Telephony",
+                "description": "IP Telephony",
+                "category": "Application platform",
+                "sub_category": "Network Services"
+            },
+            {
+                "name": "Virtual Routing and Forwarding",
+                "description": "Network traffic separation",
+                "category": "Application platform",
+                "sub_category": "Network Services"
+            },
+            {
+                "name": "Microsoft Word",
+                "description": "Word processing",
+                "category": "Infrastructure applications",
+                "sub_category": "Office Automation"
+            },
+            {
+                "name": "Microsoft Excel",
+                "description": "Spreadsheets",
+                "category": "Infrastructure applications",
+                "sub_category": "Office Automation"
+            },
+            {
+                "name": "Microsoft PowerPoint",
+                "description": "Presentation",
+                "category": "Infrastructure applications",
+                "sub_category": "Office Automation"
+            },
+            {
+                "name": ".Net Core",
+                "href": "https://dotnet.microsoft.com/download/dotnet-core",
+                "description": "Development platform",
+                "category": "Infrastructure applications",
+                "sub_category": "Libraries"
+            },
+            {
+                "name": ".Net Framework",
+                "href": "https://dotnet.microsoft.com/download/dotnet-framework",
+                "description": "Development platform",
+                "category": "Infrastructure applications",
+                "sub_category": "Libraries"
+            },
+            {
+                "name": "JQuery",
+                "href": "https://jquery.com/",
+                "description": "Javascript library",
+                "category": "Infrastructure applications",
+                "sub_category": "Libraries"
+            },
+            {
+                "name": "Dell Latitude 7390",
+                "description": "Laptop",
+                "category": "Technology platforms",
+                "sub_category": "Client devices"
+            },
+            {
+                "name": "Apple iPhone XS",
+                "description": "Mobile phone",
+                "category": "Technology platforms",
+                "sub_category": "Client devices"
+            },
+            {
+                "name": "Wide Area Network (WAN)",
+                "description": "Wide Area Network (WAN)",
+                "category": "Technology platforms",
+                "sub_category": "Networks"
+            },
+            {
+                "name": "Local Area Network (LAN)",
+                "description": "Local Area Network (WAN)",
+                "category": "Technology platforms",
+                "sub_category": "Networks"
+            },
+            {
+                "name": "Public Service Network",
+                "description": "Public Service Network",
+                "category": "Technology platforms",
+                "sub_category": "Networks"
+            },
+            {
+                "name": "Wireless LAN",
+                "description": "Wireless Local Area Network",
+                "category": "Technology platforms",
+                "sub_category": "Networks"
+            }
+        ]
+    }
 }
