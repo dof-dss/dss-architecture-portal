@@ -359,3 +359,13 @@ p code {
         display: none;
     }
 }
+
+.banner-img {
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .banner-img {
+        display: none;
+    }
+}
