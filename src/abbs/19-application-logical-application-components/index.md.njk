@@ -3,18 +3,18 @@ title: Logical application components
 description: Logical application components
 section: Architecture Building Blocks
 theme: Application Architecture
-aliases: party, individual, business, image, video, documentation, finance, budget, geography, map, HR, people
+aliases: api, audit, usage, business event, service catalogue
 layout: layout-pane.njk
 order: 19
 ---
 
-An encapsulation of application functionality aligned to implementation structure, which is modular and replaceable. It encapsulates its behavior and data, provides services, and makes them available through interfaces.
+An encapsulation of application functionality aligned to implementation structure, which is modular and replaceable. It encapsulates its behavior and data, provides services, and makes them available through interfaces. Logical application components can be thought of as **a class of application**.
 
 In this document:
 
-- <a class="govuk-link" href="#api-management">API Management</a>
-- Auditing
-- Business Event Tracking
+- [API Management](#api-management)
+- [Audit Service](#audit-service)
+- [Usage (Business Event) Tracking](#usage-tracking)
 - Case Management System
 - Customer Information System
 - Consultations
@@ -32,55 +32,334 @@ In this document:
 - Notifications
 - Open Data Publishing
 - Payment Processing
-- Service Catalogue
+- [Service Catalogue](#service-catalogue)
 - Video Conferencing
 - Web Content Management
 - Workflow Management
 
+<hr class="govuk-section-break govuk-section-break--visible">
+
 <h2 id="api-management">API Management</h2>
 
-tbd
+<hr class="govuk-section-break govuk-section-break--visible">
 
-### Functionality
+<h2 id="audit-service">Audit Service</h2>
 
-tbd
+The audit service provides the ability to capture audit records from various locations in a single repository in order to meet business needs and legislative requirements. There is the potential for large volumes of data to be accumulated quickly. The audit service should provide the ability to interrogagte and report on the stored audit data.
 
-### Attributes
+### High-level requirements
 
-tbd
+- Capture audit information from various systems
+- Store information in short term (immediate access), medium term (available on request) and long term (available on an exception basis) storage containers
+- Audit non-repudiation
+- Audit reporting
+
+### Required attributes (non-functional requirements)
+
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Attribute</th>
+      <th scope="col" class="govuk-table__header govuk-!-width-three-quarters">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Performance</td>
+      <td class="govuk-table__cell">
+        Throughput tbd.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Availability</td>
+      <td class="govuk-table__cell">
+        The service must have an availability of 99.5%.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Recoverability</td>
+      <td class="govuk-table__cell">
+        Following a failure the system should be restored to full operation within 1 hour.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Reliability</td>
+      <td class="govuk-table__cell">
+        The infrastructure services on which the audit service application resides should be resilient and fault tolerant so as to minimise failures.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Integrity</td>
+      <td class="govuk-table__cell">
+        The recorded data should accurately reflect the transactions that have taken place.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Scalability</td>
+      <td class="govuk-table__cell">
+        The audit service should be scalable to meet increasing or descreasing demand. Scaling may be manual or automtic.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Security</td>
+      <td class="govuk-table__cell">
+        The audit service should prevent any unauthorised access to its associated data. Viewing of audit information should be restricted to authorised business users, auditors or authorised support personnel.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Serviceability</td>
+      <td class="govuk-table__cell">
+        The audit service must be supportable by the NICS and/or its delivery partners. The support of the catalogue should be easily transferable.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Usablity</td>
+      <td class="govuk-table__cell">
+        The audit service should be easily used by its consumers. Any user interface elements should meet current NICS UX standards and comply with accessiblity legislation.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Portability</td>
+      <td class="govuk-table__cell">
+        It should be possible to move the audit service to another platform or at least transfer the audit data to another platform.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Interoperability</td>
+      <td class="govuk-table__cell">
+        The audit service must provide clearly defined APIs to facilitate the integration with other related building blocks.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Interfaces
 
-tbd
+- Basic CRUD (updates and deletes not required)
+- Search API
+- Admin UI
+- Reporting UI
 
-### Dependencies (other ABBs)
+### Dependent building blocks
 
 tbd
 
 ### Related solution building blocks (SBBs)
 
-tbd
+Not implemented.
 
 <hr class="govuk-section-break govuk-section-break--visible">
 
-<h2 id="customer-information-system">Customer Information System</h2>
+<h2 id="usage-tracking">Usage (Business Event) Tracking</h2>
+
+The Usage Tracking service will provide the consumer of our services with a view of the various stages of the interaction with a particular service. For example, where a consumer mankes an application for something provided by Government, the usage tracking service will record all the major steps in that end to end business process and make those available to view in a personalised portal or another application.
+
+### High-level requirements
+
+- Maintain a list of business events
+- Capture and record business event
+- Retrieve business events for a specific consumer or service
+- Query and report on business events from different perspectives
+- Provide support for standard tracking i.e. web traffic
+
+### Required attributes (non-functional requirements)
+
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Attribute</th>
+      <th scope="col" class="govuk-table__header govuk-!-width-three-quarters">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Performance</td>
+      <td class="govuk-table__cell">
+        The service must support 500 concurrent users.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Availability</td>
+      <td class="govuk-table__cell">
+        The service must have an availability of 99.5%.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Recoverability</td>
+      <td class="govuk-table__cell">
+        Following a failure the system should be restored to full operation within 1 hour.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Reliability</td>
+      <td class="govuk-table__cell">
+        The infrastructure services on which the service catalogue application resides should be resilient and fault tolerant so as to minimise failures.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Integrity</td>
+      <td class="govuk-table__cell">
+        The recorded events should accurately reflect the business events that have taken place.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Scalability</td>
+      <td class="govuk-table__cell">
+        The usage tracking service should be scalable to meet increasing or descreasing demand. Scaling may be manual or automtic.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Security</td>
+      <td class="govuk-table__cell">
+        The usage tracking service should prevent any unauthorised access to its associated data. Viewing of usage tracking information should be restricted to individual consumers, a consumer agent acting on behalf of the consumer or service owners.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Serviceability</td>
+      <td class="govuk-table__cell">
+        The usage tracking service must be supportable by the NICS and/or its delivery partners. The support of the catalogue should be easily transferable.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Usablity</td>
+      <td class="govuk-table__cell">
+        The usage tracking service should be easily used by its consumers. Any user interface elements should meet current NICS UX standards and comply with accessiblity legislation.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Portability</td>
+      <td class="govuk-table__cell">
+        It should be possible to move the usage tracking service to another platform or at least transfer the catalogue content to another platform.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Interoperability</td>
+      <td class="govuk-table__cell">
+        The usage tracking service must provide clearly defined APIs to facilitate the integration with other related building blocks.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Interfaces
+
+- Basic CRUD (updates and deletes may not be required)
+- Search API
+- Admin UI
+- Reporting UI
+
+### Dependent building blocks
+
+- Citizen portal
+- Mobile app
+- Chatbot
+
+### Related solution building blocks (SBBs)
+
+Not implemented.
 
 <hr class="govuk-section-break govuk-section-break--visible">
 
-<h2 id="digital-asset-management-system">Digital Asset Management System</h2>
+<h2 id="service-catalogue">Service Catalogue</h2>
 
-<hr class="govuk-section-break govuk-section-break--visible">
+### High-level requirements
 
-<h2 id="document-management-system">Document Management System</h2>
+- Browse catalogue entries
+- Search catalogue
+- Create, amend, remove entries from the catalogue
 
-<hr class="govuk-section-break govuk-section-break--visible">
+### Required attributes (non-functional requirements)
 
-<h2 id="financial-management-system">Financial Management System</h2>
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Attribute</th>
+      <th scope="col" class="govuk-table__header govuk-!-width-three-quarters">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Performance</td>
+      <td class="govuk-table__cell">
+        The service catalogue should have a maximum response time of 1 second measured at the network perimeter before entering the Internet.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Availability</td>
+      <td class="govuk-table__cell">
+        The service catalogue is a key component in providing citzen facing services and therefore should be highly available, that is should have an availability target of 99.9%.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Recoverability</td>
+      <td class="govuk-table__cell">
+        Following a failure the system should be restored to full operation within 1 hour.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Reliability</td>
+      <td class="govuk-table__cell">
+        The infrastructure services on which the service catalogue application resides should be resilient and fault tolerant so as to minimise failures.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Integrity</td>
+      <td class="govuk-table__cell">
+        The entries in the service catalogue represent the definitive list of services offered. The list should accurately reflect the service being offered.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Scalability</td>
+      <td class="govuk-table__cell">
+        The service catalogue should be scalable to meet increasing or descreasing demand. Scaling may be manual or automtic.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Security</td>
+      <td class="govuk-table__cell">
+        The service catalogue application should prevent any unauthorised access to its associated data. More specifically the maintainance of the catalgue entries should be restricted to authorised users only.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Serviceability</td>
+      <td class="govuk-table__cell">
+        The service catalogue must be supportable by the NICS and/or its delivery partners. The support of the catalogue should be easily transferable.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Usablity</td>
+      <td class="govuk-table__cell">
+        The service catalogue should be easily used by its consumers. Any user interface elements should meet current NICS UX standards and comply with accessiblity legislation.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Portability</td>
+      <td class="govuk-table__cell">
+        It should be possible to move the service catalogue to another platform or at least transfer the catalogue content to another platform.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Interoperability</td>
+      <td class="govuk-table__cell">
+        The service catalogue must provide clearly defined APIs to facilitate the integration with other related building blocks.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-<hr class="govuk-section-break govuk-section-break--visible">
+### Interfaces
 
-<h2 id="geographic-information-system">Geographic Information System</h2>
+- search API
+- CRUD UI
+- catalogue storage
 
-<hr class="govuk-section-break govuk-section-break--visible">
+### Dependent building blocks
 
-<h2 id="human-resource-management-system">Human Resource Management System</h2>
+- Citizen portal
+- Mobile app
+- Chatbot
+- Identity
+
+### Related solution building blocks (SBBs)
+
+- [Drupal Service Catalogue](/sbbs/08-application-physical-components#drupal-service-catalogue)

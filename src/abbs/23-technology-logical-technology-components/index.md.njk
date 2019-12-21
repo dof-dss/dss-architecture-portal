@@ -5,93 +5,27 @@ section: ABBs
 theme: Technology Architecture
 aliases: business, infrastructure, application, TOGAF, TRM
 layout: layout-pane.njk
-order: 23
+order: 21
+technology_components_page: true
 ---
 
-Logical technology components can be thought of as a class of technology product. These components can be categorised further using the [TOGAF Integrated Information Infrastructure Reference Model (III-RM)](https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap22.html).
+Logical technology components can be thought of as **a class of technology product**. These components can be categorised further using the [TOGAF Integrated Information Infrastructure Reference Model (III-RM)](https://pubs.opengroup.org/architecture/togaf8-doc/arch/chap22.html).
 
-### Business applications
+A component provides a portfolio of services.
 
-Business applications implement business processes for a particular enterprise or industry. Such applications typically model elements of a an enterprise's domain of activity or business processes.
-
-- Information consumer applications
-- Brokering applications
-- Information provider applications
-
-### Infrastructure applications
-
-Infrastructure applications provide general-purpose business functionality. Infrastructure applications are normally widely available as off-the-shelf software meaning that it is uneconomic to consider customer implementation.
-
-#### Development tools
-
-- Business modelling tools
-- Design modelling tools
-- Implementation and construction tools
-- Data modelling tools
-- Deployment tools
-- Libraries
-
-#### Management utitlities
-
-- Operations, administration and management utitlities
-- Quality of service manager utitlities
-- Copy management utitlities
-- Storage management utitlities
-
-### Application platform
-
-#### Software engineering services
-
-- Languages
-- Libraries
-- Registries
-
-#### Security services
-
-- Authentication, authorisation and access control
-- Single sign-on
-- Digital signature
-- Firewall
-- Intrusion detetection
-- Identity management
-- Key management
-
-#### Location and directory services
-
-- Directory
-- Registration
-- Publish/subscribe
-- Discovery
-- Naming
-- Referencing/de-referencing
-
-#### Human interaction services
-
-- Presentation
-- Transformation
-- Browser
-- Meta indices
-- Portal and personalisation
-
-#### Data interchange services
-
-- Information format
-- eForm
-- Instant messaging
-- Application messaging
-- Application to application communications
-- Enterprise application integration
-
-#### Data management services
-
-- Information and data access
-- Transformation mapping
-- Query distribution
-- Aggregation
-- Search
-- File
-
-#### Additional Operating System services
-
-- Event brokering
-- Workflow
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Logical component</th>
+      <th scope="col" class="govuk-table__header govuk-!-width-two-thirds">Description</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    {% for entry in entries|sort(false, false, 'component') %}
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">{{ entry.component }}</td>
+      <td class="govuk-table__cell">{{ entry.description }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>

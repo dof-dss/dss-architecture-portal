@@ -1,0 +1,10 @@
+[
+  {
+    "service": "Obtain agreement/account Service",
+    "definition": "A service whereby a party submits an application and is granted an agreement or account in return"
+  },
+  {
+    "service": "Inspection Service",
+    "definition": "A service whereby an asset managed by NICS is selected"
+  }
+]

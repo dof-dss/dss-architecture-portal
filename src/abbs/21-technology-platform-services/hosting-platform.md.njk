@@ -1,0 +1,113 @@
+---
+title: Hosting platform
+description: Hosting platform
+section: ABBs
+theme: Technology Architecture
+aliases: hosting, infrastructure, cloud
+layout: layout-pane.njk
+---
+
+## Hosting platform
+
+### High-level requirements
+
+- UK hosting
+- High level of resilience (at least two geographically remote locations)
+- Accredited to handle personal and confidential information classified as Official
+- TLS standards enforced for all traffic
+- Application isolation
+- Internal private network for application communication
+- SSH access to application containers
+- Multi-language support (.NET Core is mandatory)
+- Containerisation support (e.g. Docker)
+- Self-service provisioning
+- Scaling (up, down, automatically)
+- Deployment using CI services
+- Custom domains
+- Remote logging
+- Service metrics
+
+### Required attributes (non-functional requirements)
+
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Attribute</th>
+      <th scope="col" class="govuk-table__header govuk-!-width-three-quarters">Requirement</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Performance</td>
+      <td class="govuk-table__cell">
+        tbd
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Availability</td>
+      <td class="govuk-table__cell">
+        The service must have an availability of 99.9%.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Recoverability</td>
+      <td class="govuk-table__cell">
+        Following a failure the system should be restored to full operation within 1 hour.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Reliability</td>
+      <td class="govuk-table__cell">
+        The infrastructure services should be resilient and fault tolerant so as to minimise failures.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Scalability</td>
+      <td class="govuk-table__cell">
+        The hosting service should be scalable to meet increasing or descreasing demand. Scaling may be manual or automtic.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Security</td>
+      <td class="govuk-table__cell">
+        The hosting service should prevent any unauthorised access to its associated data.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Serviceability</td>
+      <td class="govuk-table__cell">
+        The hosting service must be supportable by the NICS and/or its delivery partners.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Usablity</td>
+      <td class="govuk-table__cell">
+        The audit service should be easily used by its consumers. Any user interface elements should meet current NICS UX standards and comply with accessiblity legislation.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Portability</td>
+      <td class="govuk-table__cell">
+        It should be possible to move the audit service to another platform or at least transfer the audit data to another platform.
+      </td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">Interoperability</td>
+      <td class="govuk-table__cell">
+        The hosting service must provide clearly defined APIs to facilitate the integration with other related building blocks.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Interfaces
+
+- UI for administration
+- CLI for developers
+
+### Dependent building blocks
+
+### Related solution building blocks (SBBs)
+
+- IT Assist Private Cloud
+- [GOV.UK PaaS](/sbbs/16-technology-platforms)

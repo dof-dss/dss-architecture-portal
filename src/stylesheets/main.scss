@@ -404,7 +404,21 @@
     .related-items__list li {
         margin-bottom: 10px;
     }
+<<<<<<< HEAD
     
     .govuk-link {
         font-size: 18px;
     }
+=======
+}
+
+.banner-img {
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .banner-img {
+        display: none;
+    }
+}
+>>>>>>> master

@@ -1,0 +1,43 @@
+[
+  {
+    "component": "Web Server",
+    "description": "A web server is server software, or hardware dedicated to running said software, that can satisfy World Wide Web client requests. The primary function of a web server is to store, process and deliver web pages to clients."
+  },
+  {
+    "component": "Enterprise Service Bus",
+    "description": "An enterprise service bus (ESB) implements a communication system between mutually interacting software applications in a service-oriented architecture (SOA)"
+  },
+  {
+    "component": "Server OS",
+    "description": "Server Operating System"
+  },
+  {
+    "component": "Desktop OS",
+    "description": "Desktop Operating System"
+  },
+  {
+    "component": "Relational Database Management System",
+    "description": "A software system used to maintain relational databases is a relational database management system (RDBMS). A relational database is a digital database based on the relational model of data."
+  },
+  {
+    "component": "API Gateway",
+    "description": "An API gateway is the core of an API management solution. It acts as the single entryway into a system allowing multiple APIs or microservices to act cohesively and provide a uniform experience to the user. "
+  },
+  {
+    "component": "API Developer Portal",
+    "description": "A website where developers can discover, test, register to use and potentially deploy APIs."
+  },
+  {
+    "component": "Mail Client",
+    "description": "Email client is a desktop application that enables configuring one or more email addresses to receive, read, compose and send emails from that email address(s) through the desktop interface. It provides a central interface for receiving, composing and sending emails of configured email address(s)."
+  },
+  {
+    "component": "Mail Server",
+    "description": "An email server, or simply mail server, is an application or computer in a network whose sole purpose is to act as a virtual post office."
+  },
+  {
+    "component": "FTP Server",
+    "description": "As per International FTP specification."
+  }
+
+]

@@ -6,6 +6,22 @@ theme: Business Architecture
 aliases: services
 layout: layout-pane.njk
 order: 5
+business_services_page: true
 ---
 
-List of services
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Service</th>
+      <th scope="col" class="govuk-table__header govuk-!-width-two-thirds">Description</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    {% for entry in entries|sort(false, false, 'service') %}
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">{{ entry.service }}</td>
+      <td class="govuk-table__cell">{{ entry.definition }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
