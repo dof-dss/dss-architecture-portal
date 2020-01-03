@@ -1,0 +1,5 @@
+{
+  "development": {
+    "catalogue_api": "https://architecture-catalogue.test/api/v1/entries"
+  }
+}
