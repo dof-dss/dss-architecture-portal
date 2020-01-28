@@ -353,12 +353,14 @@
             },
             {
                 "name": "Spatial NI",
+                "href": "https://www.spatialni.gov.uk",
                 "description": "GIS Map Viewer",
                 "category": "Business Applications",
                 "sub_category": "Information Provider Applications"
             },
             {
                 "name": "Pointer",
+                "href": "https://www.nidirect.gov.uk/articles/pointer",
                 "description": "Address database for Northern Ireland",
                 "category": "Business Applications",
                 "sub_category": "Information Provider Applications"
@@ -390,24 +392,28 @@
             },
             {
                 "name": "AccountNI",
+                "href": "http://portal.accountni.nigov.net",
                 "description": "Financial Management",
                 "category": "Business Applications",
                 "sub_category": "Shared Services Applications"
             },
             {
                 "name": "HRConnect",
+                "href": "https://ebsuiness.hrconnect.nigov.net/OA_HTML/AppsLogin",
                 "description": "Human Resource Management",
                 "category": "Business Applications",
                 "sub_category": "Shared Services Applications"
             },
             {
                 "name": "Knowledge Network",
-                "description": "Correspondence management",
+                "href": "http://kn2portal",
+                "description": "Correspondence Management",
                 "category": "Business Applications",
                 "sub_category": "Shared Services Applications"
             },
             {
                 "name": "Staff Directory",
+                "href": "http://staffdirectory",
                 "description": "Staff information portal",
                 "category": "Business Applications",
                 "sub_category": "Information Consumer Applications"
@@ -447,12 +453,14 @@
             },
             {
                 "name": "Employee Services Portal",
+                "href": "https://nics.service-now.com",
                 "description": "Employee Web Portal",
                 "category": "Application Platform",
                 "sub_category": "Human Interaction Services"
             },
             {
                 "name": "OpenDataNI Portal",
+                "href": "https://www.opendatani.gov.uk",
                 "description": "Open Data Web Portal",
                 "category": "Application Platform",
                 "sub_category": "Human Interaction Services"
@@ -465,24 +473,28 @@
             },
             {
                 "name": "Citizen Space",
+                "href": "https://consultations.nidirect.gov.uk",
                 "description": "Consultations",
                 "category": "Technology Platforms",
                 "sub_category": "Software as a Service"
             },
             {
                 "name": "nidirect website",
+                "href": "https://www.nidirect.gov.uk",
                 "description": "Citizen website",
                 "category": "Business applications",
                 "sub_category": "Information Consumer Applications"
             },
             {
                 "name": "Department of Finance website",
+                "href": "https://www.finance-ni.gov.uk",
                 "description": "Departmental website",
                 "category": "Business applications",
                 "sub_category": "Information Consumer Applications"
             },
             {
                 "name": "NICS Intranet",
+                "href": "http://nics.intranet.nigov.net",
                 "description": "Employee portal",
                 "category": "Business applications",
                 "sub_category": "Information Consumer Applications"
@@ -524,43 +536,21 @@
                 "sub_category": "Storage Management Utilities"
             },
             {
-                "name": "Windows Server 2012",
+                "name": "Windows Server",
+                "href": "/catalogues/30-operating-system-services/windows-server",
                 "description": "Server OS",
                 "category": "Application platform",
                 "sub_category": "Operating System Services"
             },
             {
-                "name": "Windows Server 2012 R2",
-                "description": "Server OS",
-                "category": "Application platform",
-                "sub_category": "Operating System Services"
-            },
-            {
-                "name": "Windows Server 2016",
-                "description": "Server OS",
-                "category": "Application platform",
-                "sub_category": "Operating System Services"
-            },
-            {
-                "name": "Windows Server 2016 R2",
-                "description": "Server OS",
-                "category": "Application platform",
-                "sub_category": "Operating System Services"
-            },
-            {
-                "name": "Windows 10",
+                "name": "Windows Client",
+                "href": "/catalogues/30-operating-system-services/windows-client",
                 "description": "Desktop OS",
                 "category": "Application platform",
                 "sub_category": "Operating System Services"
             },
             {
-                "name": "macOS Mojave",
-                "description": "Desktop OS",
-                "category": "Application platform",
-                "sub_category": "Operating System Services"
-            },
-            {
-                "name": "macOS Catalina",
+                "name": "macOS",
                 "description": "Desktop OS",
                 "category": "Application platform",
                 "sub_category": "Operating System Services"
@@ -629,19 +619,37 @@
                 "name": "Microsoft Word",
                 "description": "Word processing",
                 "category": "Infrastructure applications",
-                "sub_category": "Office Automation"
+                "sub_category": "Productivity"
+            },
+            {
+                "name": "Apple Pages",
+                "description": "Word processing",
+                "category": "Infrastructure applications",
+                "sub_category": "Productivity"
             },
             {
                 "name": "Microsoft Excel",
                 "description": "Spreadsheets",
                 "category": "Infrastructure applications",
-                "sub_category": "Office Automation"
+                "sub_category": "Productivity"
+            },
+            {
+                "name": "Apple Numbers",
+                "description": "Spreadsheets",
+                "category": "Infrastructure applications",
+                "sub_category": "Productivity"
             },
             {
                 "name": "Microsoft PowerPoint",
                 "description": "Presentation",
                 "category": "Infrastructure applications",
-                "sub_category": "Office Automation"
+                "sub_category": "Productivity"
+            },
+            {
+                "name": "Apple Keynote",
+                "description": "Presentation",
+                "category": "Infrastructure applications",
+                "sub_category": "Productivity"
             },
             {
                 "name": ".Net Core",

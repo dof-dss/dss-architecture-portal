@@ -3,9 +3,166 @@ title: Software code patterns
 description: Software code patterns
 section: ABBs
 theme: Application Architecture
-aliases: software code patterns
+aliases: software code patterns, layered, event-driven, microservices, microkernel, space-based
 layout: layout-pane.njk
 order: 20
 ---
 
-List of logical application components
+This guidance is derived from Software Architecture Patterns by Mark Richards published by O'Reilly.
+
+Without a clear and well defined architecture most developers will resort to the de-facto standard traditional layered architecture pattern (also called the n-tier aarchitecture). Applications lacking a formal architecture are generally tightly coupled, difficult to change and have no clear vision or direction.
+
+Architecture patterns help define the basic characteristics and behaviour of an application. Knowing the characteristics, strengths and weaknesses for each architecture pattern is necessary in order to choose the one that meets your specific business needs and goals.
+
+The following are recognised software architecture patterns:
+
+- <a class="govuk-link" href="#layered">layered architecture</a>
+- <a class="govuk-link" href="#event-driven">event-driven architecture</a>
+- <a class="govuk-link" href="#microkernel">microkernel architecture</a>
+- <a class="govuk-link" href="#microservices">microservices architecture</a>
+- <a class="govuk-link" href="#space-based">space-based architecture</a>
+
+**The most predominent pattern in use across the NICS has been the layered architecture pattern.**
+
+The current industry trend is to move towards a microservices architecture pattern. This pattern facilitates a high velocity continuous development approach where small features can be released quickly and frequently.
+
+However, going forward, it is vitally important that a decision on which pattern to use is being made and that it is justified and formally recorded.
+
+Patterns can be evaluated against the following criteria:
+
+- Overall agility
+- Ease of deployment
+- Testability
+- Performance
+- Scalability
+- Ease of development
+
+<h2 id="layered">Layered architecture</h2>
+
+Components are organised into horizontal layers, each performing a specific role within the application (e.g. presentation logic or business logic). Although this pattern does not specify the number of layers most layered architectures consist of four standard layers:
+
+- presentation
+- business
+- persistence
+- database
+
+Each layer in the architecture forms an abstraction around the work that needs to be done to satisfy a particular business request.
+
+One of the powerful features of this pattern is the separation of concerns among components. Components within a specific layer only deal with logic that pertains to that layer.
+
+<h2 id="event-driven">Event-driven architecture</h2>
+
+The event-driven architecture pattern is a popular distributed asynchronous architecture pattern used to produce highly scalable applications. The event-driven architecture is made up of highly decoupled, single-purpose event processing components that asynchronously receive and process events. There are two main topologies in this pattern:
+
+### Mediator topology
+
+The mediator topology is useful for events that have multiple steps and require some level of orchestration to process the event. The orchestration will decide which steps need to be done serially and which steps can be done in parallel.
+
+### Broker topology
+
+The broker topology is different from the mediator topology in that there is no central event mediator; rather the message flow is distributed across the event processor components in a chain-linke fashion through a lightweight message broker (e.g. Azure Service Bus).
+
+<h2 id="microkernel">Microkernel architecture</h2>
+
+The microkernel architecture pattern (sometimes referred to as the plug-in architecture pattern_ is a natural pattern for implementing product-based applications. A product-based apllication is one that is packaged and made available for download in versions as a typical third-party product. This architecture allows you to add additional application features as plug-ins to the core application prodiding extensibility as well as feature separation and isolation.
+
+Microkernel architecture consists of two types of components:
+
+- a core system
+- plug-in modules
+
+The core system provides the minimal functionality required to make the system operational.
+
+The plug-in modules are stand-alone, independent components that contain specialised processing, additional features and custom code that is meant to enhance or extend the core system.
+
+<h2 id="microservices">Microservices architecture</h2>
+
+There are several core concepts in this architecture pattern:
+
+- separately deployed units
+- service component
+- distributed architecture
+
+Each component in the architecture can be deployed as a separate unit allowing for easier deployment and an effective streamlined delivery pipeline, increased scalability and a high degree of application and component decoupling.
+
+Service components contain one or more modules that represent either a single-purpose function or an indepent portion of a large business application. Designing the right level of service granularity is one of the biggest challenges within a microservices architecture.
+
+In a distributed architecture all the components within the architecture are fully decoupled from each other and accessed through some sort of remote access protocol (e.g. JMS, AMQP, REST, SOAP).
+
+<h2 id="space-based">Space-based architecture</h2>
+
+The space-based pattern (also referred to as the cloud architecture pattern) minimises the factors that limit application scaling. High scalability is achieved by removing the central database constraint and using replicated in-memory data grids instead.
+
+There are two primary components with this architecture:
+
+- processing unit
+- virtualised middleware
+
+The processing unit contains the application components along with an im-memory data store.
+
+The virtualised middleware component handles housekeeping and communications. It contains components that handle various aspects of data synchronisation and request handling.
+
+## Pattern analysis summary
+
+The following table summarises the relative strengths and weakness of each pattern.
+
+<table class="govuk-table">
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Pattern</th>
+      <th scope="col" class="govuk-table__header">Agility</th>
+      <th scope="col" class="govuk-table__header">Ease of deplyoment</th>
+      <th scope="col" class="govuk-table__header">Testability</th>
+      <th scope="col" class="govuk-table__header">Performance</th>
+      <th scope="col" class="govuk-table__header">Scalability</th>
+      <th scope="col" class="govuk-table__header">Ease of development</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">LAYERED</td>
+      <td class="govuk-table__cell">Low</td>
+      <td class="govuk-table__cell">Low</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">Low</td>
+      <td class="govuk-table__cell">Low</td>
+      <td class="govuk-table__cell">High</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">EVENT DRIVEN</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">Low</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">Low</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">MICROKERNEL</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">Low</td>
+      <td class="govuk-table__cell">Low</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">MICROSERVICES</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">Low</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">High</td>
+    </tr>
+    <tr class="govuk-table__row">
+      <td class="govuk-table__cell">SPACE-BASED</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">Low</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">High</td>
+      <td class="govuk-table__cell">Low</td>
+    </tr>
+  </tbody>
+</table>
