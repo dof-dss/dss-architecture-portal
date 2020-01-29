@@ -359,3 +359,58 @@ p code {
         display: none;
     }
 }
+
+.related-items {
+    border-top: 10px solid #1d70b8;
+}
+
+@media (min-width: 40.0625em) {
+    .related-items__title {
+        font-size: 24px;
+        font-size: 1.5rem;
+        line-height: 1.25;
+    }
+    .related-items__list {
+        font-size: 16px;
+        font-size: 1rem;
+        line-height: 1.25;
+    }
+}
+
+.related-items__title {
+    font-family: "GDS Transport", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 1.1111111111;
+    margin-bottom: 10px;
+}
+
+.related-items__list {
+    font-family: "GDS Transport", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.1428571429;
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0 15px;
+}
+
+.related-items__list li {
+    margin-bottom: 10px;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+    .banner-img {
+        display: none;
+    }
+}

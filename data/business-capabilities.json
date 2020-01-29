@@ -1,410 +1,409 @@
-[
-    {
-      "capability": "Policy Consultation",
-      "area": "Policy Consultation",
-      "location": "Policy Creation",
-      "definition": "The ability to gather the public's views of proposed policy for consideration"
+[{
+        "capability": "Policy Consultation",
+        "area": "Policy Consultation",
+        "location": "Policy Creation",
+        "definition": "The ability to gather the public's views of proposed policy for consideration"
     },
     {
-      "capability": "Policy Definition",
-      "area": "Policy definition",
-      "location": "Policy Creation",
-      "definition": "The ability to formulate policy to implement devolved powers"
+        "capability": "Policy Definition",
+        "area": "Policy definition",
+        "location": "Policy Creation",
+        "definition": "The ability to formulate policy to implement devolved powers"
     },
     {
-      "capability": "Asset Identification",
-      "area": "Asset Information Management",
-      "location": "Asset Management",
-      "definition": "The ability to define an object with value that will be registered with NICS"
+        "capability": "Asset Identification",
+        "area": "Asset Information Management",
+        "location": "Asset Management",
+        "definition": "The ability to define an object with value that will be registered with NICS"
     },
     {
-      "capability": "Asset Valuation",
-      "area": "Asset Information Management",
-      "location": "Asset Management",
-      "definition": "The ability to define the monetary value of a thing"
+        "capability": "Asset Valuation",
+        "area": "Asset Information Management",
+        "location": "Asset Management",
+        "definition": "The ability to define the monetary value of a thing"
     },
     {
-      "capability": "Asset Lifecycle Management",
-      "area": "Asset Information Management",
-      "location": "Asset Management",
-      "definition": "The ability to manage something registered with NICS through its lifecycle from creation/identification to destruction/disposal"
+        "capability": "Asset Lifecycle Management",
+        "area": "Asset Information Management",
+        "location": "Asset Management",
+        "definition": "The ability to manage something registered with NICS through its lifecycle from creation/identification to destruction/disposal"
     },
     {
-      "capability": "Asset Inspection",
-      "area": "Asset Protection",
-      "location": "Asset Management",
-      "definition": "The ability to gather relevant information about an object registered with NICS"
+        "capability": "Asset Inspection",
+        "area": "Asset Protection",
+        "location": "Asset Management",
+        "definition": "The ability to gather relevant information about an object registered with NICS"
     },
     {
-      "capability": "Asset Risk Management",
-      "area": "Asset Protection",
-      "location": "Asset Management",
-      "definition": "The ability to determine and manage risks associated with - or to - an object registered with NICS"
+        "capability": "Asset Risk Management",
+        "area": "Asset Protection",
+        "location": "Asset Management",
+        "definition": "The ability to determine and manage risks associated with - or to - an object registered with NICS"
     },
     {
-      "capability": "Maintain Party Information",
-      "area": "Party Information Management",
-      "location": "Party Management",
-      "definition": "The ablility to identify a citizen, or organisation, and maintain information on them and their interactions and with NICS"
+        "capability": "Maintain Party Information",
+        "area": "Party Information Management",
+        "location": "Party Management",
+        "definition": "The ablility to identify a citizen, or organisation, and maintain information on them and their interactions and with NICS"
     },
     {
-      "capability": "Party Interactions",
-      "area": "Party Information Management",
-      "location": "Party Management",
-      "definition": "The ability to manage and track contact between NICS and citizens/organisations"
+        "capability": "Party Interactions",
+        "area": "Party Information Management",
+        "location": "Party Management",
+        "definition": "The ability to manage and track contact between NICS and citizens/organisations"
     },
     {
-      "capability": "Manage Applications",
-      "area": "Agreement / Account Management",
-      "location": "Party Management",
-      "definition": "The ablility to define and manage process that enables citizens/organisations to request an agreement or account"
+        "capability": "Manage Applications",
+        "area": "Agreement / Account Management",
+        "location": "Party Management",
+        "definition": "The ablility to define and manage process that enables citizens/organisations to request an agreement or account"
     },
     {
-      "capability": "Appeals Management",
-      "area": "Agreement / Account Management",
-      "location": "Party Management",
-      "definition": "The ability to gather and process appeals submitted by citizens/organisations"
+        "capability": "Appeals Management",
+        "area": "Agreement / Account Management",
+        "location": "Party Management",
+        "definition": "The ability to gather and process appeals submitted by citizens/organisations"
     },
     {
-      "capability": "Assessment",
-      "area": "Agreement / Account Management",
-      "location": "Party Management",
-      "definition": "The ability to conduct a study that reaches a conclusion and informs a decision"
+        "capability": "Assessment",
+        "area": "Agreement / Account Management",
+        "location": "Party Management",
+        "definition": "The ability to conduct a study that reaches a conclusion and informs a decision"
     },
     {
-      "capability": "Enforcement",
-      "area": "Agreement / Account Management",
-      "location": "Party Management",
-      "definition": "The ability to require corrective steps are taken to comply with an agreement or assessment"
+        "capability": "Enforcement",
+        "area": "Agreement / Account Management",
+        "location": "Party Management",
+        "definition": "The ability to require corrective steps are taken to comply with an agreement or assessment"
     },
     {
-      "capability": "Campaign Management",
-      "area": "Public Awareness/Safety",
-      "location": "Party Management",
-      "definition": "The ability to manage the creation, scheduling and delivery of information to the public"
+        "capability": "Campaign Management",
+        "area": "Public Awareness/Safety",
+        "location": "Party Management",
+        "definition": "The ability to manage the creation, scheduling and delivery of information to the public"
     },
     {
-      "capability": "Citizen Query Responses",
-      "area": "Consultations",
-      "location": "Party Management",
-      "definition": "The ability to respond to citizens' questions"
+        "capability": "Citizen Query Responses",
+        "area": "Consultations",
+        "location": "Party Management",
+        "definition": "The ability to respond to citizens' questions"
     },
     {
-      "capability": "FOI Responses",
-      "area": "Consultations",
-      "location": "Party Management",
-      "definition": "The ability to respond to Freedom of Information requests"
+        "capability": "FOI Responses",
+        "area": "Consultations",
+        "location": "Party Management",
+        "definition": "The ability to respond to Freedom of Information requests"
     },
     {
-      "capability": "Consultation Responses",
-      "area": "Consultations",
-      "location": "Party Management",
-      "definition": "The ability to respond to consultation requests from citizens, organisations or other public bodies"
+        "capability": "Consultation Responses",
+        "area": "Consultations",
+        "location": "Party Management",
+        "definition": "The ability to respond to consultation requests from citizens, organisations or other public bodies"
     },
     {
-      "capability": "Open Data",
-      "area": "Reporting",
-      "location": "Party Management",
-      "definition": "The ability to make data accessible to the general public"
+        "capability": "Open Data",
+        "area": "Reporting",
+        "location": "Party Management",
+        "definition": "The ability to make data accessible to the general public"
     },
     {
-      "capability": "Statistics and Reporting",
-      "area": "Reporting",
-      "location": "Party Management",
-      "definition": "The ability to aggregate operational information, organised using common classifications and segmentations and disseminate this to the general public"
+        "capability": "Statistics and Reporting",
+        "area": "Reporting",
+        "location": "Party Management",
+        "definition": "The ability to aggregate operational information, organised using common classifications and segmentations and disseminate this to the general public"
     },
     {
-      "capability": "IT Network Management",
-      "area": "IT Infrastructure Mgmt",
-      "location": "ICT Management",
-      "definition": "The ability to provide and manage NICS's network infrastructure"
+        "capability": "IT Network Management",
+        "area": "IT Infrastructure Mgmt",
+        "location": "ICT Management",
+        "definition": "The ability to provide and manage NICS's network infrastructure"
     },
     {
-      "capability": "Communications",
-      "area": "IT Infrastructure Mgmt",
-      "location": "ICT Management",
-      "definition": "The ability to provide and manage NICS's tools that enable staff members to communicate together"
+        "capability": "Communications",
+        "area": "IT Infrastructure Mgmt",
+        "location": "ICT Management",
+        "definition": "The ability to provide and manage NICS's tools that enable staff members to communicate together"
     },
     {
-      "capability": "Productivity",
-      "area": "IT Infrastructure Mgmt",
-      "location": "ICT Management",
-      "definition": "The ability to provide and manage NICS's tools that enable staff members to achieve common tasks more efficiently"
+        "capability": "Productivity",
+        "area": "IT Infrastructure Mgmt",
+        "location": "ICT Management",
+        "definition": "The ability to provide and manage NICS's tools that enable staff members to achieve common tasks more efficiently"
     },
     {
-      "capability": "Hosting services",
-      "area": "IT Infrastructure Mgmt",
-      "location": "ICT Management",
-      "definition": "The ability to provide and manage environments to run IT applications"
+        "capability": "Hosting services",
+        "area": "IT Infrastructure Mgmt",
+        "location": "ICT Management",
+        "definition": "The ability to provide and manage environments to run IT applications"
     },
     {
-      "capability": "Storage & Retrieval services",
-      "area": "IT Infrastructure Mgmt",
-      "location": "ICT Management",
-      "definition": "The ability to provide and manage data storage repositories for use by IT applications and NICS staff"
+        "capability": "Storage & Retrieval services",
+        "area": "IT Infrastructure Mgmt",
+        "location": "ICT Management",
+        "definition": "The ability to provide and manage data storage repositories for use by IT applications and NICS staff"
     },
     {
-      "capability": "Edge Computing",
-      "area": "IT Infrastructure Mgmt",
-      "location": "ICT Management",
-      "definition": "The ability to manage client devices that gather, process and transmit data to/from NICS services"
+        "capability": "Edge Computing",
+        "area": "IT Infrastructure Mgmt",
+        "location": "ICT Management",
+        "definition": "The ability to manage client devices that gather, process and transmit data to/from NICS services"
     },
     {
-      "capability": "End User Device Mgmt",
-      "area": "IT Infrastructure Mgmt",
-      "location": "ICT Management",
-      "definition": "The ability to provide and manage devices for use by NICS staff"
+        "capability": "End User Device Mgmt",
+        "area": "IT Infrastructure Mgmt",
+        "location": "ICT Management",
+        "definition": "The ability to provide and manage devices for use by NICS staff"
     },
     {
-      "capability": "Identity Management",
-      "area": "Cyber Security",
-      "location": "ICT Management",
-      "definition": "The ability to manage users and applications, their roles and access permissions across NICS applications and services"
+        "capability": "Identity Management",
+        "area": "Cyber Security",
+        "location": "ICT Management",
+        "definition": "The ability to manage users and applications, their roles and access permissions across NICS applications and services"
     },
     {
-      "capability": "Software Asset Management",
-      "area": "Cyber Security",
-      "location": "ICT Management",
-      "definition": "The ability to manage security aspects of IT systems"
+        "capability": "Software Asset Management",
+        "area": "Cyber Security",
+        "location": "ICT Management",
+        "definition": "The ability to manage security aspects of IT systems"
     },
     {
-      "capability": "Threat Prevention",
-      "area": "Cyber Security",
-      "location": "ICT Management",
-      "definition": "The ability to mitigate against cyber threats to NICS"
+        "capability": "Threat Prevention",
+        "area": "Cyber Security",
+        "location": "ICT Management",
+        "definition": "The ability to mitigate against cyber threats to NICS"
     },
     {
-      "capability": "Intrusion Detection",
-      "area": "Cyber Security",
-      "location": "ICT Management",
-      "definition": "The ability to detect a breach in a NICS system or network"
+        "capability": "Intrusion Detection",
+        "area": "Cyber Security",
+        "location": "ICT Management",
+        "definition": "The ability to detect a breach in a NICS system or network"
     },
     {
-      "capability": "User Interface",
-      "area": "IT Application Solutions",
-      "location": "ICT Management",
-      "definition": "The ability of an IT system to present a human interface"
+        "capability": "User Interface",
+        "area": "IT Application Solutions",
+        "location": "ICT Management",
+        "definition": "The ability of an IT system to present a human interface"
     },
     {
-      "capability": "Data Ingestion and moving",
-      "area": "IT Application Solutions",
-      "location": "ICT Management",
-      "definition": "The ability to gather and transport data around NICS's network"
+        "capability": "Data Ingestion and moving",
+        "area": "IT Application Solutions",
+        "location": "ICT Management",
+        "definition": "The ability to gather and transport data around NICS's network"
     },
     {
-      "capability": "Implementation",
-      "area": "IT Application Solutions",
-      "location": "ICT Management",
-      "definition": "The ability to find, configure and turn on/off an application"
+        "capability": "Implementation",
+        "area": "IT Application Solutions",
+        "location": "ICT Management",
+        "definition": "The ability to find, configure and turn on/off an application"
     },
     {
-      "capability": "Compute",
-      "area": "IT Application Solutions",
-      "location": "ICT Management",
-      "definition": "The ability to perform digital processing"
+        "capability": "Compute",
+        "area": "IT Application Solutions",
+        "location": "ICT Management",
+        "definition": "The ability to perform digital processing"
     },
     {
-      "capability": "Monitoring & Alerting",
-      "area": "IT Application Solutions",
-      "location": "ICT Management",
-      "definition": "The ability to audit IT assets and inform interested parties when specified conditions arise"
+        "capability": "Monitoring & Alerting",
+        "area": "IT Application Solutions",
+        "location": "ICT Management",
+        "definition": "The ability to audit IT assets and inform interested parties when specified conditions arise"
     },
     {
-      "capability": "IOT and Edge",
-      "area": "IT Application Solutions",
-      "location": "ICT Management",
-      "definition": "The ability to interface with any internet-connected device and perform processing on the device"
+        "capability": "IOT and Edge",
+        "area": "IT Application Solutions",
+        "location": "ICT Management",
+        "definition": "The ability to interface with any internet-connected device and perform processing on the device"
     },
     {
-      "capability": "Data Quality",
-      "area": "IT Information Management",
-      "location": "ICT Management",
-      "definition": "The ability to ensure data is complete, consistent and can be inter-related so that it is useful and reliable"
+        "capability": "Data Quality",
+        "area": "IT Information Management",
+        "location": "ICT Management",
+        "definition": "The ability to ensure data is complete, consistent and can be inter-related so that it is useful and reliable"
     },
     {
-      "capability": "Data Management",
-      "area": "IT Information Management",
-      "location": "ICT Management",
-      "definition": "The ability to classify and maintain data reliably throughout its lifecycle"
+        "capability": "Data Management",
+        "area": "IT Information Management",
+        "location": "ICT Management",
+        "definition": "The ability to classify and maintain data reliably throughout its lifecycle"
     },
     {
-      "capability": "BI & Analytics",
-      "area": "IT Information Management",
-      "location": "ICT Management",
-      "definition": "The ability to analyse data to gain insights and inform decisions"
+        "capability": "BI & Analytics",
+        "area": "IT Information Management",
+        "location": "ICT Management",
+        "definition": "The ability to analyse data to gain insights and inform decisions"
     },
     {
-      "capability": "Application Development",
-      "area": "IT Development Services",
-      "location": "ICT Management",
-      "definition": "The ability to build or reuse software to meet a business need"
+        "capability": "Application Development",
+        "area": "IT Development Services",
+        "location": "ICT Management",
+        "definition": "The ability to build or reuse software to meet a business need"
     },
     {
-      "capability": "Website content services",
-      "area": "IT Development Services",
-      "location": "ICT Management",
-      "definition": "The ability to publish and maintain information shared via websites"
+        "capability": "Website content services",
+        "area": "IT Development Services",
+        "location": "ICT Management",
+        "definition": "The ability to publish and maintain information shared via websites"
     },
     {
-      "capability": "Quality Assurance",
-      "area": "IT Development Services",
-      "location": "ICT Management",
-      "definition": "The ability to ensure a software solution performs as intended and meets various required standards"
+        "capability": "Quality Assurance",
+        "area": "IT Development Services",
+        "location": "ICT Management",
+        "definition": "The ability to ensure a software solution performs as intended and meets various required standards"
     },
     {
-      "capability": "Architecture",
-      "area": "IT Development Services",
-      "location": "ICT Management",
-      "definition": "The ability to manage ICT landscape to ensure it is flexible to adapt to changing needs whilst maximising ROI to NICS"
+        "capability": "Architecture",
+        "area": "IT Development Services",
+        "location": "ICT Management",
+        "definition": "The ability to manage ICT landscape to ensure it is flexible to adapt to changing needs whilst maximising ROI to NICS"
     },
     {
-      "capability": "Programme Management",
-      "area": "IT Development Services",
-      "location": "ICT Management",
-      "definition": "The ability to manage large scale IT work that spans multiple projects (and potentially multiple organisation units)"
+        "capability": "Programme Management",
+        "area": "IT Development Services",
+        "location": "ICT Management",
+        "definition": "The ability to manage large scale IT work that spans multiple projects (and potentially multiple organisation units)"
     },
     {
-      "capability": "Change Control",
-      "area": "IT Support Services",
-      "location": "ICT Management",
-      "definition": "The ability to manage updates/changes being made within the IT systems"
+        "capability": "Change Control",
+        "area": "IT Support Services",
+        "location": "ICT Management",
+        "definition": "The ability to manage updates/changes being made within the IT systems"
     },
     {
-      "capability": "Customer Support",
-      "area": "IT Support Services",
-      "location": "ICT Management",
-      "definition": "The ability to help users resolve IT issues"
+        "capability": "Customer Support",
+        "area": "IT Support Services",
+        "location": "ICT Management",
+        "definition": "The ability to help users resolve IT issues"
     },
     {
-      "capability": "UX Services",
-      "area": "IT Consultation Services",
-      "location": "ICT Management",
-      "definition": "The ability to create products/services that deliver meaningful and relevant experiences to users"
+        "capability": "UX Services",
+        "area": "IT Consultation Services",
+        "location": "ICT Management",
+        "definition": "The ability to create products/services that deliver meaningful and relevant experiences to users"
     },
     {
-      "capability": "Design Services",
-      "area": "IT Consultation Services",
-      "location": "ICT Management",
-      "definition": "The ability to create visual artifacts (digital or otherwise) to convey a message to users"
+        "capability": "Design Services",
+        "area": "IT Consultation Services",
+        "location": "ICT Management",
+        "definition": "The ability to create visual artifacts (digital or otherwise) to convey a message to users"
     },
     {
-      "capability": "Digital Transformation Services",
-      "area": "IT Consultation Services",
-      "location": "ICT Management",
-      "definition": "The ability to help others create human centered solutions that solve real problems for real people"
+        "capability": "Digital Transformation Services",
+        "area": "IT Consultation Services",
+        "location": "ICT Management",
+        "definition": "The ability to help others create human centered solutions that solve real problems for real people"
     },
     {
-      "capability": "Staff rotas",
-      "area": "Staff Management",
-      "location": "Operations Management",
-      "definition": "The ability to schedule enough staff to provide a given business capability"
+        "capability": "Staff rotas",
+        "area": "Staff Management",
+        "location": "Operations Management",
+        "definition": "The ability to schedule enough staff to provide a given business capability"
     },
     {
-      "capability": "Fleet Management",
-      "area": "Staff Management",
-      "location": "Operations Management",
-      "definition": "The ability to manage vehicles"
+        "capability": "Fleet Management",
+        "area": "Staff Management",
+        "location": "Operations Management",
+        "definition": "The ability to manage vehicles"
     },
     {
-      "capability": "Mobile working",
-      "area": "Staff Management",
-      "location": "Operations Management",
-      "definition": "The ability to manage NICS staff work out of the office and 'in the field'"
+        "capability": "Mobile working",
+        "area": "Staff Management",
+        "location": "Operations Management",
+        "definition": "The ability to manage NICS staff work out of the office and 'in the field'"
     },
     {
-      "capability": "Work Scheduling",
-      "area": "Staff Management",
-      "location": "Operations Management",
-      "definition": "The ability to plan when work is done and by whom"
+        "capability": "Work Scheduling",
+        "area": "Staff Management",
+        "location": "Operations Management",
+        "definition": "The ability to plan when work is done and by whom"
     },
     {
-      "capability": "Work routing/orchestration",
-      "area": "Workflow Management",
-      "location": "Operations Management",
-      "definition": "The ability to trigger activities by a system/user executing a pre-determine process flow in order to realise a service."
+        "capability": "Work routing/orchestration",
+        "area": "Workflow Management",
+        "location": "Operations Management",
+        "definition": "The ability to trigger activities by a system/user executing a pre-determine process flow in order to realise a service."
     },
     {
-      "capability": "work status tracking",
-      "area": "Workflow Management",
-      "location": "Operations Management",
-      "definition": "The ability to manage and report on the progress of a service demand along its process flow"
+        "capability": "work status tracking",
+        "area": "Workflow Management",
+        "location": "Operations Management",
+        "definition": "The ability to manage and report on the progress of a service demand along its process flow"
     },
     {
-      "capability": "SLA definitions",
-      "area": "Management Information",
-      "location": "Operations Management",
-      "definition": "The ability to set targets for service delivery"
+        "capability": "SLA definitions",
+        "area": "Management Information",
+        "location": "Operations Management",
+        "definition": "The ability to set targets for service delivery"
     },
     {
-      "capability": "SLA tracking",
-      "area": "Management Information",
-      "location": "Operations Management",
-      "definition": "The ability to monitor the actual performance of service delivery"
+        "capability": "SLA tracking",
+        "area": "Management Information",
+        "location": "Operations Management",
+        "definition": "The ability to monitor the actual performance of service delivery"
     },
     {
-      "capability": "SLA reporting",
-      "area": "Management Information",
-      "location": "Operations Management",
-      "definition": "The ability to provide visibility to others as to the actual performance against target performce for service delivery"
+        "capability": "SLA reporting",
+        "area": "Management Information",
+        "location": "Operations Management",
+        "definition": "The ability to provide visibility to others as to the actual performance against target performce for service delivery"
     },
     {
-      "capability": "Strategic Planning",
-      "area": "",
-      "location": "Strategic Planning",
-      "definition": "The ablility to develop and maintain the strategic plan and overall direction of NICS"
+        "capability": "Strategic Planning",
+        "area": "",
+        "location": "Strategic Planning",
+        "definition": "The ablility to develop and maintain the strategic plan and overall direction of NICS"
     },
     {
-      "capability": "Business Case definition",
-      "area": "Opportunity Mgmt",
-      "location": "Procurement Management",
-      "definition": "The ability to create materials that describe the need for change, expected benefits and costs"
+        "capability": "Business Case definition",
+        "area": "Opportunity Mgmt",
+        "location": "Procurement Management",
+        "definition": "The ability to create materials that describe the need for change, expected benefits and costs"
     },
     {
-      "capability": "Business Case approval",
-      "area": "Opportunity Mgmt",
-      "location": "Procurement Management",
-      "definition": "The ability to refine and get authorisation to proceed with a business case"
+        "capability": "Business Case approval",
+        "area": "Opportunity Mgmt",
+        "location": "Procurement Management",
+        "definition": "The ability to refine and get authorisation to proceed with a business case"
     },
     {
-      "capability": "Tender RFP",
-      "area": "Tender Process Mgmt",
-      "location": "Procurement Management",
-      "definition": "The ability to engage the market to solicit services"
+        "capability": "Tender RFP",
+        "area": "Tender Process Mgmt",
+        "location": "Procurement Management",
+        "definition": "The ability to engage the market to solicit services"
     },
     {
-      "capability": "RFP Response evaluation",
-      "area": "Tender Process Mgmt",
-      "location": "Procurement Management",
-      "definition": "The ability to consider reponses from market and select one to proceed with, if appropriate"
+        "capability": "RFP Response evaluation",
+        "area": "Tender Process Mgmt",
+        "location": "Procurement Management",
+        "definition": "The ability to consider reponses from market and select one to proceed with, if appropriate"
     },
     {
-      "capability": "Contract Negotiation",
-      "area": "Tender Process Mgmt",
-      "location": "Procurement Management",
-      "definition": "The ability to agree the terms and conditions under which a vendor's services will be procured"
+        "capability": "Contract Negotiation",
+        "area": "Tender Process Mgmt",
+        "location": "Procurement Management",
+        "definition": "The ability to agree the terms and conditions under which a vendor's services will be procured"
     },
     {
-      "capability": "Contract Management",
-      "area": "Tender Process Mgmt",
-      "location": "Procurement Management",
-      "definition": "The ability to manage a vendor's service delivery"
+        "capability": "Contract Management",
+        "area": "Tender Process Mgmt",
+        "location": "Procurement Management",
+        "definition": "The ability to manage a vendor's service delivery"
     },
     {
-      "capability": "Facilities Management",
-      "area": "",
-      "location": "Facilities Management",
-      "definition": "The ability to manage NICS property and the resources available at each site"
+        "capability": "Facilities Management",
+        "area": "",
+        "location": "Facilities Management",
+        "definition": "The ability to manage NICS property and the resources available at each site"
     },
     {
-      "capability": "Finance",
-      "area": "",
-      "location": "Financial Management",
-      "definition": "The ability to apply financial controls to NIS work"
+        "capability": "Finance",
+        "area": "",
+        "location": "Financial Management",
+        "definition": "The ability to apply financial controls to NIS work"
     },
     {
-      "capability": "HR",
-      "area": "",
-      "location": "HR Management",
-      "definition": "The ability to manage people in NICS such that they help deliver services efficiently and effectively"
+        "capability": "HR",
+        "area": "",
+        "location": "HR Management",
+        "definition": "The ability to manage people in NICS such that they help deliver services efficiently and effectively"
     }
-  ]
+]

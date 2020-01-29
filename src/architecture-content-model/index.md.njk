@@ -1,0 +1,388 @@
+---
+layout: layout-single-page-prose.njk
+title: Architecture Content Metamodel
+show_subnav: false
+Description: NICS Enterprise Architecture Content Model
+---
+
+The TOGAF Architecture Development Method (ADM) provides a process lifecycle to create and manage architectures within an enterprise. At each phase within the ADM, a discussion of inputs, outputs, and steps describes a number of architectural work products or artifacts, such as process and application. The content metamodel provided here defines a formal structure for these terms to ensure consistency within the ADM and also to provide guidance for organisations that wish to implement their architecture within an architecture tool.
+
+<div class="govuk-inset-text">
+  Source: <a href="https://pubs.opengroup.org/architecture/togaf9-doc/arch/chap30.html">TOGAF Content Metamodel</a>
+</div>
+
+The following is a brief overview of the TOGAF Content Metamodel.
+
+## TOGAF Content Metamodel
+ <img src="/images/togafContentMetamodel.png"
+    alt="Detailed view of the TOGAD Content Metamodel"
+    style="border: none">
+
+<br/>
+## Content Metamodel Entities
+
+<table class="govuk-table">
+    <thead class="govuk-table__head">
+        <tr class="govuk-table__row">
+            <th scope="col" class="govuk-table__header">Metamodel Entity</th>
+            <th scope="col" class="govuk-table__header govuk-!-width-three-quarters">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Actor</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A person, organization, or system that has a role that initiates or interacts with activities; for example, a sales representative who travels to visit customers. Actors may be internal or external to an organization. In the automotive industry, an original equipment manufacturer would be considered an actor by an automotive dealership that interacts with its supply chain activities.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Application Component</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>An encapsulation of application functionality aligned to implementation structure. For example, a purchase request processing application.</p>
+
+                <p>See also <i>Logical Application Component</i> and <i>Physical Application Component</i>.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Assumption</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A statement of probable fact that has not been fully validated at this stage, due to external constraints. For example, it may be assumed that an existing application will support a certain set of functional requirements, although those requirements may not yet have been individually validated.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Business Service</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>Supports business capabilities through an explicitly defined interface and is explicitly governed by an organization.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Capability</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A business-focused outcome that is delivered by the completion of one or more work packages. Using a capability-based planning approach, change activities can be sequenced and grouped in order to provide continuous and incremental business value.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Constraint</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>An external factor that prevents an organization from pursuing particular approaches to meet its goals. For example, customer data is not harmonized within the organization, regionally or nationally, constraining the organization's ability to offer effective customer service.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Contract</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>An agreement between a service consumer and a service provider that establishes functional and non-functional parameters for interaction.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Control</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A decision-making step with accompanying decision logic used to determine execution approach for a process or to ensure that a process complies with governance criteria. For example, a sign-off control on the purchase request processing process that checks whether the total value of the request is within the sign-off limits of the requester, or whether it needs escalating to higher authority.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Data Entity</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>An encapsulation of data that is recognized by a business domain expert as a thing. Logical data entities can be tied to applications, repositories, and services and may be structured according to implementation considerations.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Driver</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>An external or internal condition that motivates the organization to define its goals. An example of an external driver is a change in regulation or compliance rules which, for example, require changes to the way an organization operates; i.e., Sarbanes-Oxley in the US.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Event</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>An organizational state change that triggers processing events; may originate from inside or outside the organization and may be resolved inside or outside the organization.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Function</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>Delivers business capabilities closely aligned to an organization, but not necessarily explicitly governed by the organization. Also referred to as "business function".</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Gap</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A statement of difference between two states. Used in the context of gap analysis, where the difference between the Baseline and Target Architecture is identified. <basefont size="2"></p>
+
+                <dl>
+                    <dt>
+                        <b>Note:</b>
+                    </dt>
+
+                    <dd>Gap analysis is described in <a href="https://pubs.opengroup.org/architecture/togaf91-doc/arch/pt3.html">Part III</a>, <a href="https://pubs.opengroup.org/architecture/togaf91-doc/arch/chap27.html#tag_27">
+                            <i>27. Gap Analysis</i>
+                        </a>.</dd>
+                </dl>
+
+                <basefont size="3">
+                <br>
+
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Goal</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A high-level statement of intent or direction for an organization. Typically used to measure success of an organization.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Information System<br>
+ Service</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>The automated elements of a business service. An information system service may deliver or support part or all of one or more business services.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Location</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A place where business activity takes place and can be hierarchically decomposed.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Logical Application<br>
+ Component</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>An encapsulation of application functionality that is independent of a particular implementation. For example, the classification of all purchase request processing applications implemented in an enterprise.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Logical Data<br>
+ Component</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A boundary zone that encapsulates related data entities to form a logical location to be held; for example, external procurement information.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Logical Technology<br>
+ Component</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>An encapsulation of technology infrastructure that is independent of a particular product. A class of technology product; for example, supply chain management software as part of an Enterprise Resource Planning (ERP) suite, or a Commercial Off-The-Shelf (COTS) purchase request processing enterprise service.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Measure</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>An indicator or factor that can be tracked, usually on an ongoing basis, to determine success or alignment with objectives and goals.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Objective</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A time-bounded milestone for an organization used to demonstrate progress towards a goal; for example, "Increase capacity utilization by 30% by the end of 2009 to support the planned increase in market share".</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Organization Unit</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A self-contained unit of resources with goals, objectives, and measures. Organization units may include external parties and business partner organizations.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Physical Application<br>
+ Component</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>An application, application module, application service, or other deployable component of functionality. For example, a configured and deployed instance of a Commercial Off-The-Shelf (COTS) Enterprise Resource Planning (ERP) supply chain management application.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Physical Data<br>
+ Component</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A boundary zone that encapsulates related data entities to form a physical location to be held. For example, a purchase order business object, comprising purchase order header and item business object nodes.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Physical Technology<br>
+ Component</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A specific technology infrastructure product or technology infrastructure product instance. For example, a particular product version of a Commercial Off-The-Shelf (COTS) solution, or a specific brand and version of server.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Platform Service</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A technical capability required to provide enabling infrastructure that supports the delivery of applications.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Principle</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A qualitative statement of intent that should be met by the architecture. Has at least a supporting rationale and a measure of importance. <basefont size="2"></p>
+
+                <dl>
+                    <dt>
+                        <b>Note:</b>
+                    </dt>
+
+                    <dd>A sample set of architecture principles is defined in <a href="https://pubs.opengroup.org/architecture/togaf91-doc/arch/pt3.html">Part III</a>, <a href="https://pubs.opengroup.org/architecture/togaf91-doc/arch/chap23.html#tag_23">
+                            <i>23. Architecture Principles</i>
+                        </a>.</dd>
+                </dl>
+
+                <basefont size="3">
+                <br>
+
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Process</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A process represents flow of control between or within functions and/or services (depends on the granularity of definition).</p>
+
+                <p>Processes represent a sequence of activities that together achieve a specified outcome, can be decomposed into sub-processes, and can show operation of a function or service (at next level of detail). Processes may also be used to link or compose organizations, functions, services, and processes.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Product</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>Output generated by the business. The business product of the execution of a process.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Requirement</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A quantitative statement of business need that must be met by a particular architecture or work package.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Role</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>The usual or expected function of an actor, or the part somebody or something plays in a particular action or event. An actor may have a number of roles.</p>
+
+                <p>See also <i>Actor</i>.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Service</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>An element of behavior that provides specific functionality in response to requests from actors or other services. A service delivers or supports business capabilities, has an explicitly defined interface, and is explicitly governed. Services are defined for business, information systems, and platforms.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Service Quality</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A preset configuration of non-functional attributes that may be assigned to a service or service contract.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Technology Component</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>An encapsulation of technology infrastructure that represents a class of technology product or specific technology product.</p>
+            </td>
+        </tr>
+
+        <tr class="govuk-table__row">
+            <td class="govuk-table__cell">
+                <b>Work Package</b>
+            </td>
+            <td class="govuk-table__cell">
+                <p>A set of actions identified to achieve one or more objectives for the business. A work package can be a part of a project, a complete project, or a program.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>

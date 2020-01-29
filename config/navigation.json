@@ -1,5 +1,4 @@
-[
-  {
+[{
         "label": "Context",
         "url": "context",
         "includeInSearch": true
@@ -35,8 +34,33 @@
         "includeInSearch": true
     },
     {
-        "label": "Skills and Training",
-        "url": "skills",
-        "includeInSearch": true
+        "label": "Architecture Framework",
+        "url": "architecture-framework",
+        "includeInSearch": true,
+        "display": false
+    },
+    {
+        "label": "Standards Information Base",
+        "url": "standards-information-base",
+        "includeInSearch": true,
+        "display": false
+    },
+    {
+        "label": "Architecture Reference Library",
+        "url": "architecture-reference-library",
+        "includeInSearch": true,
+        "display": false
+    },
+    {
+        "label": "Architecture Content Model",
+        "url": "architecture-content-model",
+        "includeInSearch": true,
+        "display": false
+    },
+    {
+        "label": "Architecture Capability Framework",
+        "url": "architecture-capability-framework",
+        "includeInSearch": true,
+        "display": false
     }
 ]
